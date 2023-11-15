@@ -1,0 +1,714 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WM Note de frais
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : ""
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : Application Android
+    internal_properties : CAAAAAgAAADFtQPTnaOhDXwDcwFxWGpK9ICwsUd7vFQdvpett8h8yQUXYvQkOvU4O4tb0YDH0CGf0ySTIzZaMxV9foLJuNfWHOsHbkbNCYuFeajtBUSwgKELkVqjQoBGcTXIF/FkB1BU09MXCvd+muWOa2YXOv01lrg+g5Sd6H2imVhd3FOTGMW46a/Lp4NB/ovFdO/lXfpyBKuYrJq1kU6FLPmiRd4D6euCZrJJatQqFOazU5ijBwXPFs6OPhDSJs5RarrNALcIM0+mzj8B0OyXy+mzz9bFptRGpaC/fBf+iVn/rnpg/hUxzbxI3Kcq89rUEKzqdJBL0hkwv/D2YxGjIWVMwgHLFMSWswLb6NILTE9T+rFjkUfBWwVu2wQuYXjY4t8RV8erzwb7uE1z1sx/1B3OFBBiXxE4s7D/hF5EgWekVg/gCQVaG+93xC+7gGPs8cRiFXYloDjZoeKQxDJJyuF61mah2fe4hH6CmMiwDxy9NCJZf2qU6X7ugOeNOl1yHTBoKpK2UUsdeRx2lK2KwMdeh9bFSo+K5WayZBmCyfjL6yddp2fIhtkjMlrMdv1ZvQTVjIql1R8Y3HdFK7s25S7GoEqmV0W4IcHrtQ+5BQxYR4wZsGFMwxP1tKe25TdHiWCRQbbFdDQeq+6I3RM3xgPWfMIL6NMmgzCbOtFVheYUGgvNiMAYhtJLobRp4RtkVJcPvNCipS0GmjX2iCWmJfgLmfzu75tT6rV5vJWagGAvBwIR1iAqysioZGcVgtLJ5TuNeHUBp1frlRkIf9uyUpK0K3+++woVd4LI+jxMksbinAeW7IKRsr6KZaW4qsqX7qGOS+tuesbjlGk14JAIb2rjEUvo9tvCPKVbHY9u+VVCbIVV6GeqJbT5YvVi8tY5aQi1R9yiILuT1a85O4W2Db7/eBBhBXCf66ZvyGsSf2+KrF+daV+749/hE5RK+7iNHZ9cKwskemAKFPRZ0Fbvg8W5CL3sJbTEzPSerKikLf1zuMoeeF4UiDW2MKFkAI7/K43eLIvZVexaMyq7ftN1+TaMAwdyLIQGTUpUWBdoZ8SlR2HZB1LxiWcvDvni5hqdr4wRwgmz1xrN/3u4X3U5g7xMmqdeAvdzZQaqy5DeCwGV7e/ku/CoMmA7139pvoqCdJ9m5UhzoEgl9EgcZ3Is6tQpzQsi/OauAAgSfOxBCux0R5ZaQAVopu0zduSTthKqc/zKeOkjnpRpJzOVGu7DiqheyOfg7GWsQ+EEMD/nXSWEsRsB4++k7KuKxI2Tn8Nieo48LeLFtOUosiNjq3XaFmDDx6uzc/whZB+VtSqGrqil4fsUiITNWdCAEfZa83aDhZhHnoNR1xPKu9tejJQebefh/kkE55gkJW2o4biDnLBpcmOf/txbwpTRIkB300EjAxfGGO+vyv7gYB6794LpWKHLcBE6eHW/mKBO1qJpLafiFRYKFM+DdFe9oOZJgrzAwfxDVNku0NI+EEWBoxiabPMWq/9BPuh8AUsGwz4wAPeL2KxvY8YyhqSfa+UKxqvJieZyg9C670BzCuMTQ0gyJaIvMlZ1mruclS/RvBI8m5LRSeW747Nt44XMYipVKS0l+OQIjkamWT/BEsq6BjXtv9iOhUA3YygJWp3RQOb/ThWnI+VdfBcPH/dmJktZ32B74dfsSplswxJxJU7gn3V4RN1a2OAm5EUMikPDj6G8Wkqrb45Ri2xJW0m9kRDI8zPRRu4JUYiQOwvb78GSsOPcaiQgI4711lOJUrWUlPIfuGCwROA1KTX8VJn/moz6JkJgNUcwmek/zuPDX2WATZPiQ+PLQQdx5kvUdP0gNcd6u2+C8msEAO3HsoC2PbQd839RylG5k/T0H7R+TDDzJ6B2eCZTvu3vbQUs0JThS5vh/j+XjJpOSKckNS2KkNTr3mn4IiYhAl/fGup4SbE0XVgkG/HdAlQDEBvdVCowt5GRWHfxgcSiNAO89g7wSqjQ4ra5FeXFG3X4hKifhCARGCXQgiDVOuqXAAmXN+KdGNRrcB4YmIjZcZYBsqetDiTJ+woTnFnbmSyWGP/WaRKoPOherw2nzakyVbzlqwgknhNsDk6rY44az1yp+m2eVVbZBK00OuOWcmnvan9l9mAB5S9JbPFcMRW+aahwBZ3OT83WTyFvEM4kWf40cxgzq2SYC7za/o4YfTJlgvtLS6pcNksZMMhjVoRCnAuCRmxuqRDm8PYY6Kbu6mDlNC3TsRK0d+EzV0MnnZAR1wQEO8yrY6sE7G4zlgXxYfmzyePshPn0jViWX0eTkmeOAGh414GfYcn6cIi54lwm1HVdbWen2Md43jSgGDBvRLn+fyPZzcaTHoZVcMMUAPdcKmnwe7+6GWZ9rIPuayj71P3iHvMNQlr/zLI/MdS+1+nZlAIsLnbMS9TAdzn3e2Z3ECk/kT1Vygpc8UiSt1QX7WKnVmkJddYR6w85yiOssOl3BqRDUSibrrdu1vPmMTWvPFFsIJxA7uL+uGyuWA0pC+jphVMUIfFdhALCeQKTx1nGqaojPQ9PmdcA81qo2aOLgRLErhcrmom/v08IlB0r9ilss4sdUnK2icRXyvjXMwVA2dYSfvB572GIRcl/NVf1IGTt3RAYbruq0rA35aNrtcRmh/6jVp7vUtmYf0MVuAEnYQEJcByc9aahWaYSxiw4tLcezv1qiIzdiB93VK2gb17Vc4rwE6AIg8/KEl9ZKBAENwlYMM5MhX2p/piavCmdzPAgfXYJ+uQHhUztohNm6DFiI4c9xRrzjsccSoHUJplGlzRmsoMgB/CtTtxkruEhtNhYRPBdnjqz5xfcnRMtJ8offtRO5GHN2znS8wnSvcRlGLDK69wiVwYGoFG3nMvjtVm2bOTIgLbfIHUurHCqWapW5RaanXmLUDiTz89AiXcezTOUZRSetZBrNlss0yrwGXJ7b7UBSCSJqNWPJdAC7U2KOAw9Mp2eLPjz3Btqk+vm8l0h2ks4yIGc/mHSITSq8xZ53qlHBI/tIIErXAuU8aATwNSgB2LUs1K5BFC50e1IiofXHcWo1P7p/LeQRMb9NjM2F3VROkN1X5gyY5yOJBuaTlQ/+xtxkLx2kScUQgbwByiuQzee9pkeWR0js/9nHQZ9AjuertzfZUD94YBLMYRObZV5JvYfegZzgtNkpr0mh3cQJ5ZVjWKC86bAOwvch/QIYjDR4j2yeo7xm4EZgTr58IHSw6lDhvsv/tNvc/SbOtDNtiMkBlT7kNQv9ACWmWHejG4pKsYyQpciguzD8zuJ+Eq5wKja7fg0EboW4FZVrrEOh1DcXP5ndFoBTrcXmvmdibCum+WSFpAYAIFkOnSvvgdM023Us0Sd/t7Lb+YmHwyZnkzDLWIdMmSPlubL5inGrCh+g5Pb6f3BOwDuEFpOrdMdnMhMB/dyAdZuIBsTCvq2+YMxKYluniW9lGTeAYyzuzX1Hn0mPiPdyVpRI9s/9h+a57G33qG7UhhuYOb/dEoYM2FVRS/G6xd4cQFLOoaOMCAbFG1qcuXzA2xVdSBJzAD1Ejk+naWwC1J7LzRkp/4zAI5o/pE9ctDob4Mb6t7fI3dU+Z/rEWgXi1J2ZuX44xRel2H9lH3+aYqQbsgBhGkvmgoNbYYh1mGhZJB6jXDcPmZ/uB81uKwhH+v6pJhRbCPKky82JZCUW1tcFgvvAJUl7pIQgNtsmQXIGWCaDXnBRaFg3ThTGSd4Vki+MFjbaue4QS8PZlGuyUw9NZIlqhE0j7YYmnRjJBTv1LVqJZZ6oEba03xVj7KonKTPgTpsI1WVpELxJIKBTGfq5GwtpksQU/4ImHHXuDuD+tzj9kLpdXJFnnsgwO0ccgAkyPPyBbMFwpu010BjRDYueEaav4Gz+pwYBBeFKvb+HeT8lzuuqO9P9JUcWJ7XjbITsXu4i3+WxxlCRS3C0cjgnje1XnNwtyWBUyQZcj/11qaClSTexAeEZftJQxMUxKhpldf4Aw6iByL8lyg71hst0d7ntlxxiCkNnT7pVv8G3WR9LBV55ZphttKNO/GltXUB5UXAQwlpfIB5aFyUOdHPe2nIB1C8Ae+v2TKKh1ab/ob9UHGododJltaEXHeyvOLL72GyVes4J0f61Qmsb+MA8mDKXQxYRXFvYzRNaoArcJWdNBZKEAU8yaYAnA5oWOTFN4ewh4TbIf2Qt3ALpg/5rlOEZ++DsfAfHK/ZQexVfdnOHD81DRL99kvSFmjAZgY2xHc3stlwMzTw7n8DhNavw6Ua792duiZjXf9/jN+SUXJj6VFLs9ek1e+ebqv6sJK88j1sPghbrj4ByFhFnA59ycql4kyk7vglN8i0LeltMSsXSgL+jPnOV5UIfPKvWYduE25LDTv1sD/Jfw5udC9bE4YvqbdY6WirVpf1EW8d4uOWpCorN0jitraAWIKXRcPZcOZNbK37JiEaEN7WlJblkqwzzwShJ4S4S+M0TEH+xzNCKZ6WMJTwqYZnZSDiEV2g4e3o+lPck2sTchzfuO7J2cIb2jbc+6sFN0fPwI7ebB1aMBdXD01iB52YvK6kTLLz4cJVFO0W+5iZpEFKboMP0xc3xLsTJ02dtISoPNn/xN4/KhN0hrGea/kSEpr/4VDDAdDAh4PEA+1YW9R+Ieei1BYw3eOPHiU9I3OrVxluy7J/6qzT9zmIvYxhL9xnWRnZjazwNwc1bAgeMbwlmG6hlRiRki571ByCjG6KY4eppL5uSbBilMZS+5hXtcMt8yeRK9AmpTFacU2bEoCm0mTvtKSnNuXo69Ei4HVe02O5laSkAnO6LWLjnIp1v3lfZtRo0zIpqG7LVB4n/WbggiobmHu0XFAag8XkymwI0ExYrmsOCUE7hIe+YjZ+XuvzAzGR1xadSEKPenyNWJzTdjuNsWeZmTC1Zr3732r5GiBWe8AgaxKxmmCguYNRaJpIs+TlwGK7pX7gMU3hwN6c5MW8VmPwmoityZTnBI8tfTdmqpNL0fAwlpW8ITtvnfdHeSnjRyIjvdRO2GXSRfL5J0yEDgeO15CdKp2/XX3P7CB5gPGbEf8+IDRKF6fZoynF70iKLpAvriVhz+vUD6dZEgAxbkbtS523AMpbN9J/yHk+NAWaAIDqyLORbonWw8+4tqr16gJFN+n9ih2U/6d81Uwlmum7z5VuiKu8d8LtepfzTFkYewQM999d5fBggWW6FdzcSOJEi8KZF1v3KuXsbsEgR6qQqERKm/y7X7tq6okxZ31g070/SNkMUTwN3B6DkFzbudHss8q0PZFkas/A8igm2vuG24hYDETFdFgc6NWcKKeK1YjizY2e33vbbTCMH3RwN1qEZjQ5WuNQBS+bCNGFeTpU5spYj1+hswUwiTQzPJ2XdN1FeRM8oYGwvAv1gXh4DNdSZWH7A09kEhjNekUN6mkeoy7KH0vAxo7CngIWWAGDyU14xilDTC+vsfgQ7v6g0MitZ60uf0j2S3+em+NVW+AgiiGZ3g==
+    configuration_id : 9379621975590716572
+    type : 15
+    generation_directory : .\Exe\Application Android
+    version : {}
+    language : 2
+  -
+    name : Application iOS
+    internal_properties : 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
+    configuration_id : 3752043233584999604
+    type : 18
+    generation_directory : .\Exe\Application iOS
+    version : {}
+    language : 2
+ elements :
+  identifier : 0x4f2bba4000023f43
+  elements :
+   -
+     name : FEN_NoteDeFraisListe_Tablette
+     identifier : 0x404da5f300ea8d1d
+     internal_properties : CAAAAAgAAAAT70tfbNlRCtSUXoZcwuMSHwwKUmVmIZOnli24FeujZadpoc5mUltKdawW4qJeGo52/g==
+     physical_name : .\FEN_NoteDeFraisListe_Tablette.wpw
+     type : 2
+   -
+     name : FEN_ProjetSelection
+     identifier : 0x4f2be942032ede72
+     internal_properties : CAAAAAgAAABMyqTwT3Q8b3unUYVTwuADcNG/pymJBQmiNgghuEfNE/U9j9BnUVxNSP/5x0+BeW9Z2Q==
+     physical_name : .\FEN_ProjetSelection.wpw
+     type : 2
+   -
+     name : FEN_NotesDeFraisEdition
+     identifier : 0x4f3a940b011a8da2
+     internal_properties : CAAAAAgAAADPSyd7yPW97vhIIupguJPa01wufkQ7Hc22WdS45klVs0Hv25SiHi+emYB6Rs4C/vLaWg==
+     physical_name : .\FEN_NotesDeFraisEdition.wpw
+     type : 2
+   -
+     name : FEN_PaiementSelection
+     identifier : 0x4f2be9cd035dfe90
+     internal_properties : CAAAAAgAAAD2XN7C4V7W2eEh1z8lfkYVkqfhIac3sVB2iViJHPMh/w0xl2jd2+LTwnljXSXbpxnjYw==
+     physical_name : .\FEN_PaiementSelection.wpw
+     type : 2
+   -
+     name : FEN_CategorieSelection
+     identifier : 0x4f2be10a0234c48c
+     internal_properties : CAAAAAgAAAD7VyNnRAEpMjyMZq60ruvCJ1TymjxUH32Od0mfuGe3ETvlxbqOanNiXcQ+unp2AvbeZg==
+     physical_name : .\FEN_CategorieSelection.wpw
+     type : 2
+   -
+     name : REQ_EnveloppeListe
+     identifier : 0x4f3a92f600fd54e6
+     internal_properties : CAAAAAgAAAA4FmC8izB4o6/7lXnnOhRnRHUTe91EFjiK9AOQWEdVs12FZxgjnaARDDOtC4tFPbMdJQ==
+     physical_name : .\REQ_EnveloppeListe.WDR
+     type : 5
+   -
+     name : FEN_CollaborateurSelection
+     identifier : 0x4f3a3cde00ab0aa7
+     internal_properties : CAAAAAgAAAApJRF1su/H6PZyOOxqbk0AXS4IuBZNJrCiJvJKkL9XSb8diWbQKDWkk4p0TNQM9OQsNA==
+     physical_name : .\FEN_CollaborateurSelection.wpw
+     type : 2
+   -
+     name : ETAT_ENVELOPPE
+     identifier : 0x40a3a9bb02f8bcb0
+     internal_properties : CAAAAAgAAABYNgAcq9BYA89bdVmH3PCz7Nm7c0rh+HOiy8smf4EL/fPPNbqDfYBxrJMN66sl3dM9xQ==
+     physical_name : .\ETAT_ENVELOPPE.wde
+     type : 3
+     configurations :
+      -
+        configuration_id : 9379621975590716572
+        excluded : true
+   -
+     name : FEN_FactureEdition
+     identifier : 0x4f2bc44d01498375
+     internal_properties : CAAAAAgAAABYNgAcq9BYA89bdVmH7UTvkMfPp5/f1UJ2ZTSIkW4mOooExLuDfYBxrJMN66sl3dM9xQ==
+     physical_name : .\FEN_FactureEdition.wpw
+     type : 2
+   -
+     name : REQ_NoteDeFraisListe
+     identifier : 0x4f2bf2a205147d31
+     internal_properties : CAAAAAgAAAAwDmi0cyiAm6fjrXHvBoynvP1788UVQfi2te3N3LNZ78Ex+/RbpagZBDulE5NNNasVHQ==
+     physical_name : .\REQ_NoteDeFraisListe.WDR
+     type : 5
+   -
+     name : FEN_FactureEdition_Tablette
+     identifier : 0x404de11f02d8b0e7
+     internal_properties : CAAAAAgAAABp5VG1ci+HqLYy+Cwqcs14fV7I6N/QkzyJnw3cbbPjzSuBRSoQ6PXk00q0DJRMNKRs9A==
+     physical_name : .\FEN_FactureEdition_Tablette.wpw
+     type : 2
+   -
+     name : FEN_ClientEdition
+     identifier : 0x4f2be91a032142c0
+     internal_properties : CAAAAAgAAAAOFGa6iTZ+sbkJ7zctfs59el/J6e+PWcmCnpgJjLPhzy2BRygV4+rb2kG7BY1DP7EbGw==
+     physical_name : .\FEN_ClientEdition.wpw
+     type : 2
+   -
+     name : FEN_DeviseEdition
+     identifier : 0x4f2bed2f040835d5
+     internal_properties : CAAAAAgAAACyiOo+DXoybXX1u2PpO/6dmvnB2fnhEKKK3Euia6Tw2NAi6vVZp7YnFg33wUG/uy2Xnw==
+     physical_name : .\FEN_DeviseEdition.wpw
+     type : 2
+   -
+     name : FEN_StatutSelection
+     identifier : 0x4f2bea09037ae890
+     internal_properties : CAAAAAgAAAAfe3crmMVtfshYclqw80f2/95GXmYeYXFW3cIo9yhqVq4GwK+Sbn9uqZAK9r4yzsIKCg==
+     physical_name : .\FEN_StatutSelection.wpw
+     type : 2
+   -
+     name : REQ_EnveloppeListeSimple
+     identifier : 0x4f3a9b6103533508
+     internal_properties : CAAAAAgAAAAXc3+jAH01NoAAypJ4rGuam4TWhrw7kBaucy+s4t0x990j54jKNke24VhCvka6RroCAg==
+     physical_name : .\REQ_EnveloppeListeSimple.WDR
+     type : 5
+   -
+     name : pGestionValeurs
+     identifier : 0x4f2beb070394c835
+     internal_properties : CAAAAAgAAACEguzI96wEJzOPSR37WOQPYG1v91019bB2AcvfStU/gUeLWRY/ucQ1YMcxjxfJsSeRkQ==
+     physical_name : .\pGestionValeurs.wdg
+     type : 7
+   -
+     name : FEN_DeviseGestion
+     identifier : 0x4f3b6e4d0645196e
+     internal_properties : CAAAAAgAAAAmLA4Skc5mCdGRR49VGxoZ1qWNlTU1damiNxxKc9wwkHBS+uVtS1JDcqkT7bUr18kzMw==
+     physical_name : .\FEN_DeviseGestion.wpw
+     type : 2
+   -
+     name : FEN_NotesDeFraisSelection
+     identifier : 0x4f3aa0ad0556e756
+     internal_properties : CAAAAAgAAACEguzI96wEJzOPSR37Kmj7uPn3ryFgN3RxgQhYQO8li021Vxg/ucQ1YMcxjxfJsSeRkQ==
+     physical_name : .\FEN_NotesDeFraisSelection.wpw
+     type : 2
+   -
+     name : FEN_Parametre
+     identifier : 0x4f33f3bb0058882e
+     internal_properties : CAAAAAgAAACU8vw4h/y0twOfWY1LG5RHJLczmzdvOktCTgX2w0zIwAzSFulvSVRFcNfBP8c5wTeBgQ==
+     physical_name : .\FEN_Parametre.wpw
+     type : 2
+   -
+     name : FEN_ProjetEdition
+     identifier : 0x4f2be92e03268fb7
+     internal_properties : CAAAAAgAAAD0UtzY51zU1+M/+S0rfSjjRMtTe9Pr+Me28TmwabZmYqp0tEsP6fTl0HdhXyfZoRfhYQ==
+     physical_name : .\FEN_ProjetEdition.wpw
+     type : 2
+   -
+     name : FEN_PaiementEdition
+     identifier : 0x4f50d717051105df
+     internal_properties : CAAAAAgAAABg3lhEY9hQC9eTXYFfEoyvnI2bs4USdVN1qHGuMP+dG+Ut//BrVVhJdKsV46NdJZtl7Q==
+     physical_name : .\FEN_PaiementEdition.wpw
+     type : 2
+   -
+     name : FEN_CategorieEdition
+     identifier : 0x4f2be0d8021dff69
+     internal_properties : CAAAAAgAAAAWfH6iAX42OYEBN59FoWaNjuHtHcnRhKNy4phIxUrCVqog5Ju9O0Kz4llDvUW7R7kDAw==
+     physical_name : .\FEN_CategorieEdition.wpw
+     type : 2
+   -
+     name : FEN_CollaborateurEdition
+     identifier : 0x4f3a3d2700ad26be
+     internal_properties : CAAAAAgAAADySCp+zbryLTW1e6OpxrpJ1otlhUtCxdJSSt0YLMNJ39XJH8CZZ3ZnVs03gQH/++3XXw==
+     physical_name : .\FEN_CollaborateurEdition.wpw
+     type : 2
+   -
+     name : FEN_FacturesListe
+     identifier : 0x4f3bb1d801f7ef96
+     internal_properties : CAAAAAgAAABLx7NXVBEZwowcNp5Esut6B0TSWnwM+e2s5cYjBDtThbdJ4Z6+OkOy7VROqmpmEoZO1g==
+     physical_name : .\FEN_FacturesListe.wpw
+     type : 2
+   -
+     name : FEN_ClientSelection
+     identifier : 0x4f2be905031ff128
+     internal_properties : CAAAAAgAAADJRTHV0o+nSBbSmEyKIXH8gTB4MABQNg1K6CfCaabsHCzEZhkwiJUEM+rULPTslATMVA==
+     physical_name : .\FEN_ClientSelection.wpw
+     type : 2
+   -
+     name : FEN_DeviseSelection
+     identifier : 0x4f2bed44040d8404
+     internal_properties : CAAAAAgAAAAJBXEVks9nCNaSWIxK4i04fT6IaFZmhEBWbTa/zCNz/fvxFdpwSFVEc6oU7LQs1MQMFA==
+     physical_name : .\FEN_DeviseSelection.wpw
+     type : 2
+   -
+     name : FEN_FactureJustificatifs
+     identifier : 0x4f3bcf2605156737
+     internal_properties : CAAAAAgAAABDP7vv3ImhugSEThbMba+++74KUmYmrSJxgUVCFRp4gHxwlln2wss6ZdzGMvLuin5Gzg==
+     physical_name : .\FEN_FactureJustificatifs.wpw
+     type : 2
+   -
+     name : pOutils
+     identifier : 0x4f2bf344053af6f3
+     internal_properties : CAAAAAgAAADGTC5yse7G6fFxJ+91h+pxBmVdhaWdm9mCvmVWR9jETKQezpHNKzKjkolzTdUL9+nTUw==
+     physical_name : .\pOutils.wdg
+     type : 7
+   -
+     name : FEN_FacturesSynthese
+     identifier : 0x4f2bbb280075ca62
+     internal_properties : CAAAAAgAAAAoJhAMu+DI058rBckXouRnlNUTS/21yMGqUHFJcI+NmxWNv6CzDRCBvGNdW9sV7eMtNQ==
+     physical_name : .\FEN_FacturesSynthese.wpw
+     type : 2
+   -
+     name : FEN_NotesDeFraisListe
+     identifier : 0x4f3a8d300084c747
+     internal_properties : CAAAAAgAAAAZdcHF4l/X2OYi6Dzalp2gza6IqBatZ4G20VsyCOcvkXdlgW7g2OXUw3pkXCTcpBT8BA==
+     physical_name : .\FEN_NotesDeFraisListe.wpw
+     type : 2
+   -
+     name : FI_SlidingMenu
+     identifier : 0x431ddd62013759f8
+     internal_properties : CAAAAAgAAADJRTHV0o+nSBbSjHkTdMMwhZaQMB7XzdO8BE/o7DNjXatxRYSgWakEM+rULPTslATMVA==
+     physical_name : .\FI_SlidingMenu.wdw
+     type : 8
+   -
+     name : FI_VisuJustificatif
+     identifier : 0x4321eb92047d8d0e
+     internal_properties : CAAAAAgAAAA1ER0BvpuTTBpqtkWuotEsXwJe9lrr1bOwl0D/IR78NMBM4C1R8+8cZ97YIOAQ6NggIA==
+     physical_name : .\FI_VisuJustificatif.wdw
+     type : 8
+   -
+     name : POPUP_PrisePhoto_Tablette
+     identifier : 0x4329d47d0139dbdd
+     internal_properties : CAAAAAgAAADUsjx4Rzx0d8MrfOmq7T7GXMlbc72fWaCgtkNRVr1fWadrljXz1pdxsJcB/4d5AffBQQ==
+     physical_name : .\POPUP_PrisePhoto_Tablette.wpw
+     type : 2
+   -
+     name : FEN_StatutSelection_iPad
+     identifier : 0x432c524d00c1ee0c
+     internal_properties : CAAAAAgAAABNz3sX4N3FNvvgDzziYmPBMbsAJlAvIMEC6DeLCqKzSzkO+AcVLaw3/KhzDDfTbFfI
+     physical_name : .\FEN_StatutSelection_iPad.wpw
+     type : 2
+   -
+     name : REQ_JustificatifsNotes
+     identifier : 0x4332b2fa009d16f6
+     internal_properties : CAAAAAgAAABdPwsH0O01Jqtod38q0OV9wGzAFuTHpX1IoqgmDSGEVyQX6Sw6jRRnLJhjHAfjXEfY
+     physical_name : .\REQ_JustificatifsNotes.WDR
+     type : 5
+   -
+     name : ETAT_JUSTIFICATIFPAYSAGE
+     identifier : 0x4333146200e6963b
+     internal_properties : CAAAAAgAAAAnIw8TkM1lBtC2GVcOH7Q7Q9ZS+m6/NKuvo+QLNeoooGywSV2GevhkcagS7rYq1soyMg==
+     physical_name : .\ETAT_JUSTIFICATIFPAYSAGE.wde
+     type : 3
+     configurations :
+      -
+        configuration_id : 9379621975590716572
+        excluded : true
+   -
+     name : ETAT_JUSTIFICATIFPORTRAIT
+     identifier : 0x4333148500e81fd4
+     internal_properties : CAAAAAgAAACloY2RLkvj/Erse1i8Z72E2aaMLL53mDuz1lVaeqVpT7ETp/jtC9pGFw6IcDCgWEiwsA==
+     physical_name : .\ETAT_JUSTIFICATIFPORTRAIT.wde
+     type : 3
+     configurations :
+      -
+        configuration_id : 9379621975590716572
+        excluded : true
+   -
+     name : FEN_ProfilSelection
+     identifier : 0x433590480121a6a1
+     internal_properties : CAAAAAgAAAAdf0vHEK315mpiiRMCLjO97NMQQcyt8H34coVLxmFIHoewivmvjjN6bFij3McjnAcY
+     physical_name : .\FEN_ProfilSelection.wpw
+     type : 2
+   -
+     name : ETAT_JUSTIFICATIF_TailleMoyenne
+     identifier : 0x434555d201497568
+     internal_properties : CAAAAAgAAADNT/uXYF1Lhq7kC+WItvfyN/b00gSDf23tWaeFYsTzRPouGKfz1NdEyiLzjLdT7NdI
+     physical_name : .\ETAT_JUSTIFICATIF_TailleMoyenne.wde
+     type : 3
+     configurations :
+      -
+        configuration_id : 9379621975590716572
+        excluded : true
+   -
+     name : ETAT_JUSTIFICATIF_TaillePetite
+     identifier : 0x43455c0f014bd1ab
+     internal_properties : CAAAAAgAAAAxDWm9ijd/sL4ycwKJFvHN+VTA4NiOV+C80QZWb7Te0ib6k76Oc7yE20K8BIxEPKwUHA==
+     physical_name : .\ETAT_JUSTIFICATIF_TaillePetite.wde
+     type : 3
+     configurations :
+      -
+        configuration_id : 9379621975590716572
+        excluded : true
+   -
+     name : REQ_ComptageNotes
+     identifier : 0x43721f2a02aa3a5e
+     internal_properties : CAAAAAgAAABCOLru3YqivQX621JHGiGPOnnhed1YQkRK5L/tbzRg6MAyaFJHu/9sZt3HMfHvi31Hzw==
+     physical_name : .\REQ_ComptageNotes.WDR
+     type : 5
+   -
+     name : FEN_CategorieListe
+     identifier : 0x4644b4bb0ffffdbb
+     internal_properties : CAAAAAgAAAAND7vXIJ21VrtcgLAkLrNAVAgAU24ppX3wGiD8lSYT1BEPeYgefPjnjFizzPcTrBcI
+     physical_name : .\FEN_CategorieListe.wpw
+     type : 2
+  other_elements :
+   -
+     physical_name : .\Exe\Application iOS\categorie.fic
+     configurations :
+      -
+        configuration_id : 9379621975590716572
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 3752043233584999604
+   -
+     physical_name : .\Exe\Application iOS\categorie.ndx
+     configurations :
+      -
+        configuration_id : 9379621975590716572
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 3752043233584999604
+   -
+     physical_name : .\Exe\Application iOS\categorie.mmo
+     configurations :
+      -
+        configuration_id : 9379621975590716572
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 3752043233584999604
+   -
+     physical_name : .\Exe\Application iOS\typepaiement.fic
+     configurations :
+      -
+        configuration_id : 9379621975590716572
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 3752043233584999604
+   -
+     physical_name : .\Exe\Application iOS\typepaiement.ndx
+     configurations :
+      -
+        configuration_id : 9379621975590716572
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 3752043233584999604
+   -
+     physical_name : .\Exe\Application iOS\typepaiement.mmo
+     configurations :
+      -
+        configuration_id : 9379621975590716572
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 3752043233584999604
+   -
+     physical_name : .\Exe\Application iOS\devise.fic
+     configurations :
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 9379621975590716572
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 3752043233584999604
+   -
+     physical_name : .\Exe\Application iOS\devise.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 9379621975590716572
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 3752043233584999604
+  analysis : .\WM Note de frais.ana\WM Note de frais.wda
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ languages :
+  - fr-FR
+  - en-GB
+ wb_style_sheet : .\iOS Note de frais.wws
+ disabled_errors :
+  internal_properties : CAAAAAgAAABWfySuj/K4AzFKCpgum7I5IDAZiPwloDT4lsAcaZur7Yy22FilfolIrYX0h7kHtnGUrm+4hGNFG08WyFHTYXiiRkGr3kq0uEHwJ1Bzzp+wgJZvOmDhtrFI4bxMiFwufsJoBkaUTOBkj1/wBdF1NP4DV9s+cvJJgEC+FY4oNNOKOECSUIz+lCe5cOXU/z4kM8A6h85X56JzpDaRjyIOzhyOknNnbeNQgT3i6/gc/n2WuBLWG3zvfQHnRTfvlMS4wTOZepV5Dm4Nq1bR2hJr/80Iv0ObJkswGNDfHQVoIGE+MJC8G555U7CHg7wKkQ==
+ code_elements :
+  internal_properties : CAAAAAgAAACCPaHdyaZXasL9c3DCDOYh3cVnM/EfLQtHZjjpFfS2SFrSKT+B2tzhPkNROwZx5HVdsIq4euXPPuWhvicFc6ohcpDHzSbCsdmtp1kSK3sNfV71YtKbAhLipaNP2NoKRmgERYnApxCQE576BfM/pntqOLvWa6KPr34Z+iMFM4uWxVGjB01sBUvK
+  type_code : 0
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAAC+TNVixovtK3ShkM1aPrZ4GGpuwyinK9dGX2tQwYAo4PdJEfaTexGeFfPTj4Cn5WUQeFMActMHxMjtYG5HPrYcWBVvSRNJyB+WcYod0rjLr4zK0bmoKUR7Popg0Bs9MU8R/RdmP+TYj34X0cIofYK4sfWPZJ8PLbJ4Q7QHnvVjm9/jSspmgyZp9jM9wkHF//qOtYDstoMHqms6fapBXfBe2Cu5yyTBYBbnWNzNfBlOLAhnOatMjXSZHEefqjGYHt5IkPC8wAOlHeVVLxUNX0xC7pgzLEUIY44tz5wItnpGqQz7ie8ypQn4ritR8oMAF039yfOE
+     code : |1+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      //Suite renommage des fichiers HFSQL depuis l'éditeur d'analyse, il est nécessaire de le gérer dans les applications déjà installées 
+      //=> on renomme les fichiers sur l'appareil  
+      si GetVersionFichiers() < 3 alors 
+      	
+      	si fFichierExiste("notedefrais.fic") alors
+      		SI hCopieFichier("", "facture.fic", "", "notedefrais.fic") = vrai ALORS 
+      			fSupprime("notedefrais.*")
+      		FIN	
+      	FIN
+      	
+      	SI fFichierExiste("enveloppe.fic") ALORS
+      		SI hCopieFichier("", "notefrais.fic","", "enveloppe.fic") ALORS 
+      			fSupprime("enveloppe.*")
+      		FIN	
+      	FIN
+      	
+      fin
+      
+      HModifieStructure("*")
+      HCréationSiInexistant("*")
+      
+      stPhoto est une Structure
+      	sChemin est une chaîne
+      	nID est un entier
+      FIN
+      
+      // Gestion de la langue
+      gsLangue est une chaine = "fr"
+      //gsLangue est une chaine = "en"
+      
+      Selon gsLangue
+      	CAs "fr"
+      		Nation(nationFrançais)
+      	AUTRE CAS
+      		Nation(nationAnglais)
+      FIN
+      
+      // Initialisation des données
+      InitialiseDonnees()
+      
+      <compile si TypeConfiguration=Android>
+      	gsRepAppli 		est une chaine = SysRepStockageExterne(1,ssePublicDocument) + ["/"] + <§@00000000000000000003§> 
+      
+      <SINON>
+      	gsRepAppli 		est une chaine = frepdonnées() + ["/"] + <§@00000000000000000002§> 
+      <fin>
+      
+      gsRepTempPhotos 	est une chaine = gsRepAppli + ["/"] + "tempphoto"
+      
+      SI fRépertoireExiste(gsRepTempPhotos) ALORS
+      	Sablier(Vrai)
+      
+      	fRepSupprime(gsRepTempPhotos)
+      
+      	Sablier(Faux)
+      FIN
+      
+      
+      
+      
+      Constant
+      	TYPE_NUM = 1000 
+      	TYPE_TEXTE = 1002 
+      
+      	
+      	ENVOI_PDF = 110
+      	ENVOI_CSV = 115
+      	
+      	FILTRE_STATUT_TOUTES = 25
+      	FILTRE_STATUT_REMBOURSÉES = 26
+      	FILTRE_STATUT_ENCOURS = 27
+      	
+      	
+      fin
+      
+      //Nettoyage 
+      
+      
+      
+      //Suppression des fichiers pdf générés 
+      sListePDF est une chaine = fListeFichier(frepexe() + [fsep] + "*.pdf")
+      POUR TOUTE CHAÎNE sFichier de sListePDF 
+      	fSupprime(sFichier) 
+      fIN
+      
+      //Suppression des fichiers csv générés 
+      sListeCSV est une chaine = fListeFichier(frepexe() + [fsep] + "*.csv")
+      POUR TOUTE CHAÎNE sFichier de sListecsv 
+      	fSupprime(sFichier)
+      FIN
+      
+     type : 196608
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : Application Android
+     identifier : 0x458c375f02429621
+     code_elements :
+      type_code : 159
+      p_codes : []
+   -
+     name : Application iOS
+     identifier : 0x4f2bba4000033fb1
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+ children :
+  -
+    explorer_type : windows
+    children :
+     -
+       name : Factures
+       explorer_type : custom_folder
+       children :
+        -
+          name : FEN_FactureEdition
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_FactureJustificatifs
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_FactureEdition_Tablette
+          explorer_type : element
+          type : 2
+        -
+          name : FI_VisuJustificatif
+          explorer_type : element
+          type : 8
+        -
+          name : POPUP_PrisePhoto_Tablette
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_FacturesSynthese
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_FacturesListe
+          explorer_type : element
+          type : 2
+     -
+       name : Catégorie
+       explorer_type : custom_folder
+       children :
+        -
+          name : FEN_CategorieEdition
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_CategorieSelection
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_CategorieListe
+          explorer_type : element
+          type : 2
+     -
+       name : Client
+       explorer_type : custom_folder
+       children :
+        -
+          name : FEN_ClientSelection
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_ClientEdition
+          explorer_type : element
+          type : 2
+     -
+       name : Projet1
+       explorer_type : custom_folder
+       children :
+        -
+          name : FEN_ProjetEdition
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_ProjetSelection
+          explorer_type : element
+          type : 2
+     -
+       name : Statut
+       explorer_type : custom_folder
+       children :
+        -
+          name : FEN_StatutSelection
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_StatutSelection_iPad
+          explorer_type : element
+          type : 2
+     -
+       name : Paiement
+       explorer_type : custom_folder
+       children :
+        -
+          name : FEN_PaiementSelection
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_PaiementEdition
+          explorer_type : element
+          type : 2
+     -
+       name : Devise
+       explorer_type : custom_folder
+       children :
+        -
+          name : FEN_DeviseEdition
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_DeviseSelection
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_DeviseGestion
+          explorer_type : element
+          type : 2
+     -
+       name : Paramètre
+       explorer_type : custom_folder
+       children :
+        -
+          name : FEN_Parametre
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_ProfilSelection
+          explorer_type : element
+          type : 2
+     -
+       name : Collaborateurs
+       explorer_type : custom_folder
+       children :
+        -
+          name : FEN_CollaborateurSelection
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_CollaborateurEdition
+          explorer_type : element
+          type : 2
+     -
+       name : Notes de Frais
+       explorer_type : custom_folder
+       children :
+        -
+          name : FEN_NotesDeFraisListe
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_NotesDeFraisEdition
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_NotesDeFraisSelection
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_NoteDeFraisListe_Tablette
+          explorer_type : element
+          type : 2
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : wm_notes_de_frais
+      en-GB : wm_expense_account
+     index : 0
+   -
+     text :
+      fr-FR : Enveloppe_%1.csv
+      en-GB : Envelope_%1.csv
+     index : 1
+   -
+     text :
+      fr-FR : wm_notes_de_frais
+      en-GB : wm_expense_account
+     index : 2
+   -
+     text :
+      fr-FR : wm_notes_de_frais
+      en-GB : wm_expense_account
+     index : 3
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

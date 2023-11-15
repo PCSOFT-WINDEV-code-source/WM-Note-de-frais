@@ -1,0 +1,1284 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : pOutils
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1f2bf341008eeb4f
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes :
+   -
+     code : |1-
+      
+      
+      gsFichierTypePaiement est une chaine = Completerep(frepDonnées()) + "typePaiement.txt"
+      gsFichierTaillePhotos est une chaine = Completerep(frepDonnées()) + "taillePhotos.txt"
+      gsFichierEmail        est une chaine = ComplèteRep(fRepDonnées()) + "email.txt"
+      gsFichierVersion      est une chaine = ComplèteRep(fRepDonnées()) + "VersionFic.txt"
+      gsFichierLancement       est une chaine = ComplèteRep(fRepDonnées()) + "NbreLancements.txt"
+      gsFichierDateNote      est une chaine = ComplèteRep(fRepDonnées()) + "DateNote.txt"
+      
+      
+      gtaCatégories est un tableau associatif de chaines
+      
+      constante
+      	SANS_PHOTO = 1
+      	TAILLE_PETITE = 2
+      	TAILLE_MOYENNE = 3
+      	TAILLE_GRANDE = 4
+      	
+      	AVIS_DEJA_DONNE = -2
+      	AVIS_NE_VEUT_PAS_DONNER = -1
+      	
+      	PARAM_DATE_DEFAUT = "PARAM_DATE_DEFAUT"
+      	PARAM_DEVISE_DEFAUT = "PARAM_DEVISE_DEFAUT"
+      	PARAM_COLLABORATEURS_DEFAUT = "PARAM_COLLABORATEURS_DEFAUT"	
+      	
+      	
+      fin
+     type : 720896
+  procedures :
+   -
+     name : GetMoisLibelle
+     internal_properties : CAAAAAgAAAAryUJRzjm6l1JK37HooqtwAFHM+cMY0J8MH8DwXX69dLFTDY6rXM+Yv0VKIt9IQby68kL6QPm8WVcu5l5b3vYBnrQ+VmtV9MTT0A58qcpSQ6anUIu/eAOoeW+H2yyo8MTp41eYFnwl+bos28bGNqAYZD0iMrvCjKvzGRz/CLNgDt0K+/Ip5JesifzQE16P+f0LsTuSLa8jTpv0dQqCZj+TNEXEJPQ+8xUGr1FnTtCxQFZQN0fJHgc96H3Cd4Om3A==
+     procedure_id : 2246156437121099227
+     type_code : 15
+     code : |1+
+      // Résumé : Retourne le libellé du mois
+      // Syntaxe :
+      //[ <Résultat> = ] GetMoisLibelle (<nNumMois>)
+      //
+      // Paramètres :
+      //	nNumMois : <indiquez ici le rôle de nNumMois>
+      // Valeur de retour :
+      // 	chaîne UNICODE : // 	Aucune
+      //
+      PROCEDURE GetMoisLibelle(LOCAL nNumMois)
+      
+      SELON nNumMois
+      	CAS 1:
+      		RENVOYER <§@1f2bf341008deb4f0001§>
+      	CAS 2:
+      		RENVOYER <§@1f2bf341008deb4f0002§>
+      	CAS 3:
+      		RENVOYER <§@1f2bf341008deb4f0003§>
+      	CAS 4:
+      		RENVOYER <§@1f2bf341008deb4f0004§>
+      	CAS 5:
+      		RENVOYER <§@1f2bf341008deb4f0005§>
+      	CAS 6:
+      		RENVOYER <§@1f2bf341008deb4f0006§>
+      	CAS 7:
+      		RENVOYER <§@1f2bf341008deb4f0007§>
+      	CAS 8:
+      		RENVOYER <§@1f2bf341008deb4f0008§>
+      	CAS 9:
+      		RENVOYER <§@1f2bf341008deb4f0009§>
+      	CAS 10:
+      		RENVOYER <§@1f2bf341008deb4f000a§>
+      	CAS 11:
+      		RENVOYER <§@1f2bf341008deb4f000b§>
+      	CAS 12:
+      		RENVOYER <§@1f2bf341008deb4f000c§>
+      	AUTRE CAS:
+      		erreur(<§@1f2bf341008deb4f0000§>)
+      		RENVOYER ""
+      FIN
+      
+      
+     type : 458752
+   -
+     name : GetSpecialSelonCategorie
+     internal_properties : CAAAAAgAAAAr1gqIp92FSGg0nTH5uEKatSUTU4nkOd499yJ4FxM95yz+NFIK5j2Pqh3Yw9bPh+bLqnEjIoshNnWCpb4mkH21EES7GR2GDnJnMG/NzHu7geZvyaQSDt0t90XdMqBIf7iY6e8g2lsyQwF+wZc+z3qFdNoCBkJjLtIb5Oc46czVVrVj70q9FzrqdvwxH+BfC4D7CTQLkoic42JQlQ9Igc7dDFJ4lF6HcO5S1thbc59kwgnkIYZI3rpzD4SHqAmlhHQmbgZKKxw7HY8jl6XwIGAfzeF5MczH
+     procedure_id : 2247927806209515975
+     type_code : 15
+     code : |1+
+      // Résumé : Récupère le libellé spécial selon la catégorie
+      // Syntaxe :
+      //GetSpecialSelonCategorie (<nIDCategorie>, <sLibelléSpécial> est chaîne, <nTypeSpécial> est entier)
+      //
+      // Paramètres :
+      //	nIDCategorie : ID Catégorie
+      //	sLibelléSpécial (chaîne UNICODE) : <indiquez ici le rôle de sLibelléSpécial>
+      //	nTypeSpécial (entier) : <indiquez ici le rôle de nTypeSpécial>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      //
+      PROCEDURE GetSpecialSelonCategorie(LOCAL nIDCategorie,sLibelléSpécial est une chaine, nTypeSpécial est un entier)
+      
+      // Positionne sur la catégorie
+      HLitRecherchePremier(Catégorie,IDCatégorie,nIDCategorie)
+      SI HTrouve(Catégorie) ALORS
+      	SELON Nation()
+      		CAS nationFrançais:
+      			sLibelléSpécial = Catégorie.LibelléSpécial
+      			nTypeSpécial =  Catégorie.TypeSpécial
+      		AUTRE CAS:
+      			sLibelléSpécial = Catégorie.LibelléSpécialUS
+      			nTypeSpécial =  Catégorie.TypeSpécial
+      	FIN
+      SINON
+      	sLibelléSpécial = ""	
+      FIN
+      
+      
+      
+      
+     type : 458752
+   -
+     name : GetEmailDefaut
+     internal_properties : CAAAAAgAAACXWB+0xwFItlMMgzd1mA00+AdDaN+aia+YYwpiDydJHlkPQMRGVIc2zmrPj4bYkVNJo88FLP69DrZS2t8LVdo8nqHM3oly4aylBEr/71mM6ncEi2DEBq+scYMXsLRKkM0hTBCRq/SwbIzAqbSaCKzWTjbpR5iZleMvrDhM+BHg2jQc3K2gxvCLTat/R0uw0YmqInvyK9yqbMBXvvTf+3kwWjAJ2hZ3NtTeQ+jQ98Q8nxMuMJJj1vQ2EJ1B8yIxOW3RAdcXoobOLoc3cCH7KaE9hmeQD3xK+Z/HdCUgKcl05po8qlmxECNV744TnPKrfI8=
+     procedure_id : 2249861722582339959
+     type_code : 15
+     code : |1+
+      // Résumé : Récupère l'email
+      // Syntaxe :
+      //[ <Résultat> = ] GetEmailDefaut ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	chaîne UNICODE : // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE GetEmailDefaut()
+      
+      // Variable
+      sEmail      est une chaine
+      
+      Si fFichierExiste(gsFichierEmail) ALORS
+      	sEmail = fChargeTexte(gsFichierEmail)
+      SINON
+      	sEmail = ""
+      FIN
+      
+      RENVOYER sEmail
+      
+     type : 458752
+   -
+     name : GetTexteEmail
+     internal_properties : CAAAAAgAAABZHiFV1WlDg2/FNZhNCn426Ln/15NA/mEAUNt06xPRHaah/a0MZfWTPAcP8T0sknA+MAPRQjVdbl+0eSpCH+xBRoJ9v6nMyiahIt/WRAczPbJbgXzCqrk944HpCoBEVxSMBXf48oeuo1XSPeXsFQDPAkjw2GAR3IDhOu0e97KTiCvp/WzTzSjYbDIaxnGkWklM6pOE/+l9ZTMV9vJ1kh12qfeXlfsxTmH0Cd1reUuAyhRPN2uU9O6nf3y/uyNcxDEXr0G/EEBvafnpZu6YiZZf1ct2WZ41
+     procedure_id : 2249861877201198916
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //[ <Résultat> = ] GetTexteEmail ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Type indéterminé : // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE GetTexteEmail()
+      
+      // Variable
+      sTexteEmailUS est une chaine = Completerep(fRepDonnées()) + "texteUS.txt"
+      sTexteEmailFR est une chaine = Completerep(fRepDonnées()) + "texteFR.txt"
+      sEmailFR est une chaine = [
+      Bonjour,
+      Vous trouverez ci-joint le récapitulatif de mes notes de frais.
+      
+      Cordialement,
+      ]
+      sEmailUS est une chaîne = [
+      Hello,
+      Please find enclosed the summary of my expense accounts.
+      
+      Best regards,
+      ]
+      
+      SELON Nation()
+      	CAS nationFrançais:
+      		SI fFichierExiste(sTexteEmailFR) ALORS
+      			RENVOYER fChargeTexte(sTexteEmailFR)
+      		SINON
+      			fSauveTexte(sTexteEmailFR,sEmailFR)
+      			RENVOYER sEmailFR
+      		FIN
+      	AUTRE CAS:
+      		SI fFichierExiste(sTexteEmailUS) ALORS
+      			RENVOYER fChargeTexte(sTexteEmailUS)
+      		SINON
+      			fSauveTexte(sTexteEmailUS,sEmailUS)
+      			RENVOYER sEmailUS
+      		FIN	
+      FIN
+     type : 458752
+   -
+     name : SetEmailDefaut
+     internal_properties : CAAAAAgAAADPdUOUYPfbtrKlWZ1NDB8edz1sQGR+XCahup9YATWS0al+xPQsxa+dKgwmaCLCiRM1x87OvwHySyTlvX17cY0EhbmI7rwmzc9VcLBtdvDAa8Ad0mYoA6yQprtl4saL51/C5m5BSljODACyfq6bvdZ6J8f7EfNqD7S//KsbHw3fDhurKWhlQigO5PLlv3N/595zxNeGvdNDKKgPxQdYscxM/oy9zsROyzwML06JVjtCYa9P3bUf69x5Ee4yEM67UyzhreXj7tjhIKH7tBBIOI8KxlMUOwbqupCHiDeSNfhDZbgTtcAuqQ==
+     procedure_id : 2249861920150947911
+     type_code : 15
+     code : |1+
+      // Résumé : Adresse email par défaut
+      // Syntaxe :
+      //SetEmailDefaut (<sAdresseEmail> est chaîne)
+      //
+      // Paramètres :
+      //	sAdresseEmail (chaîne UNICODE) : Adresse email
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE SetEmailDefaut(sAdresseEmail est une chaine)
+      
+      fSauveTexte(gsFichierEmail,sAdresseEmail)
+     type : 458752
+   -
+     name : SetTexteDefaut
+     internal_properties : CAAAAAgAAADXP0aqqf6p1/K5gKaakw0OZL2GqYY/cPAjg0RlM6E0ZzMLdS3/5Azssm2qcyLAqz5mSpnVOAlAuRVyoUhCh1FoUoLMpG1PBYjuOpgNDMaQLZSXX+NXSuJ2Ag3R1hV2NPP67Oc2MvixWw0bYSpVaTB/iPrmOsQDGjM/uxFFdw0ZoNrVCx44gVwM3dcsOkqV/Z1MSmINDVRXWegYkqtOpGRY/UE5pnp/YI/c2HCURTKyMIcGMBR7fd4J7QGh7dPM6oV7wLYq6edDXBI8
+     procedure_id : 2249861945920822683
+     type_code : 15
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //SetTexteDefaut (<sTexteEmail> est chaîne)
+      //
+      // Paramètres :
+      //	sTexteEmail (chaîne UNICODE) : <indiquez ici le rôle de sTexteEmail>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE SetTexteDefaut(sTexteEmail est une chaine)
+      
+      // Variable
+      sTexteEmailUS est une chaine = Completerep(fRepDonnées()) + "texteUS.txt"
+      sTexteEmailFR est une chaine = Completerep(fRepDonnées()) + "texteFR.txt"
+      
+      SELON Nation()
+      	CAS nationFrançais:
+      		fSauveTexte(sTexteEmailFR,sTexteEmail)
+      	AUTRE CAS:
+      		fSauveTexte(sTexteEmailUS,sTexteEmail)	
+      FIN
+     type : 458752
+   -
+     name : InitialiseDonnees
+     internal_properties : CAAAAAgAAAATTNr5CGkOFTgiNwPiCkWjkAxjdV/WyZa2pXt+K13oup9YJfqrzpoSpM+PBdMzJMuas4kfK+MGtpTRGP6aRCJ+HPnAD/GdfCbR8fis3ic41RBMf8Ou2sqy3f1yR6rkbEiTNlT9nhDepA+YGiv9AAFj2ZxnKUjd3iwyiAendN7NSyJVrDW3F4aH7BoM3fwMS8r49IWVVqLRTBF37E7pLPD5mj7/x0SfXTsYZAfTDoXDfqP1tfzPx85kQpR7or0M7imRo0ANOxmBUyca29RbAjyGwYMCX2LXcc59JjkBZEWSo2lsEE+lTzOP5CteqdNrohXl8TzwZvn8oqZgv0pKSMBnY60ksykxJNVQ2cWYzgWvWzS/Q65Cr5DH28go1PLdWMZX
+     procedure_id : 2250294135666049731
+     type_code : 15
+     code : |1-
+      // Résumé : Initialise les fichiers HFSQL selon la langue
+      // Syntaxe :
+      //InitialiseDonnees ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE InitialiseDonnees()
+      
+      SELON Nation()
+      	CAS nationFrançais:
+      		SI HNbEnr(Devise) = 0 ALORS		
+      			// Devises par défaut
+      			HRAZ(Devise)
+      			Devise.Nom            = "Euro"
+      			Devise.Reference      = Vrai
+      			Devise.Symbole        = "€"
+      			Devise.TauxConversion = 1
+      			HAjoute(Devise)
+      			
+      			HRAZ(Devise)
+      			Devise.Nom            = "Dollar"
+      			Devise.Reference      = Faux
+      			Devise.Symbole        = "$"
+      			Devise.TauxConversion = 0.76
+      			HAjoute(Devise)	
+      		FIN
+      		
+      		
+      	AUTRE CAS:
+      		
+      		SI HNbEnr(Devise) = 0 ALORS		
+      			// Devises par défaut
+      			HRAZ(Devise)
+      			Devise.Nom            = "Euro"
+      			Devise.Reference      = Faux
+      			Devise.Symbole        = "€"
+      			Devise.TauxConversion = 1.24
+      			HAjoute(Devise)
+      			
+      			HRAZ(Devise)
+      			Devise.Nom            = "Dollar"
+      			Devise.Reference      = Vrai
+      			Devise.Symbole        = "$"
+      			Devise.TauxConversion = 1
+      			HAjoute(Devise)			
+      		FIN	
+      FIN
+      
+      _DetermineDeviseReference()
+      
+      _DetermineProfil()
+      
+      //Moulinette sur les fichiers de données
+      SI GetVersionFichiers() = 1 _ET_ PAS EnModeTest() ALORS 
+      	
+      	MoulinetteFicCatégorie()
+      	Moulinette_PictosCategorie()
+      	
+      	Moulinette_PictosTypePaiement()
+      	
+      	Moulinette_RefInterne_Enveloppe()	
+      	
+      	SetVersionFichiers(2)
+      	
+      FIN
+      
+      //
+      //// Pas d'enveloppe ?
+      //SI HNbEnr(Enveloppe) = 0 ALORS
+      //	HRAZ(Enveloppe)
+      //	Enveloppe.DateDebut = DateDuJour()
+      //	Enveloppe.DateFin   = DateDuJour()
+      //	Enveloppe.AnnéeDebut = Enveloppe.DateDebut..Année
+      //	Enveloppe.AnnéeFin   = Enveloppe.DateFin..Année
+      //	Enveloppe.MoisDebut  = Enveloppe.DateDebut..Mois
+      //	Enveloppe.MoisFin    = Enveloppe.DateFin..Mois
+      //	Enveloppe.Nom = <§@1f2bf341008deb4f000e§>
+      //	Enveloppe.ParDéfaut = Vrai
+      //	HAjoute(Enveloppe)
+      //FIN
+      
+      // Fichier type de paiement par défaut
+      Si fFichierExiste(gsFichierTypePaiement) = Faux ALORS
+      	HLitPremier(TypePaiement)
+      	sContenu est une chaine = TypePaiement.IDTypePaiement
+      	fSauveTexte(gsFichierTypePaiement,sContenu)
+      FIN
+      
+      // Fichier taille des photos pour l'envoi mail
+      SI fFichierExiste(gsFichierTaillePhotos) = Faux ALORS
+      	sContenuTaille est une chaine = TAILLE_MOYENNE
+      	fSauveTexte(gsFichierTaillePhotos,sContenuTaille)
+      FIN
+      
+      
+      
+      ChargeMotsClésCatégories()
+      
+      SetVersionFichiers(3)
+     type : 458752
+   -
+     name : GetIDTypePaiementDefaut
+     internal_properties : CAAAAAgAAABhHkJrbIVihYwkBd6nxSH6KGKahg0Na8wmz1ewac512JV/kaavrBckazFiCstAaTjmtgZCvBH0FXOaVp6P/h5tMhDCxrfNvBg3hJ4M/YpiZ9ILnDObENu0dbvfk5hAiEp/dTkWOIpb82B2lZTcRE4Oyp/UQO0Q0pXRKz4dDqF+JEPs7XCT0n3Wr8Yq+QStn+MRQ40QZ9UhsDnObxiA3HWJCpfuSl+bAO2vRXkGzRZr0PC7EzqgzbJEOz4D6HjsFg==
+     procedure_id : 2256555622480599521
+     type_code : 15
+     code : |1+
+      // Résumé : Retourne le type de paiement par défaut
+      // Syntaxe :
+      //[ <Résultat> = ] GetIDTypePaiementDefaut ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	variant : // 	Aucune
+      //
+      PROCEDURE GetIDTypePaiementDefaut()
+      
+      RENVOYER Val(fChargeTexte(gsFichierTypePaiement))
+     type : 458752
+   -
+     name : SetIDTypePaiement
+     internal_properties : CAAAAAgAAADVXUl/InoyTubXfSFroDcdtl2PA5Z8uhURtwjhHQTYjgcLgEHTnLdLj764fMAsnzt4MMOtVXKH23qvMg1vinibJY9jmaYzvD1NhskBF1LtKHswv2VfkfkdELACxiRtldvDnJHuzTwOJMKHMxVpz2EZFJYYXOry3QKV7uRWcyiTP/W5c1pWdi51vxXa/qw5Cbdi63oTpYC1Kz6SFhJ21gnjMeMDrVqxq4vYMMHWM6W61SXMKpx2NNtc
+     procedure_id : 2256555845818951158
+     type_code : 15
+     code : |1+
+      // Résumé : Enregistre le type de paiement par défaut
+      // Syntaxe :
+      //SetIDTypePaiement (<sIDTypePaiement> est chaîne)
+      //
+      // Paramètres :
+      //	sIDTypePaiement (chaîne UNICODE) : ID Type Paiement
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE SetIDTypePaiement(LOCAL sIDTypePaiement est une chaine)
+      
+      fSauveTexte(gsFichierTypePaiement,sIDTypePaiement)
+      
+     type : 458752
+   -
+     name : GetIDMonProfil
+     internal_properties : CAAAAAgAAACFaasbzPWShTwEZd7XJSGK+BIK5n0ti3xG/ycgiZ7luNW/kTZPPGeEO3HCipvgCUh2phZCDFF0pTPKpi5vDo7NEjAC9nc9rPhHZP6sreqid2J7DPNrMLuEdctPozhQOOIHjcHugMKTC0ge3UxkvCZmUjd8GBUoCm25U8YVdpk2nMsEtYi7ijXOl25SEWwldzt5G5UIj43ZiMFW13BI1G1B0u92gsfzWAX3jQG+lS7jCJjzm1JopYpcwwYLADcIcg==
+     procedure_id : 1384171782328292729
+     type_code : 15
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //[ <Résultat> = ] GetIDMonProfil ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Type indéterminé : // 	Aucune
+      
+      PROCEDURE GetIDMonProfil()
+      
+      HLitRecherchePremier(Collaborateurs,MonProfil,vrai)
+      si htrouve(Collaborateurs) alors
+      	renvoyer Collaborateurs.IDCollaborateurs
+      sinon
+      	renvoyer cs_aucune_valeur
+      FIN
+     type : 458752
+   -
+     name : setIDMonProfil
+     internal_properties : CAAAAAgAAAAoo6iNWt5a/Knke9QFoYkBPmJOXN3AGSLs03Trzh8hQZ/UBD4Y6J1/qCFTQdjVD0CuHSKrGen8C9Z4Lmiw9DcK5OjAQItNsXfyR+Z09qqRql1RLfI+RxsocXC9abWaX3KT5T4BZisZgJSMyra/0/XsCq0jgXEjZjKDU6lJ+UgB6q9k5BnTGSFrIcZHSVYVO0Du/kMabAHKO+KkHgoNsSw/5uUTbYRkdjdsChk6ucPWefAFsIHv1XderP2WwgJ7wNwvNw==
+     procedure_id : 1384175209714893504
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //setIDMonProfil (<nIDProfil> est entier)
+      //
+      // Paramètres :
+      //	nIDProfil (entier) : <indiquez ici le rôle de nIDProfil>
+      // Valeur de retour :
+      // 	Aucune
+      
+      PROCEDURE setIDMonProfil(nIDProfil est un entier)
+      
+      HLitRecherchePremier(Collaborateurs,IDCollaborateurs,nIDProfil)
+      si htrouve(Collaborateurs) ALORS
+      	collaborateurs.MonProfil = vrai 
+      	HModifie(Collaborateurs)
+      	pGestionValeurs.gnIDMonProfil = nIDProfil
+      	pGestionValeurs.gsNomMonProfil = Collaborateurs.Nom
+      FIN
+      
+      // Il faut enlever le précédent profil
+      POUR TOUT Collaborateurs 
+      	SI Collaborateurs.IDCollaborateurs <> nIDProfil ET Collaborateurs.MonProfil = Vrai ALORS
+      		Collaborateurs.MonProfil = Faux
+      		HModifie(Collaborateurs)	
+      	FIN
+      FIN
+      
+      
+     type : 458752
+   -
+     name : MoulinetteFicCatégorie
+     internal_properties : CAAAAAgAAADl4KZJjwD5fQno+Hf/nEOl+I8OhXUEYTerHyMyUjypOv0cYE3Fjai9qzN0g+uB+5EIMpMubjvxdziz6bhFBH399O+RbcMQnuoKDXM3UdX7es8ptdilQ0FYO5Zn3eCWiThgZ1vnbE1CYxgwH6OXqGxKWkNap8BU4nb0PK5rQmeHM6T6OxJR//gsDqyMzBgTP/Sms1l6uRLyQuQK64AQW/4FCMeNSvWNBjFXzOvf/jitJZosVTGFglCZdXLlsSC6AzD0kWPtEQJ/b21XXh4gMfF10ZZW4bSZymUiRcPAtgEgyT5+sG0L4P8Ia7HquOHxvY/Xt4lYRj5m511fwZD3mmlEVrz5t9rB
+     procedure_id : 1385205031213073478
+     type_code : 15
+     code : |1-
+      // Résumé : Moulinettes pour les fichiers de catégorie, pour la nouvelle rubrique "TypeSpécial"
+      // Syntaxe :
+      //MoulinetteFicCatégorie ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      PROCEDURE MoulinetteFicCatégorie()
+      
+      
+      HLitRecherchePremier(Catégorie,Nom, "Fournitures")
+      SI HTrouve(Catégorie) ALORS
+      	SI Catégorie.LibelléSpécial = "Nb produits"  ALORS
+      		Catégorie.TypeSpécial = TYPE_NUM
+      		HModifie(Catégorie)
+      	FIN
+      FIN
+      
+      HLitRecherchePremier(Catégorie,Nom, "Hébergement")
+      SI HTrouve(Catégorie) ALORS
+      	SI Catégorie.LibelléSpécial = "Nb nuitées"  ALORS
+      		Catégorie.TypeSpécial = TYPE_NUM
+      		HModifie(Catégorie)
+      	FIN
+      FIN
+      
+      HLitRecherchePremier(Catégorie,Nom, "Voiture")
+      SI HTrouve(Catégorie) ALORS
+      	SI Catégorie.LibelléSpécial = "Kilométrage"  ALORS
+      		Catégorie.TypeSpécial = TYPE_NUM
+      		HModifie(Catégorie)
+      	FIN
+      FIN
+      
+      HLitRecherchePremier(Catégorie,Nom, "Repas")
+      SI HTrouve(Catégorie) ALORS
+      	SI Catégorie.LibelléSpécial = "Invité"  ALORS
+      		Catégorie.TypeSpécial = TYPE_TEXTE
+      		HModifie(Catégorie)
+      	FIN
+      FIN
+     type : 458752
+   -
+     name : Moulinette_PictosTypePaiement
+     internal_properties : CAAAAAgAAABIJiUM6Zo0ZIIACm68GpDS6zftEbNC7sAD7gxNjUr4N2MxVc8B7kNKm80Ef62YBuzR9FiStD85I8TII1YY/XgnQ4sntaU1sCT2tpS4Y283C3jzRsvn3pYZ981kls0SK54YwIlNE3ELBOhhPb/nKsWYnkiynXQ8rFoAv/v24+bK3Rxp87Xa8mip4GWUz2bIVJjizL40/ckf7keNzCWztu546pQwFLFTf+/EuGi5bYFxq53obDzJnSGFQy6VKr2C4PLbBwmCcvEsn81Lxw==
+     procedure_id : 1385211563877546689
+     type_code : 15
+     code : |1-
+      // Résumé : Moulinette pour mettre à jour les pictos des types de paiement
+      // Syntaxe :
+      //Moulinette_PictosTypePaiement ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      PROCEDURE Moulinette_PictosTypePaiement()
+      
+      
+      SI fExtraitRessource("typepaiement.fic", fRepDonnées() + fSep() + "newtypepaiement.fic") = Vrai ALORS 
+      	
+      	fExtraitRessource("typepaiement.ndx", fRepDonnées() + fSep() + "newtypepaiement.ndx")
+      	fExtraitRessource("typepaiement.mmo", fRepDonnées() + fSep() + "newtypepaiement.mmo")
+      	
+      	HDéclareExterne(fRepDonnées() + fSep() + "newtypepaiement.fic","newtypepaiement")
+      	
+      	POUR TOUT "newtypepaiement"
+      		
+      		HLitRecherchePremier(TypePaiement,IDTypePaiement,{"newtypepaiement.IDTypePaiement", indRubrique})
+      		
+      		SI HTrouve(TypePaiement) _ET_ 
+      			TypePaiement.Libellé =  {"newtypepaiement.Libellé" , indRubrique} _ET_ 
+      			TypePaiement.LibelléUS =  {"newtypepaiement.LibelléUS" , indRubrique} ALORS
+      			TypePaiement.Picto = {"newtypepaiement.picto" , indRubrique}
+      			HModifie(TypePaiement)
+      		FIN
+      		
+      	FIN
+      
+      FIN
+     type : 458752
+   -
+     name : GetVersionFichiers
+     internal_properties : CAAAAAgAAACFaasbzPWShTwEZd7XJSGK+BIK5n0ti3xG/ycgiZ7luNW/kTZPPGeEO3HCipvgCUh2phZCDFF0pTPKpi5vDo7NEjAC9nc9rPhHZP6sreqid2J7DPNrMLuEdctPozhQOOIHjcHugMKTC0ge3UxkvCZmUjd8GBUoCm25U8YVdpk2nMsEtYi7ijXOl25SEWwldzt5G5UIj43ZiMFW13BI1G1B0u92gsfzWAX3jQG+lS7jCJjzm1JopYpcwwYLADcIcg==
+     procedure_id : 1385211752856217693
+     type_code : 15
+     code : |1+
+      // Résumé : Retourne la version des fichiers pour les moulinettes 
+      // Syntaxe :
+      //[ <Résultat> = ] GetVersionFichiers ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Type indéterminé : // 	Aucune
+      //
+      PROCEDURE GetVersionFichiers()
+      
+      si fFichierExiste(gsFichierVersion) = vrai alors
+      	RENVOYER Val(fChargeTexte(gsFichierVersion))
+      sinon 
+      	renvoyer 1 
+      fin
+     type : 458752
+   -
+     name : SetVersionFichiers
+     internal_properties : CAAAAAgAAACjjxthHGgcMFjxV8vFil2XHIehLYhqbF/reUJbZ74TGFn5iKFpHgkzO9pa3tp2h2lOSrNdnxANm7abjPvdGLztl2G/FRSlBqUJkruDaWStlm0aN8V5z599ZNRE6DNuqO4+326hmncn0dkebBxQuJw0A4UJa9vJvu/AydlhlkH+qpgkcL2L0Yf2Fjzz5RuKXFq5SuuSMpsS+PXM0Fi8kNct+zXts0CLgeFiiqssSb+gP4+2HKpkBqmq
+     procedure_id : 1385212547425220790
+     type_code : 15
+     code : |1+
+      // Résumé : Enregistre la nouvelle version des fichiers de données, utile pour les moulinettes 
+      // Syntaxe :
+      //SetVersionFichiers (<nVersion> est entier)
+      //
+      // Paramètres :
+      //	nVersion (entier) : ID Type Paiement
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE SetVersionFichiers(LOCAL nVersion est un entier)
+      
+      fSauveTexte(gsFichierVersion,nVersion)
+      
+     type : 458752
+   -
+     name : Moulinette_PictosCategorie
+     internal_properties : CAAAAAgAAAA00uHINabQYFYMptpItkk5BedN0RMCLsDzHoyN3WrYZ6NRxf8xHpPamw30L23o9syBJJjSFL+5o/Q4AxYoHRg3w8t35fUF4LQWVkRoIz+nK4gDpuvnfjYZZ50klt1yC874QDk9A6kTjLCp5bcPAq2Q5hCKFUwUdKKIZ2NOK97SVQTRS+3SStCR6E28h66AXPBq1JaM1aHnNo81dH177jYw0tyo7OkrZ1eM4HCxlZmZYyVw5FShdSkNC5bHnam29EbP831etrXo2wk3Mw==
+     procedure_id : 1385213629759132632
+     type_code : 15
+     code : |1-
+      // Résumé : Moulinette pour mettre à jour les pictos des types de paiement
+      // Syntaxe :
+      //Moulinette_PictosCategorie ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      PROCEDURE Moulinette_PictosCategorie()
+      
+      
+      si fExtraitRessource("categorie.fic", fRepDonnées() + fSep() + "newcategorie.fic") = vrai alors 
+      	
+      	fExtraitRessource("categorie.ndx", fRepDonnées() + fSep() + "newcategorie.ndx")
+      	fExtraitRessource("categorie.mmo", fRepDonnées() + fSep() + "newcategorie.mmo")
+      	
+      	
+      	HDéclareExterne(fRepDonnées() + fSep() + "newcategorie.fic","newcategorie")
+      	
+      	POUR TOUT "newcategorie"
+      		
+      		HLitRecherchePremier(Catégorie,IDCatégorie,{"newcategorie.idcatégorie", indRubrique})
+      		
+      		SI HTrouve(Catégorie) _ET_ 
+      			categorie.nom =  {"newcategorie.nom" , indRubrique} _ET_ 
+      			categorie.nomus =  {"newcategorie.nomus" , indRubrique} ALORS
+      		
+      			Catégorie.Picto = {"newcategorie.picto" , indRubrique}
+      			
+      			HModifie(Catégorie)
+      		FIN
+      		
+      	FIN
+      	
+      	
+      fin
+     type : 458752
+   -
+     name : Moulinette_RefInterne_Enveloppe
+     internal_properties : CAAAAAgAAAA1shCPZDv2H19ICWf7R6GY7ApJ641U0r6jWiQqAq6qwHPSiS9+wNZwYlQR8Yk8pNvCKOOa6fordHUrN1atzGoFJfrYjgUaEIpPiFHf2eEwuq8jnA44+sB5BT+MJHoQQr9h9hswZq5RWmJLmmRNpuw1YrDOUsMCDD474IMBM4dkn9vrM85BagktoRvvB2hgRD/cIUR9ODRySfTe1i6DZFd8DAKolNpKI2S1c7UTPrFUcjeaLXVKUQ==
+     procedure_id : 1385217800136385616
+     type_code : 15
+     code : |1-
+      // Résumé : Moulinette sur les enveloppes (que l'on appelle maintenant Notes de frais) pour créer un identifiant par enveloppe
+      // Syntaxe :
+      // Moulinette_RefInterne_Enveloppe ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      PROCEDURE Moulinette_RefInterne_Enveloppe()
+      
+      pour TOUT NoteFrais 
+      	NoteFrais.RefInterne = DonneIDNote()
+      	hmodifie(NoteFrais)
+      FIN
+     type : 458752
+   -
+     name : DonneIDNote
+     internal_properties : CAAAAAgAAACFaasbzPWShTwEZd7XJSGK+BIK5n0ti3xG/ycgiZ7luNW/kTZPPGeEO3HCipvgCUh2phZCDFF0pTPKpi5vDo7NEjAC9nc9rPhHZP6sreqid2J7DPNrMLuEdctPozhQOOIHjcHugMKTC0ge3UxkvCZmUjd8GBUoCm25U8YVdpk2nMsEtYi7ijXOl25SEWwldzt5G5UIj43ZiMFW13BI1G1B0u92gsfzWAX3jQG+lS7jCJjzm1JopYpcwwYLADcIcg==
+     procedure_id : 1385245841981309759
+     type_code : 15
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //[ <Résultat> = ] DonneIDNote ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Type indéterminé : // 	Aucune
+      
+      PROCEDURE DonneIDNote()
+      
+      renvoyer majuscule(extraitchaine(donneguid(guidFormaté),1, "-"))[[ 2 A]]
+     type : 458752
+   -
+     name : getStatutPourFiltre
+     internal_properties : CAAAAAgAAACXul/hpV0+H19wepNPcHzwcPvl8S9S69FJJDQCtmFRsZeuqk2tX5quMwjppSWKuE903YJC7um+3MoAYTfULmaYwc49PyZG+c8PBhXyFdpfe6jhYUHCNp7SBrrFVcL7/Mn16MZXjA01g/RwLuOLKNC4fHhkiy18qHyOHqh4mi//Y9eT8XXWALaWwYi5fFYfutKc3L/jZI6JoQgRlzxuS2fdG4cfBj6EKph7WBNzwmywj1PYRVBezZbbyzkTlzH3DYalr1ldcOO0dgr1sONX7XuNbZ2T
+     procedure_id : 1385628274440321142
+     type_code : 15
+     code : |1-
+      // Résumé : Récupère le statut pour savoir s'il faut afficher la note ou pas en fonction du filtre d'affichage
+      // Syntaxe :
+      //[ <Résultat> = ] getStatutPourFiltre (<nIDNote>)
+      //
+      // Paramètres :
+      //	nIDNote : Valeur statut
+      // Valeur de retour :
+      // 	entier : // 	Aucune
+      //
+      PROCEDURE getStatutPourFiltre(LOCAL nIDNote)
+      
+      // Variable
+      taStatut est un tableau associatif de booléens
+      
+      // Récupère l'ensemble des statuts
+      HFiltre(Facture,IDNoteDeFrais,nIDNote)
+      HLitPremier(Facture,IDNoteDeFrais)
+      TANTQUE PAS HEnDehors(Facture)
+      	taStatut[Facture.Statut] = Vrai
+      	HLitSuivant(Facture,IDNoteDeFrais)
+      FIN
+      HDésactiveFiltre(Facture)
+      
+      // Ordre de pénalisation
+      SI taStatut[STATUT_REFUSEE]..Vide = Faux ALORS
+      	RENVOYER FILTRE_STATUT_ENCOURS
+      FIN
+      
+      SI taStatut[STATUT_A_ENVOYER]..Vide = Faux ALORS
+      	RENVOYER FILTRE_STATUT_ENCOURS
+      FIN
+      
+      SI taStatut[STATUT_EN_ATTENTE]..Vide = Faux ALORS
+      	RENVOYER FILTRE_STATUT_ENCOURS
+      FIN
+      
+      SI taStatut[STATUT_REMBOURSEE]..Vide = Faux ALORS
+      	RENVOYER FILTRE_STATUT_REMBOURSÉES
+      FIN
+      
+      RENVOYER FILTRE_STATUT_ENCOURS
+     type : 458752
+   -
+     name : SetTaillePhotosDéfaut
+     internal_properties : CAAAAAgAAADvUdtmHfwl5r3PpsfZ50YQJh8nGh0fg/8CL+R/+iCz2dhE+r+D2FTJigtV/lRgGsM/miqcezLq7eGJr9/9y9GENOKz5jd9820BplquOqChN48tTKTTq4kK89M1B4oazz51HeC+HnKioO0AoglVoAxX97LGKVeX8aHpGJzP8FnTKzeeks7LAPCfA3S/goVDxvI0fdUfSAT3w05Klfddzv44NtDEKIijz32Chk4=
+     procedure_id : 1388621084992165944
+     type_code : 15
+     code : |1+
+      // Résumé : Enregistre la taille des photos pour l'envoi mail
+      //SetTaillePhotos (<nTaillePhoto> est entier)
+      //
+      // Paramètres :
+      //	nTaillePhoto (entier) : Constante correspondant à la taille des photos souhaitées
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE SetTaillePhotosDéfaut(LOCAL nTaillePhoto est un entier)
+      
+      fSauveTexte(gsFichierTaillePhotos,nTaillePhoto)
+      
+     type : 458752
+   -
+     name : GetTaillePhotosDéfault
+     internal_properties : CAAAAAgAAABhHkJrbIVihYwkBd6nxSH6KGKahg0Na8wmz1ewac512JV/kaavrBckazFiCstAaTjmtgZCvBH0FXOaVp6P/h5tMhDCxrfNvBg3hJ4M/YpiZ9ILnDObENu0dbvfk5hAiEp/dTkWOIpb82B2lZTcRE4Oyp/UQO0Q0pXRKz4dDqF+JEPs7XCT0n3Wr8Yq+QStn+MRQ40QZ9UhsDnObxiA3HWJCpfuSl+bAO2vRXkGzRZr0PC7EzqgzbJEOz4D6HjsFg==
+     procedure_id : 1388621789366900816
+     type_code : 15
+     code : |1+
+      // Résumé : Retourne la taille des photos pour l'envoi mail
+      // Syntaxe :
+      //[ <Résultat> = ] GetTaillePhotosDéfault ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	variant : // 	Aucune
+      //
+      PROCEDURE GetTaillePhotosDéfault()
+      
+      RENVOYER Val(fChargeTexte(gsFichierTaillePhotos))
+     type : 458752
+   -
+     name : CréationPDF
+     internal_properties : CAAAAAgAAAD8ThokPkzVNqOuxepLME23R14VGoA0bH85TIxSTFxQaW7aVMo0KDaZLlmwXnUM8psN7AGH0yrpmx1NtgDr01T2e+3N+TwNZzAHgK332VgS/ifkh10K0MFJiLDC6DrzyqzCNM/sytVZnZcOAi/k14sPIXu1P/w0OfDJyOtAn/MYtPXrc/VaS28MuBUrBGT2yYpG5zFpv1QFyN4MSq56Qk2S29dhIjv5IFYVrtZlYGgZOa9fwDqi0fz5uKF60MR9+k4CFhs0V6zkEE6V+uz5wIhfqBPlyWsLJfjZbgVtoyvNB3lNfkfp1VQUV1bSnA0GX+o8Un7S7SNWRTAq1n8DEEfHdzdHtIUmxp4aEA3ooCwBSRfxpE9FtLjoMi1HbMFWuxvkGp74uK3Eslvzvgqx4slPzzRHvJ7ZAQxhm1CS/H1CJk7gem2OQ9PYxKVNJNqqoNDUiKcxWNCmmNIAI7UUE/J/mBIa84o+fMjkxsQ5KHhXpuMHmy9MW6jUkwUFnmjM2wFDyBORmOWEzbR1SYQAgxV9s5dezQNq55hPo7RoeAZWLhNWXXyFnVoAiLAZIjDvrJ1X9zDHHI4sV8h+RwBkkygZRIKiFW+c7DGDQWVDHSwE/nSXR5O9dTzzPALOvJJnEhMOvc0QnCaKCdTQB1yaNh218RFC5i56NrlxrIILEghPQpJPwKepkGoK3vIaS9H3fMyuz3t4k5ggpJ4VyoIoqpuFdDaOtwKKPlxQ9jUmm1pF+N3wNtWuTqZZTJe2hMJQd+1xKJMJLzM6CRI+cBp2Oso2m4YH42GhrhnFH0niwZsWFxy+rTYEb1u9dF2GSaAjop65pnLeZuVjac5B+5LGPBQjjnOM5OFsVLJ37pmSQyoqbiMvyxmCzkg3+v4yyuSpWiQ8FrvlIzasIdlKgVTnhQnYjPH1bFjKqy3pWoQ5Na20GqKLx9OvjFG8sHwhkLDAZgYnozptd86shgzFtKckAda+6dWEaTec0mqDtS3dIdRJc9x0SQq8iX4T70fVvfLDU5/iAaXTm/NYAl+uyQH8XPCF85Ypgg0/2L82SXVQzrpVaFT7ZyXu0AU3DGmqS5n4v5Bqwmez51v9HBaYOQxoL7y9sjPAHgSsguMR/uP/Dh47v17qiDZiBV7YiBb2N5rQa8tmC5a29TAVEVZ+QcseIYu2eM2zHbhG0v9EsZ/xCX71oasGZoNEGaAvafV1y9Bzl9szuV5u/NNhyr0+yRi81O7SRs4g8+c1fuD/xRzl25087uwXpz5zMKV07bsaA9SGoZ1bqqVT8RpZpC9oD6wt0IZ45+I5E7Vy0ntKHE7969cDa9zoMTwqcPKCyf+ejH8n4jfTcWg/TQIThJgVECjore/9w8CfCSgbY4eq7GiAFxoS23VTajF2kJglY4YrUp7zESvraw==
+     procedure_id : 1388638157493632865
+     type_code : 15
+     code : |1-
+      // Résumé : Génération du fichier PDF
+      // Syntaxe :
+      //[ <Résultat> = ] CréationPDF (<tabIDEnveloppe>)
+      //
+      // Paramètres :
+      //	tabIDEnveloppe : Liste des ID des notes de frais à afficher dans le PDF
+      // Valeur de retour :
+      // 	chaîne UNICODE : // 	Aucune
+      
+      PROCEDURE CréationPDF(tabIDEnveloppe)
+      
+      Sablier(Vrai)
+      
+      //On vérifie qu'il y ait bien des factures dans les notes sélectionnées
+      sListeID est une chaine =  TableauVersChaîne(tabIDEnveloppe)
+      REQ_ComptageNotes.pListeID = sListeID
+      HExécuteRequête(REQ_ComptageNotes)
+      SI REQ_ComptageNotes.NbreNotes = 0 ALORS
+      	Info(<§@1f2bf341008deb4f0010§>)
+      	RENVOYER ""
+      FIN
+      
+      sPath est une chaîne = ComplèteRep(fRepDonnées()) + DateDuJour() + "_" + Maintenant() + ".pdf"
+      iDestination(iPDF,sPath)
+      
+      
+      POUR TOUT ELEMENT nID DE tabIDEnveloppe
+      
+      	iEnchaînementAjoute(ETAT_ENVELOPPE,nID)
+      	
+      	//Y a t-il des photos à envoyer à l'impression pour cette facture ?
+      	REQ_JustificatifsNotes.pIDEnveloppe = nID
+      	HExécuteRequête(REQ_JustificatifsNotes)
+      	HLitPremier(REQ_JustificatifsNotes)
+      	si pas HEnDehors(REQ_JustificatifsNotes) ALORS
+      					
+      		selon GetTaillePhotosDéfault()
+      			cas SANS_PHOTO
+      				
+      			cas TAILLE_PETITE
+      				// si taille = PETITE (1/4 A4)
+      				iEnchaînementAjoute(ETAT_JUSTIFICATIF_TaillePetite, nID)
+      				
+      			cas TAILLE_MOYENNE
+      				// si taille = MOYENNE (1/2 A4)
+      				iEnchaînementAjoute(ETAT_JUSTIFICATIF_TailleMoyenne, nID)
+      				
+      			cas TAILLE_GRANDE
+      				// si taille = GRANDE (A4)
+      				// Récupère l'ensemble des notes de frais de cette enveloppe
+      				REQ_JustificatifsNotes.pIDEnveloppe = nID
+      				HExécuteRequête(REQ_JustificatifsNotes)
+      				POUR TOUT REQ_JustificatifsNotes 
+      					
+      					// Détermine la description
+      					sLibNote est une chaine
+      					SI REQ_JustificatifsNotes.Libellé ~= "" ALORS
+      						sLibNote = REQ_JustificatifsNotes.Nom
+      					SINON
+      						sLibNote = REQ_JustificatifsNotes.Nom + " - " + REQ_JustificatifsNotes.Libellé
+      					FIN
+      					
+      					Monimage est une image = dChargeImage(REQ_JustificatifsNotes.Chemin)
+      					SI Monimage..Hauteur > Monimage..Largeur ALORS
+      						iEnchaînementAjoute(ETAT_JUSTIFICATIFPORTRAIT, sLibNote, REQ_JustificatifsNotes.Chemin)
+      					SINON
+      						iEnchaînementAjoute(ETAT_JUSTIFICATIFPAYSAGE, sLibNote, REQ_JustificatifsNotes.Chemin)
+      					FIN
+      				FIN
+      				
+      				
+      				
+      			AUTRE CAS
+      				
+      		FIN
+      	fin
+      	
+      	
+      FIN
+      
+      
+      iEnchaînementImprime()
+      
+      renvoyer sPath
+      
+      fin:
+      Sablier(Faux)
+     type : 458752
+   -
+     name : GetLancementAppli
+     internal_properties : CAAAAAgAAACFaasbzPWShTwEZd7XJSGK+BIK5n0ti3xG/ycgiZ7luNW/kTZPPGeEO3HCipvgCUh2phZCDFF0pTPKpi5vDo7NEjAC9nc9rPhHZP6sreqid2J7DPNrMLuEdctPozhQOOIHjcHugMKTC0ge3UxkvCZmUjd8GBUoCm25U8YVdpk2nMsEtYi7ijXOl25SEWwldzt5G5UIj43ZiMFW13BI1G1B0u92gsfzWAX3jQG+lS7jCJjzm1JopYpcwwYLADcIcg==
+     procedure_id : 1401938653269276050
+     type_code : 15
+     code : |1+
+      // Résumé : Retourne le nombre de lancement de l'appli
+      // Syntaxe :
+      //[ <Résultat> = ] GetLancementAppli ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Type indéterminé : // 	Aucune
+      //
+      PROCEDURE GetLancementAppli()
+      
+      si fFichierExiste(gsFichierLancement) = vrai alors
+      	RENVOYER Val(fChargeTexte(gsFichierLancement))
+      sinon 
+      	renvoyer 0 
+      fin
+     type : 458752
+   -
+     name : SetLancementAppli
+     internal_properties : CAAAAAgAAABt1dH3itKatt5/1UlDCN8VngUnqw7kku2Zz3AZpfxMvkfj4JEbXMfrdz4gxEg0B1Ng8JultfqP00q3Up3vCpjbdUfjGR4TXK119oFJz+oVQLPgJ83vWQGFgOiCpqgBcd8PKLU6iZAyOHZLdwEdA119sGKc+EaGMdZZUmjS5zwvQ+G159biumLZc9kOeiC9hSvuBy7f4TSpf+L6jpr+XoFbibtrNcIJA2PgCCmuyz0ivQ00gjTuvGPk
+     procedure_id : 1401939868745107773
+     type_code : 15
+     code : |1+
+      // Résumé : Enregistre le nombre de lancement de l'appli
+      // Syntaxe :
+      //SetLancementAppli (<nNbreLancement> est entier)
+      //
+      // Paramètres :
+      //	nNbreLancement (entier) : Nbre de lancement de l'appli effectué
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE SetLancementAppli(LOCAL nNbreLancement est un entier)
+      
+      fSauveTexte(gsFichierLancement,nNbreLancement)
+      
+     type : 458752
+   -
+     name : FaireDonnerAvis
+     internal_properties : CAAAAAgAAAByrmbP5RuGGdhhGXwYETJz7J+ItvHj6rsU34mprnCn3OCiM2QjOFFHCG3XVIMgoC7SMa1qOD476xGNxW5INSbGg0BsIw2NLYpcHSHYdN+kZr6U850nr4SFCuxAyi1kVAmVDCmsYuSQsdIAMJddV3inLTW2SPyu5bNPkjJRxyxVjQelsd2KjX5tiM9D49yRU1GwBNWfyHKEX4T1KisUYdbg3F7vkebDCvwje2YuKDaXQCJ1acwWcngKpbMysk8/Da3eIxBRGNxGWLZlrWztBtwFDIlYFVBrXNppQ61kPQIIdo+zWbmHBrbpd1hXc0huv2DSu6XN1EWVpex95TKlFsD+Q6RmIrCu6Q==
+     procedure_id : 1401944116467900143
+     type_code : 15
+     code : |1+
+      // Résumé : Procédure qui gère la demande d'avis pour l'application
+      // Syntaxe :
+      //FaireDonnerAvis ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      PROCEDURE FaireDonnerAvis()
+      
+      
+      //Incrémente le nombre de lancement de l'application
+      nNbreLancementAppli est un entier = GetLancementAppli()
+      SELON nNbreLancementAppli 
+      	CAS AVIS_DEJA_DONNE,  AVIS_NE_VEUT_PAS_DONNER
+      		
+      	AUTRE CAS
+      		nNbreLancementAppli++
+      		SetLancementAppli(nNbreLancementAppli)
+      		
+      		//Tous les 5 lancements >> on propose à l'utilisateur de donner son avis sur l'application
+      		SI modulo(nNbreLancementAppli, 5) = 0 ALORS
+      			
+      			//1 : Donner mon avis
+      			//2 : Plus tard
+      			//3 : Non merci
+      			SELON Dialogue(<§?1374AC3E00E26643§>)
+      				// Donner mon avis
+      				CAS 1
+      					AppliOuvreFiche(<§@1f2bf341008deb4f0011§>)	
+      					SetLancementAppli(AVIS_DEJA_DONNE)
+      					
+      				// Plus tard
+      				CAS 2
+      					
+      				// Non merci
+      				CAS 3
+      					SetLancementAppli(AVIS_NE_VEUT_PAS_DONNER)
+      					
+      			FIN
+      			
+      		FIN
+      FIN
+      
+      
+     type : 458752
+   -
+     name : GetDateDefaut
+     internal_properties : CAAAAAgAAACjMfrZRtGir8rSF/6BdbsARKSufMuNN+ocxZHoq3aXXhV1mYgJyD/aFVM4wj1Yv/76ME7c8rkg2130cIp9MnQLqrp6yB31WB65bmiocwYspdKFWEF9JJNC49HVNxZMzmmcJBCfxQPIIEXtHIO7WfHtq/pnfWIZ53qKholQ4cZRA9BzbIF0z3bToFmtxBeS9v665ugFlIritXKJqifXMcx8H67925QAeX58NEhxEN9O1/leDn+Bpo9F4GU6/wsuVA==
+     procedure_id : 1472433162672813943
+     type_code : 15
+     code : |1+
+      // Résumé : Récupère la date par défaut pour la note de frais
+      // Syntaxe :
+      //[ <Résultat> = ] GetDateDefaut ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	chaîne UNICODE : // 	Aucune
+      
+      PROCEDURE GetDateDefaut()
+      
+      // Variable
+      sDate      est une chaine
+      sDate = ChargeParamètre(PARAM_DATE_DEFAUT,DateDuJour())
+      
+      RENVOYER sDate
+      
+     type : 458752
+   -
+     name : SetDateDéfaut
+     internal_properties : CAAAAAgAAAC/+a7lkY1/ojCbAJxBtWJJkkdvnC/YTJk3VUZ03OHJoefKCDz95kUddoXj+gg26wTtGOjoBh5rj2vawfKDTSnJAAQdSCSFHW/N1wOZ4TcDb+BzQTr5TSu/PreGcnEpBWdmkX5rSD56HtDiA1g=
+     procedure_id : 1472433678068943221
+     type_code : 15
+     code : |1+
+      // Résumé : Enregistre la date par défaut des notes de frais
+      PROCEDURE SetDateDéfaut(LOCAL sDate est une chaine = "" ) 
+      
+      si sDate <> "" alors
+      	SauveParamètre(PARAM_DATE_DEFAUT, sDate)
+      sinon
+      	SupprimeParamètre(PARAM_DATE_DEFAUT)
+      fin
+      
+     type : 458752
+   -
+     name : AssocierMotCléCatégorie
+     internal_properties : CAAAAAgAAAC1HKuBgEXrDkX1kcf+2UyNqYgmMhPlITDKvw193Xtu6Hk0TMi8EGsiqVxDVzMllmFD8BtM4XXrqc8YeiWjnJB4RoiO+vGYNSZZ2jQFdZsGrCZTct7oypdsGAreN8XyddUlYkuQ9Hf4ytixXXdPF1gcEbcLDdDa+nm6G3XYG678pFY+yMF6NJn6AbyTLcA/Wpk=
+     procedure_id : 1552904898312903649
+     type_code : 15
+     code : |1+
+      // Résumé : Associe un libellé à une catégorie
+      PROCEDURE AssocierMotCléCatégorie(LOCAL tabMotsClés est un tableau de chaine, LOCAL nIDCategorie est un entier)
+      
+      
+      HLitRecherchePremier(Catégorie,IDCatégorie, nIDCategorie)
+      si htrouve(Catégorie) ALORS
+      	
+      	//Ajout en base
+      	Catégorie.MotsClés = TableauVersChaîne(tabMotsClés)
+      	hmodifie(Catégorie)
+      	
+      	//Ajout en mémoire
+      	gtaCatégories[nIDCategorie] = Catégorie.MotsClés
+      FIN
+     type : 458752
+   -
+     name : ChargeMotsClésCatégories
+     internal_properties : CAAAAAgAAAC/+a7lkY1/ojCbAJxBtWJJkkdvnC/YTJk3VUZ03OHJoefKCDz95kUddoXj+gg26wTtGOjoBh5rj2vawfKDTSnJAAQdSCSFHW/N1wOZ4TcDb+BzQTr5TSu/PreGcnEpBWdmkX5rSD56HtDiA1g=
+     procedure_id : 1552904898312969403
+     type_code : 15
+     code : |1+
+      // Résumé : Charge une fois pour toutes les mots clés des catégories 
+      PROCEDURE ChargeMotsClésCatégories()
+      
+      
+      POUR TOUT Catégorie 
+      	
+      	gtaCatégories[Catégorie.IDCatégorie] = Catégorie.MotsClés
+      	
+      FIN
+     type : 458752
+   -
+     name : RechercherCatégorieSelonLibellé
+     internal_properties : CAAAAAgAAAD+aNX7wmXDgoGomfBqvBbfv0WftHUAxWQG/oOLAv/Vk63v4rFmy6P6iCUiulJUxP3t4ESHlaLJhijtCmASlg/2rM5s3oFvTpWSfqsurBOxG/7aYseQXB9Pz8kWuj6FPfT5kBXVhNVOKUvEqajjxT7Ro4vTPKliCfytgvOAPSRshia2kiykUB2RCJelgIeyDHmLy2yw7Jk/kVtjsfBJRVIx8qbufodJPpCJa+L5
+     procedure_id : 1552904898313035345
+     type_code : 15
+     code : |1-
+      // Résumé : Recherche une catégorie qui pourrait correspondre au libellé
+      PROCEDURE RechercherCatégorieSelonLibellé(LOCAl sLibellé est une chaine)
+      
+      
+      //pour chaque catégorie, on récupère sa liste des mots-clés
+      pour TOUT sListeMotsClés, nIDCatégorie DE gtaCatégories
+      		
+      	//Le libellé peut contenir plusieurs mots 
+      	pour toute chaine sMot de sLibellé separee par " "
+      		
+      		//et on regarde si parmi les mots-clés, on trouve ou non un mot du libellé
+      		//si oui, on prend cette catégorie
+      		nIndice est un entier = chaineoccurrence(sListeMotsClés, sMot, MotComplet+sanscasse)
+      		SI nIndice > 0 ALORS
+      			RENVOYER nIDCatégorie
+      		FIN
+      		
+      	fin
+      	
+      FIN
+      
+      renvoyer -1
+     type : 458752
+   -
+     name : GetDeviseDéfaut
+     internal_properties : CAAAAAgAAACDSc2cml2EDiOzg92Mg/QTsxPCB11gLeBaH739TUtOWEk0vEjcQFtCCazDJzMFpqHjABtccZWr+T94SkWTrDCIlgi+2rFoJSZRwnzNPROelK7rivbQ0n9UEPKmXy1qzV1N+sMonF/gEvCZxd93b7DEuU+j5ZgCguHyHzafBxSdFzGRpezN7ap/9K6fOQtyrG8=
+     procedure_id : 1554416774060544266
+     type_code : 15
+     code : |1-
+      // Résumé : Renvoie l'ID de la devise par défaut que l'on doit proposé
+      PROCEDURE GetDeviseDéfaut()
+      
+      //Par défaut, c'est la devise de référence, 
+      //mais ça peut aussi être la dernière devise saisie par l'utilisateur
+      
+      nIDDevise est un entier 
+      nIDDevise = ChargeParamètre(PARAM_DEVISE_DEFAUT, pGestionValeurs.gnIDDeviseReference)
+      
+      
+      renvoyer nIDDevise
+     type : 458752
+   -
+     name : SetDeviseDéfaut
+     internal_properties : CAAAAAgAAAC/+a7lkY1/ojCbAJxBtWJJkkdvnC/YTJk3VUZ03OHJoefKCDz95kUddoXj+gg26wTtGOjoBh5rj2vawfKDTSnJAAQdSCSFHW/N1wOZ4TcDb+BzQTr5TSu/PreGcnEpBWdmkX5rSD56HtDiA1g=
+     procedure_id : 1554418225770117957
+     type_code : 15
+     code : |1+
+      // Résumé : Enregistre la devise par défaut des factures
+      PROCEDURE SetDeviseDéfaut(LOCAL nIDDevise est un entier = -1 ) 
+      
+      si nIDDevise <> -1 alors
+      	SauveParamètre(PARAM_DEVISE_DEFAUT, nIDDevise)
+      sinon
+      	SupprimeParamètre(PARAM_Devise_DEFAUT)
+      fin
+      
+     type : 458752
+   -
+     name : SetCollaborateursDéfaut
+     internal_properties : CAAAAAgAAAC/+a7lkY1/ojCbAJxBtWJJkkdvnC/YTJk3VUZ03OHJoefKCDz95kUddoXj+gg26wTtGOjoBh5rj2vawfKDTSnJAAQdSCSFHW/N1wOZ4TcDb+BzQTr5TSu/PreGcnEpBWdmkX5rSD56HtDiA1g=
+     procedure_id : 1601182735980732171
+     type_code : 15
+     code : |1+
+      // Résumé : Enregistre les collaborateurs par défaut des factures
+      PROCEDURE SetCollaborateursDéfaut(LOCAL tabCollaborateurs est un tableau d'entiers) 
+      
+      si tabCollaborateurs..occurrence > 0 alors
+      	sListeCollaborateurs est une chaine = TableauVersChaîne(tabCollaborateurs)
+      	SauveParamètre(PARAM_COLLABORATEURS_DEFAUT, sListeCollaborateurs)
+      sinon
+      	SupprimeParamètre(PARAM_COLLABORATEURS_DEFAUT)
+      fin
+      
+      
+     type : 458752
+   -
+     name : GetCollaborateursDéfaut
+     internal_properties : CAAAAAgAAAC/+a7lkY1/ojCbAJxBtWJJkkdvnC/YTJk3VUZ03OHJoefKCDz95kUddoXj+gg26wTtGOjoBh5rj2vawfKDTSnJAAQdSCSFHW/N1wOZ4TcDb+BzQTr5TSu/PreGcnEpBWdmkX5rSD56HtDiA1g=
+     procedure_id : 1601184879188130633
+     type_code : 15
+     code : |1-
+      // Résumé : Renvoie les collaborateurs par défaut
+      PROCEDURE GetCollaborateursDéfaut()
+      
+      
+      tabCollabo est un tableau d'entiers
+      sListeCollaborateurs est une chaine = ChargeParamètre(PARAM_COLLABORATEURS_DEFAUT)
+      
+      si sListeCollaborateurs <> "" alors
+      	ChaîneVersTableau(sListeCollaborateurs,tabCollabo)
+      sinon
+      	SI pGestionValeurs.gnIDMonProfil <> CS_AUCUNE_VALEUR ALORS
+      		Ajoute(tabCollabo, pGestionValeurs.gnIDMonProfil)
+      	FIN
+      fin
+      
+      renvoyer tabCollabo
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x1f2bf341008deb4f
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : Valeur du mois incorrecte
+      en-GB : Incorrect value for the month
+     index : 0
+   -
+     text :
+      fr-FR : Janvier
+      en-GB : January
+     index : 1
+   -
+     text :
+      fr-FR : Février
+      en-GB : February
+     index : 2
+   -
+     text :
+      fr-FR : Mars
+      en-GB : March
+     index : 3
+   -
+     text :
+      fr-FR : Avril
+      en-GB : April
+     index : 4
+   -
+     text :
+      fr-FR : Mai
+      en-GB : May
+     index : 5
+   -
+     text :
+      fr-FR : Juin
+      en-GB : June
+     index : 6
+   -
+     text :
+      fr-FR : Juillet
+      en-GB : July
+     index : 7
+   -
+     text :
+      fr-FR : Août
+      en-GB : August
+     index : 8
+   -
+     text :
+      fr-FR : Septembre
+      en-GB : September
+     index : 9
+   -
+     text :
+      fr-FR : Octobre
+      en-GB : October
+     index : 10
+   -
+     text :
+      fr-FR : Novembre
+      en-GB : November
+     index : 11
+   -
+     text :
+      fr-FR : Décembre
+      en-GB : December
+     index : 12
+   -
+     text :
+      fr-FR : Divers
+      en-GB : Various
+     index : 13
+   -
+     text :
+      fr-FR : Enveloppe par défaut
+      en-GB : Default envelope
+     index : 14
+   -
+     text :
+      fr-FR : Devise introuvable
+      en-GB : Currency not found
+     index : 15
+   -
+     text :
+      fr-FR : Pas de facture dans les notes sélectionnées.
+      en-GB : No invoice in the selected expense accounts.
+     index : 16
+   -
+     text :
+      fr-FR : "527599856"
+      en-GB : "535511775"
+     index : 17
+ dialogs :
+  -
+    identifier : 0x1374ac3e00e26643
+    internal_properties : CAAAAAgAAAC+i0hMMDJm5R4V6c7p2EGW2j6X28xnS4tRVRoPhFBwUXoF5bTs2AVSjrR/D86gWYPS9ULx53cDTNGm5BAbthoyVqR2+0EPV5Y=
+    label :
+     fr-FR : "Cette application vous rend bien des services ? Vous la trouvez sympa ?\r\nDîtes-le !"
+     en-GB : "This application is useful to you? You find it nice and cool?\r\nExpress yourself!"
+    image : {}
+    cancel_button : 2
+    buttons :
+     -
+       label :
+        fr-FR : Donner mon avis
+        en-GB : Give my opinion
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : Plus tard
+        en-GB : Later
+       image : {}
+       value : 2
+     -
+       label :
+        fr-FR : Non merci
+        en-GB : No thanks
+       image : {}
+       value : 3
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

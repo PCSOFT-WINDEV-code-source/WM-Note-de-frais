@@ -1,0 +1,412 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_DeviseEdition
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_DeviseEdition
+ identifier : 0x2f2bed2f23cf35a7
+ internal_properties : CAAAAAgAAAAyUtSI8qibDaRvP+s/+wT9UB4PjPm0SuS2xnE3DMn/FLEOsgmr2B0GCQOnw7yPZehSW/bwfsGzQ7hDyCVx8Yz6gSKSJ/x1mP6E6MAXKjJkIlZSTn+6Yj0CYq3yv8sukTsZlh7B0LiAzfIGHrprD34v7N2GyGGcJXSf4mzurxNQlyinYlxN2yMyEaPrqMOCvEKEflFISlQoakyFiErnBPRg8pe2+5+KtRyzVvWGIot0ghJyoXS4F4KFbcztjTKB122ePiw0rNQ2Zzt5GI3DCKNszjTfieQ3Ya0d2zE2xijaUOWmeJp9pN7khZNUBMvp1Dv7msA7dklfcrw+RmlaXlFzUfUA/xU5KWpmYWvi9O6GhgDC5koj8O9duik2I2atJpbDjpk6sUf3b901uUxih8He6taL1vzWKbWjEisOpJCEHGclmwHK6aKYk4AsOzw3RUgPXepmibzcMPxMi9/l9dUt41Y9sJaFnwX5gPgKR24NWtssIV5vsmhgT5+6cx64YRVoP54ZbMi0YsFZWhN5+3aBU+o8G7+ZMS6SND5c8HTPWnB93BHUUKEwhpjxjL286BEPwI1XCN/EFpdcjQR4s9yMufJ2ywRssjqrihnwfaZwIGL4t41x4l7GpZ0Tqhf5GnpXctT69K+sAvcOCCsa3deUpfCEavFXjSexPhW3xlwp15oj+qdPoBWvG07BJxhETx4vzuDfe2A0vRqOHJl2/cLjSKoSyDr5dn/ffsPe233htsFlPmbhrqGHQ3deRLas8TjWOpXU2m81oxu/SbpNVE7S+0eGilAI4+FYHawycnBQGGwFsAQi3rPXMrkNq1ZxzCNtG6GYC4aCnU8Xoeqw2Y4hsl++5xW4CxKonTQnXUdSKLvhy3vyIa5Z6lIuMT2eyMpa6oPh97hTqyL3qCo+bo+3s77J8d6hAvdDtDu4Ybe+rpy876BTvfn/0igFs4p0ljJLKSMYzsDNoy2mk/iXu7c2edUYw5nIAeXXxxBlqFTW+P0cN3DCwcLXk8N6qSJzI1QPaCqgmKyLPGDedOpJffYfrRRNwx/5iN9dELoV8B8GJsPGQLmFofL3Up2Pnf2fLxUfQOBUcSIMcBo=
+ properties :
+  width : 320
+  height : 416
+  heightMin : 489
+ controls :
+  -
+    name : SAI_DEVISE_NOM
+    identifier : 0x2f2bed2f23d435a7
+    internal_properties : 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
+    properties :
+     x : 9
+     y : 41
+     width : 300
+     height : 38
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : LIB_DESCRIPTION
+    identifier : 0x2f2bed2f23d535b6
+    internal_properties : CAAAAAgAAADrKwa0bSqEayZenW99ZrkobZTpFT16501sV+n65sJyIbeGhiH9dWDzkiAYxstVmC1qAUW2Rl3b2kXDkGPZUM/bCRsMEstTib/ynA3/3kM/HUSGCHx/QeMZdktb98B6zIuJU2u/6M4TKr7BPrhAxKT9XnSzloS7vuT/lmPWKCr24DQywe6loCjiSvSK0+ymPfPua4ZtxV4SWNZHABjoNeUKTdJ63QYJID1TfRQpM85eVwJt/U4tLjUB3tmEubwgr1r+Scc4rUr06Kkg4BC1yIzlYzM2A8ZbQtUoRSpLs/MKw4gVT1poFLsL7RxBMIb9nhb5VU9E+pprtbZOrsucjK7LIwQCkWu0+9JqbhrJ92jX0YbyhULQpTtB+9iDvhE6cTZTO53mY6b21nUPVyVdfTiqCo96dJOvEThKTrdNZnNYPc5ERx9aRjN/brIhG2dWgWSehhHKRtCpcUChJBGiw057gv0QlfkbgUIrWmEgY/IjjmOP+gZWlcyTJrWQKLkkIZEjj0hbl7TrymCMiWYVcNhFPV7ZqjEdOyF4HFV4GdJ849SbTvVpK3Ue99ucqUYVqC2P09oExyKhirQH5kIbA/5azGiQyoOXfqHR5gisC27fJyN0vprZIutuX4QRx5H8QJ10Si03fusZCJoigvGuCcnyEmktvdGsPIxrNK1P4IQ42PvtF3hdQeUrgjL8i8gBF6nVP27Vql6pdqEndJcuDQQm88mzm4IXtNDc+CMjD9ppiOCM2uo29B4jG8wv4px0XhQI5p6UzpCmpcuRyn3dlzgtiFsVIpEHc/1Qez/Sm58bOVxlXlSLt/A=
+    properties :
+     x : 9
+     y : 20
+     width : 300
+     height : 22
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : SAI_DEVISE_SYMBOLE
+    identifier : 0x2f2bed6724120fde
+    internal_properties : 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
+    properties :
+     x : 9
+     y : 118
+     width : 300
+     height : 37
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : LIB_SYMBOLE
+    identifier : 0x2f2bed6724140fee
+    internal_properties : CAAAAAgAAADrFT+65ItptxVGV0Wy70UGHOYGru4oFPclNDMtst8gMTxuXc3qzYepeXqA+XccR7FarKw9nEpi8WrMV1vAo+lukXxTKG4RdLTUGA6JjHvzkPYwyYRcGXoNer1GYoGbb2RPJUofAt6kufxAG4D5oi7pwmjn22r9KjhYJDa3b2tnyOFl3SxKnUiLPpr5W9PgNbo4tGXfgLxU781ayPo89apWEslrt3zDftuVBzFOduqobDwMDBKxUBB2yCqf+9bxup1JxTdwkWELkiDAtifvqO5kHhwB2pT3Pdy4j76NE2vUkDWpDyP7HTib/mSNgTRNoeVhUJ8LGJ79lYt2o956R0qe2uvp6DM3sNY4EhLHTm7sE3yDsEYrIS60bqMPDxX/iLluL33JeYRxyswz+i4BslemspO3aCUVE3XpmJZjKxVADBaMm9dJm43gJBn1coa6CiEzRUL060UrYKLLR6PrA6E5rawUrCUoygYaT6eerCQK6yR8+f5aWtrMJAAQ+i0SbrMSBGxcx+qqrTfAhSWkDwziFbkIEo7eqg6ceHPXpEKospejqI+1l3mdEVC+q6CEJ6VNUSFCmFt1jxS1X70rSAcuqrTTal99uWaHrymDDoC4491hckipXUV9XZsXVJoFbowyKFOr+QEOQqk430mdWJj0H4FjAwicXVdVP8v3i4FSED6LfhSM3MYDup4tmB0HA0fEE/cOIHu2Vf6vmiH9B79ExaWIkodme15C5GpKdzwVXQdI4FiXSXSwluFPR3VbpY9QJi5Z11OITd8e8IY05agauMmFoGhbZtJ9M36As5Gm2v56
+    properties :
+     x : 9
+     y : 97
+     width : 300
+     height : 22
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : INT_REFERENCE
+    identifier : 0x2f3a91fc16c0851a
+    internal_properties : CAAAAAgAAAA/jJJqnuw4loGkQnnLUOKaDGmoJ4ambzkH1Xw/y5nZfCTBdSagnFn1jKkpGGFml6XIP/vZ/CfRX+VqvAnm8JnT0qtG3MlwazNw6ETRC95JU8NUDBhcA/55laCq5ATz1M/kSUUVpxF/UNAUcMpSaYdyUavVpfR6ZZjSNj7qHo4dS73+Lqh8XYQKwujZuf/EhtWV5VVWEJx+MqTtcaKpunyoiFu+PHs+O3ugh/lrynqv0XtR/nfqE6KtrAft6DUXUw8lIHuNzityzMbeBxJ54HR9mjAE07+J9hieCGWPdqzqQ0R+E2pv1fA2Krae03sw4PpCTqiYUeYaAtJyq+Cw3mxmur3xHu0BDj7A5xxBFyUCF9KsqNUW5L+8bc2csNIXyzp493riOuhQWgH7nD9LWRPBd1QFu5rsn81HlcepWzs4xbuY9ZVpWzhfihWeIMVptCryk0Mdy04OPCymjmDnZUDyEYAzdYhu9uSXCu3Msu7J0lVzef9cg3qjaFvPS9EXALoNuGedCfJimwt/wo51DIgTwU+M67GsGiuK6nwP/rvyclOr21y2WltAa7K37Lzy+YSgiYpAyUCUy8exmp4avbYGR1/rPHFtQGG9DGJ9OJQDWtW/8Wqqwgxz2VR8CYDOyM/RND+CDtEgw5duoaQVuKWfNXtWw9ewpcVBsPT3pjBhfigs58NQ6rQ1Svm/DmyCqrX7MUPG9x6KS+e/mdH+k85yrjLNjAO+iKrN9GhFP7fy62mstj3megaEYRfAslQgeZ8ZvwGxVlZrDIPNheYswjV0dZuMxjjYQF/fRO75dFqUaJsDVM1LyLDeVjOcF0FMDTeu8E7p8EM/3c87m51Aif/z0IEkn9xXbZxtR0FootQ5C+bTEgxQXn2RHSKeb/sv+xL+SIbv8p4C8sm6qnuq+UTbz5m/3pCKlq6y8dVA5xOYIyeUeW2OyrhsHdxpIcrOmL5JIEIxDQtT/DFrE8LXce2hkoWDMntqyUqdaRrfAmDnI3sBnET5Hp3uzhW1ZpBWoj/qUOfE2FbGMcpQAturdRdDIAQkPV/V7Z8gDWwlbUJuQDMGjZVCpatFv5y1KlrGXRKHJJV68hK4V1bXD4rt2wqciXQV10X8GR2h9ovQXryAOXQHhYRfiVs7Z2nmagBrv2N6eZZ6pvl21PwR/5xc0JTrOHztVlR4Qg1hiaJBgZHMZxTbbtnZYcnfQT78xdV4eh2LaTvRrXD7dMVSCJ15fBMSgvedeYbSd1ySTEhKM0yvjqY7RAC3g3Adj4iCZgJDOqEjYuyGgI61RgjmhOO+lfI/hpTFTlE9W6qGuqoyPdojh8wuGDVh84d7L7faNx1tMlkSc2tOPbvRvCgcv0c/RTXh5rMUKWHTQG8Lur1Ez81JzOg4Oi1De7EdSkutS/8ezO8EpPn9N5UAjSpSazVeMrqFI1CjQTY344TqfrydL4FQVHmtw04C18R93t45YANeIsK1syenLIupwu4kvEwWIUhakHGaWv5wM3Q5fP25JXhaf/d6OuFtSpRS7lULg0FRcGtEeiZfyamgUAVnTyA3G7APZUSnkHbdRrnW/p6ntgdsj6z0WiTfe9E9AEyPOAC7HgF88UCyqCd4qfnAFE/Iqp5e5cnI1/5dIuFXL68kbvmwvn/4KLuN2cyE3kezbQjwaqSBq53+ZfHiCOK5zDos0ju1NU3AWOhsxcUp/wEs2KSXXjnZ1FJtn38yy4X49b3MghC6U/XCrHtgxhfR6OszCqcJvU/qg0AvTOUlVTm3DjkHMezZDUZ2zpdw/vzRHaxp9ivMMNINCpqjzsOV4DuCye6USpnIDnVpXp6JLI2mfxSWbBuct5FgOiB/srZuhJeeJiuwxj7lO33OJctRlTr9ulU+7ippxFnk7HXOLEYJPYkULi8=
+    properties :
+     x : 9
+     y : 183
+     width : 300
+     height : 37
+    options :
+     -
+       internal_properties : CAAAAAgAAAD3J/7cQuKo5QsG0lwgvKkiIc/OpvSc5xTbuXN9pHhhoJmh79ud1I6JVq2dPhvaW+YyLDsRjK9eD5QXctJO1RpdbNm3o55NZ2EpPPuaF4tpLLDBUHjD+ViFlzeiJlqD/5q4Bsf9PczFjvU3duXSNpC+KdlTg9RHDFTpn8ajvv+o9GbRThoB2XG6d1IBD5rDiyc31tY16BUE8Sk0lCAXBu7HKr0FhguJTexFVUes2/Y4oP4xGrWDlNgDNRoSCNW5/aiNrstvRgcV9MNiYnkgF5di8w==
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes :
+      -
+        code : |1-
+         
+        type : 17
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x231dee9d2dafaa0c
+  internal_properties : CAAAAAgAAAARtmkqJHUid7FdHORCZHaUDTc8WyPCp86lGzz4e5WwMXfGhglgFDv1/j/rAJ4qlrEz+Qs07DArrBtvpmFevGilaSNIu2VbJDq9DpfRL1qK2pZPjkNdlMDUhn4oZaWZaYCpHRCWPEMbszdbhP8MNH3EEG39sERkVJcb7jVSTO/ShAK/VW9IXzm8BmWUbfA5EpvRrG5PlCtvJPwZ0xlIdTeUaI/QvkHhoWNrNkHueBMT5ZVahbfFlhXnRwffbFgSqcl8UWe4idFuFgwobSB2ULJQdSWa79g4b7sDHTEtob9eY3WIraNd6wvisvNAFg6Q3U45oaKWRC6p+buL3V3rNhl6xZQbjwm4X/LXN1j4ieD7iEfw68b/yUn630ta5IM7FxK54aFMrE0xh6KTwnopY3G9RHVsVwbM63fzMoU6scNzQaGJThrEo55JvCRbDfvku8EOrSMZPOj/YMFCaao7MG+k+E4oTqwI7b83hLJWTGPXSk1xrA7UPONKj7JSrrdDnE0A3dt0P01zzsVlTQrFzMYVfym/jKqWR5TTew==
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2a2505a900438be8
+  internal_properties : CAAAAAgAAAAHht6W6CUWQzfdHq1OPyt5wYdyoqOtyQDvf1RaeJ/IoRYVgon6N/KdIWx6dZFgCHXUOVtEAR7H6XOZ0x+r2VqhiPONZ8NrMVYZYlm5z73xZfWM7RWyDB/iTZ4jcUyfoM4Ke3OJjgdGO3QVlGQ4OZtZ/AHKIhYZI+MUElL2H5Z4ZgTJKa8T720MsqPXrWyJIHh4Q2Q7pQFdoqvpZESeyK69RUJDl3Xg4w9HesPi8ippIgwbe7LzZsSiQV6zhNpMW8P+Ft8rdQ5FAsDH7O8jOppsBbaC0fJnGcUv353gV0TEhU07gurUw3Jp80yjbVqnzxmpU3MiYWF1ZX40ftg/4AsnAtCLu9fgxz1igVOE4qJeRWBxhSgjP9cj4OysLlYuMWj2911TLRL1ZnykvveTdbrh6+rptRB/u7a3hKcDRs1W6zlcDoKHJhWCTvBjzsyy6gdjWHPzpfhjR2Y5OpmoFh0fcXCrv6MI91L4LkaxTAJo
+  options :
+   -
+     name : OPT_OK
+     identifier : 0x231deeab2dc5e1ed
+     internal_properties : CAAAAAgAAADUS7KAhhP/xiq50FQv22DojamryH5SVSG2Lhuh7JQv6SBCtw+xIGfsafVkFc/vNLn4a/ZS6x19Tp6Qapc5JGdphbL0Z4Jv0+vZdi6Sr8hXvzveSWWQW8JF8F3S/WoS6Ujy+6QR+c/1BPmYHq5dhzH3MCl/CvdLhEy0PIeyZwGapbXYhMWfZfFgk+VjDqM71lWwHZLdMvB+mAYE12yWgw2RC9nn8VzzM9XS0WkK4essQ1Ef5HQnclJDkF7bI7fdrtxTSXaxRfo5byT2YIwjHilaUArRQqzx1OG/32VDWC8yPPGmNq7KO9urE2PsdmN13/JKLf94ZV0WI1C2F0CSn2l+2Hrr6+PmZK6gH/jSlw2gFFzHtE9oHkcHYYk0s0+RXh2TJMIq2qAKx7eOen/oJh5/AZeYPUBtZuE/1Rdr1/9izn0nqKoNZ6eDTDwmEZe23ckK8YQfOyPweknWCG/C4yHqawSk4wLJv+AyJzABi/rV4AKEvEKFkEiBv0rxqF+9EjD6HDFzCUWmkNzdVQ==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          
+          
+          SI deviseValide() ALORS
+          	deviseEnregistre()
+          FIN
+          
+          
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - fr-FR
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAlD2PyQnsJyq2aria4zswmQ9mT/GuLXcaGFGyzlbjR/DMssxxvozFH7OLIsi2OE6pSeXt4WicTML9MC6CSGUnZXqDNki47mD4EY5oMKEx3nF2K5IidZYseJVh5Yg==
+ code_elements :
+  internal_properties : CAAAAAgAAAD6/c0tBl5Fzb2NpSCbxdnsVST5pc+rMXi+MT1lx+K4u+jvGiXm+lK52DkW3oh7HEervP0I3alSdNmFS6fAcz+9uCaFfg==
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE FEN_DeviseEdition(gnIDDevise est un entier = -1)
+      
+      GLOBALES
+      
+      	gbValeurOriginal est un booléen = faux
+      	
+      mafenêtre..ValeurRenvoyée = gnIDDevise
+      ClavierVisible(vrai)
+   -
+     code : |1-
+      
+      Si gnIDDevise <> -1 ALORS
+      	deviseAffiche(gnIDDevise)
+      SINOn
+      	deviseRAZ()
+      FIN
+      
+      
+      gbValeurOriginal = INT_REFERENCE
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : deviseRAZ
+     internal_properties : CAAAAAgAAAA1shCPZDv2H19ICWf7R6GY7ApJ641U0r6jWiQqAq6qwHPSiS9+wNZwYlQR8Yk8pNvCKOOa6fordHUrN1atzGoFJfrYjgUaEIpPiFHf2eEwuq8jnA44+sB5BT+MJHoQQr9h9hswZq5RWmJLmmRNpuw1YrDOUsMCDD474IMBM4dkn9vrM85BagktoRvvB2hgRD/cIUR9ODRySfTe1i6DZFd8DAKolNpKI2S1c7UTPrFUcjeaLXVKUQ==
+     procedure_id : 2250516159708579611
+     type_code : 14
+     code : |1-
+      // Résumé : RAZ la fenêtre pour une nouvelle devise
+      // Syntaxe :
+      // deviseRAZ ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE deviseRAZ()
+      
+      SAI_DEVISE_NOM      = ""
+      SAI_DEVISE_SYMBOLE  = ""
+      INT_REFERENCE       = Faux
+     type : 458752
+   -
+     name : deviseAffiche
+     internal_properties : CAAAAAgAAAAfiEPNxFd685MM6a1CnTce10sN30EAJmrHDhjeXjqJRCX0U3WqqiqkdD5txaUmQNMsmhFsnWzz5NuJW1pBrhL966iCLPmM9G6tzsXP6f+gOmUR0pDgOCxZJ/lgcSlj0waMmTzXdbmE/8Gq2UEANblAbau3YbYRE7eijxKqAtJNzh5mMOkoRazeEIJGkHN/gfo39BU8L/cNUdzO9gZD3IckJBrIrGWOC1wRFIgcl3wJtcQf3Edgew==
+     procedure_id : 2250516245607946201
+     type_code : 14
+     code : |1-
+      // Résumé : Affiche une devise particulière
+      // Syntaxe :
+      //deviseAffiche (<nIDDevise>)
+      //
+      // Paramètres :
+      // 	nIDDevise : ID Devise
+      // Valeur de retour :
+      // 	Aucune
+      
+      PROCEDURE deviseAffiche(LOCAL nIDDevise)
+      
+      // Se positionne sur la devise
+      HLitRecherchePremier(Devise, IDDevise, nIDDevise)
+      SI HTrouve(Devise) ALORS
+      
+      	FichierVersEcran(FEN_DeviseEdition,Devise)
+      	
+      SINOn
+      	Erreur(<§$0004§>)
+      	Ferme()	
+      FIN
+     type : 458752
+   -
+     name : deviseValide
+     internal_properties : CAAAAAgAAABhHkJrbIVihYwkBd6nxSH6KGKahg0Na8wmz1ewac512JV/kaavrBckazFiCstAaTjmtgZCvBH0FXOaVp6P/h5tMhDCxrfNvBg3hJ4M/YpiZ9ILnDObENu0dbvfk5hAiEp/dTkWOIpb82B2lZTcRE4Oyp/UQO0Q0pXRKz4dDqF+JEPs7XCT0n3Wr8Yq+QStn+MRQ40QZ9UhsDnObxiA3HWJCpfuSl+bAO2vRXkGzRZr0PC7EzqgzbJEOz4D6HjsFg==
+     procedure_id : 2250517130371283870
+     type_code : 14
+     code : |1-
+      // Résumé : Vérifie la saisie
+      // Syntaxe :
+      //[ <Résultat> = ] deviseValide ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	booléen : // 	Aucune
+      //
+      PROCEDURE deviseValide()
+      
+      SI SAI_DEVISE_NOM ~= "" ALORS
+      	Erreur(<§$0000§>)
+      	RENVOYER Faux
+      FIN
+      
+      SI SAI_DEVISE_SYMBOLE ~= "" ALORS
+      	Erreur(<§$0001§>)
+      	RENVOYER Faux
+      FIN
+      
+      
+      Si gbValeurOriginal = Vrai ET INT_REFERENCE = Faux ALORS
+      	Erreur(<§$0005§>)
+      	RENVOYER faux
+      FIN
+      
+      RENVOYER Vrai
+     type : 458752
+   -
+     name : deviseEnregistre
+     internal_properties : CAAAAAgAAACi2sL6aZW8ZwOpMmx/zAQl2bRShUZ8/J4VbsBvkXzgyoMKh9hcWGfMtbXPmzgum6WvIyZkkIAwCHb8WQ1BZnGtuCfAGGW7eKigVbNZahs/pbSeCnwPgsoM7TRYazR4covN8Zl3vcePoWloMmbnjoUjdVQJ35BFNLDETXn4g7me7WdsMlvN6IJE2CHpmbrOQHPVPjEqXgc0rZ6nyJiTO5K5wShMNNEVOXRPSQLnNSr3ZHD5/DUnjkG2sLoIkCT/xTuoLk2v+yu6LyoRVmhTkycIzlzI8hBdyu4FyTvM6nS3e3sj4EoH6WXBOhUb4TczGV2How==
+     procedure_id : 2250517190500904919
+     type_code : 14
+     code : |1+
+      // Résumé : Enregistre la devise courante
+      // Syntaxe :
+      // deviseEnregistre ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE deviseEnregistre()
+      
+      // Edition ou ajout ?
+      Si gnIDDevise <> -1 ALORS
+      	HLitRecherchePremier(Devise,IDDevise,gnIDDevise)
+      	SI HTrouve(Devise) = Faux ALORS
+      		Erreur(<§$0003§>)
+      		Ferme()
+      	FIN
+      SINOn
+      	HRAZ(Devise)
+      FIN
+      
+      // Sauvegarde la nouvelle devise
+      EcranVersFichier(FEN_DeviseEdition,Devise)
+      
+      // Devise de référence ? On force à 1
+      SI Devise.Reference = Vrai ALORS Devise.TauxConversion = 1
+      
+      Si gnIDDevise <> -1 ALORS
+      	HModifie(Devise)
+      SINON
+      	HAjoute(Devise)
+      FIN
+      
+      // Sauvegarde l'ID de la devise
+      gnIDDevise = Devise.IDDevise
+      
+      // Nouvelle référence ?
+      SI Devise.Reference = Vrai ALORS
+      	// Il faut enlever la précédente référence
+      	POUR TOUT Devise 
+      		SI Devise.IDDevise <> gnIDDevise ET Devise.Reference = Vrai ALORS
+      			Devise.Reference = Faux
+      			HMOdifie(Devise)	
+      		FIN
+      	FIN
+      	
+      	pGestionValeurs.gnIDDeviseReference = gnIDDevise
+      	pGestionValeurs.gsNomDeviseReference      = SAI_DEVISE_NOM
+      	pgestionvaleurs.gsSymboleDeviseReference  = SAI_DEVISE_SYMBOLE
+      FIN
+      
+      
+      mafenêtre..ValeurRenvoyée = gnIDDevise
+      ferme()
+      
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1f2bed2f005635b6
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      fr-FR : La devise doit avoir un nom
+      en-GB : The currency must have a name
+     index : 0
+   -
+     text :
+      fr-FR : La devise doit avoir un symbole
+      en-GB : The currency must have a symbol
+     index : 1
+   -
+     text :
+      fr-FR : Le taux doit être plus grand que 0
+      en-GB : The rate must be greater than 0
+     index : 2
+   -
+     text :
+      fr-FR : Devise introuvable
+      en-GB : Currency not found
+     index : 3
+   -
+     text :
+      fr-FR : Devise introuvable
+      en-GB : Currency not found
+     index : 4
+   -
+     text :
+      fr-FR : "Si vous souhaitez que cette devise ne soit plus la devise de référence, il vous faut d'abord en sélectionner une nouvelle"
+      en-GB : "If you do not want this currency to be the reference currency anymore, you must select a new one first"
+     index : 5
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

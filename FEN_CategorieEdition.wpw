@@ -1,0 +1,412 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_CategorieEdition
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_CategorieEdition
+ identifier : 0x2f2be0cd1652d6a5
+ internal_properties : CAAAAAgAAACei3z4SSqd3thr8qADmCVrsSSppFpyeojmGCWiWCzEo88ekn//lA/7ouqF9L9COPwmWZDnfSMHwH4ZeWIhDF/swXjMDHj4tVyQvo3N0lXW6uKA9rUZh5SlNPfq6omcqcpM7n3BZPGo0iXcxoZ3tAx2qurhAHi+LdP9PVNmflA4BtxoGvEkkJAmF8p2OVcBui1sD5w/5SJbqy2JZezvXgOBrgn++afUjUkVQT9SXhp3SlKyBpD6K3mnnJXVtUPhp4Tef5reXfxrTKbN2qsIQ8t7yRC5kLnrh/rVgnFPptkbiX0yu4YrZ/wjkY1wXVHX3TG9Z2Bx8amE1BPtzoLyUmvpG3qYWS7eiqitq88j0a0LvH3aFHuGhety2255UBpc0UvVObDUJ6nNfUcKt5ZGVIpmggdfg04HFFJZktQuLrKoWR0xT+cn3IT2hS5utNWsWL3QNQKUergmZrniCxmDWzhCNCMNWTf7hHpwa7Jn5Yr0FMLydZ67mNtPITd0xD8tB52NA4L58WonSkBvFXE5OgSOuyzxGGM97NuKP7ispYylt/Q5AlXpmjVtASjEDmOM0dpIEJo3Q5tSldx4aLg4XcXRXITbhXPuQqeO9jY+R5KNlYNIUkEo6ljbpsUI0pN3uz22jEO69y3U2YbSjQ3AHSTFrG4dHpInawackrirNtZKKJnJaQfcmPj5C+cXJZiakTfV1Z7moXYhLCPugU0GPaBuGTeJRT+Gpk6RLQvl/mirNJO3ufA18P8pDiE3DOK6IiHvic1FNW4/+IouQEV7CuUHMR3DOADqo2Kq8G+H6MJDwSrdHYl2DOSyeJmMTQPJ46S+PeoLwXzG71PMKVrk4dWN6P+3420n+Xjt0FM1F0TBoocpIzM9DYahlolHjKfOzgh9j1yZKyQhI3SgFx7GUxaUvQES8ap0C58Tn47tc1eh7Emzg9GkP8/OPuoKAz6WhGmGj9/Lxo/02k2XTqw39QojgHr/keBW7La4Cuu9CW1Lk3424wVi/BThD8npy0YlqgZz26Qm1wj3ZsD3pflW98mLFU/WdSdEXc7qoCe2BgvSxApr2jbH9o/8cFxYRJlUIblwMiz3ENdUPxYoqf4chZZr7xeA9Tpvl5Y=
+ properties :
+  width : 320
+  height : 254
+  heightMin : 327
+ controls :
+  -
+    name : SAI_CATEGORIE_NOM
+    identifier : 0x2f2be14a173bbcbf
+    internal_properties : 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
+    properties :
+     x : 9
+     y : 41
+     width : 300
+     height : 38
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : LIB_DESCRIPTION
+    identifier : 0x2f2be1591742f6a3
+    internal_properties : CAAAAAgAAACN98HC13Rgc/OOi9rQNrDJqWykjeE8siTleRvYAbZFeoQ+mWET98Fns7b6NfxRns8uy/1dn5SmfAMJgv/kAaAJSZlma9EMD/moW5rhFwPo5UheH77mF7szNl47shs7WJ8euu9atps0nj68iFWsp3U7CxQKkkKlDGZhqFlUq+CXk1CFzUYrIBMfakpa3wLJ5IldCmN7FUsMV9Pu2+zbyWJl9fNCPFHNk9iv/uvE1zuuH5Nmlq04aj3kzmIgOWryR1FVzi6v4uOZXd8HY6jBtTArpIqGpXavtEKM8B1+HCt8UTaRCwToAwpb+tEGoGjCBZBcbMa9kKrHAMgmFyfdo8r/HPLy0nyu9JZNLejJNSFfshVHwWcC1idHnIVrHI2iq8xlmjsK6RnJkSMsJNwPLb9yzVLGJQyNQVEuU4Zzn4VGfhWOZloieCGW5FOMYawMZX9HzKL17Pz9SJyc1ZNvaxzQFa+3pk0nypCYYHpp/dOw/WDJdAa0X1kcg6auAm4p5Lyc+RFqyLkS2UrK3VT+EbIdSzCQow872vE+K56tMAYOWqe4WvEnGTeNJ1rfDvFDMgLXK9H90WM7q5hmxpz0ryaIB6B1TdJLn/rlQL8Eud0hG4VQxkkWgIhiRsBuZizfQkr0xRABHSsFmMIRb29knEu3HtBnpuUB8Pa6Ob4BBqfMeAd37uvjZSxghJ+U+6L+eNg22tAZHyNfkzCS9OvhNE9ANWZyuEZHvjxlXP0Gqy0Lqew+1vnHSWcrEWbX0I/ZVqr/tcYDFoCnwuk3nEwOq+HRPc2WUvF+FEPjlmFQsUEqpQ4xQlOGwHi0lQBRSg==
+    properties :
+     x : 9
+     y : 16
+     width : 300
+     height : 22
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_AJOUT_MotClé
+    identifier : 0x264214e7a6f98160
+    internal_properties : CAAAAAgAAABNRqwaI02JVsq6iMZ06LSuXwEpPCSf7dS98tfaUcoagJh2VjURN4gccSJML6hyi+DU7NQIeIsUCb8pPvNmzW0OjXWOeRszQ0Iu9huOyRZfdZqkBoCpGbvp3YG5XRvdPZ2e9V2S0/fO+Rf+C7SFCNUDYHO/GVPo1Z48rjhnBXMkqBxCzyqrAv2chh/zMvqDQfjuOh7FrBNHq1Ng7IonhzgKvqGgLpob2PKK2sxQFnVlqtAa6gE/JTaeFlnwrCPjKiGqCebwvCR7Av17nCX1ZsJOHDZY5dhVHQB9hHbtQtUjdQO3cRNP0LRzOx0AWIkt3Ic4Wi6Ljd3D8UEI4BMh2l5hpic90H3KHnIlm0GZ7gKQyUbtKfUc7C+i5uwqo0G5gW4TYwA+cFYrr6H5E4Ll717MPN8qXY1kXvkJha5gR8q7eWJwBc33AMAuTpB9dypHBrTm1QkvqFTdA6pM6cM6OYWKwYm/DHDpK1PAjYod/eGdo2X1ZCBcWgTQxJNfX1PivqPL0L4va1QnR4YGgRS+xHIxrCWDifxDAJ5ubpRKSMXFVaQ/yneJv6AiFi1Zmz0LqdxWpmXzPLABf92NfXjluIAlldRFNuYzBmubMrwALkmV8Pe06jW9OFRsIn4CekG0dbXKp6upLYyOAcIdKQJMwu8HmT6iXFpdWbsDcoRnduC3oRuVnxIIS3XpauN3FXsPJd+M7cC+tj+3yFxF7+1d2wTflNCfSDqwOsISVgqaC7FH22F3Ls2ixbs3XrQVwyd7P3WOvl7iI/MtCIq5n/ByqW3o7ixlRA1FuiMTkupVFT+vAsR+SLXr2wjXESjN3Us6fGzt6UhBSPbuxTV7bKWWvuYEcaxbwczHEVfuuZ71eUKrAhYBECCyQH6enbRK3TCbjEDzs9wKax6EXo60FjoPkxnII3JeoDhPnFRJAf6bwYHVnCM3eDE9uDMm9BkyEv5c3+Xw3NtWBbG3GRAGSHllcqKXLEi1dxLrU7WQOptKSQfEzd1IPSXM/ftPTfLR/uhkIyNip/hICCkc8iYZl9xPzWk8ccebmzMnhUMutlIIBZ/ZEkq0VyCX/5yeVg5Xbg8KFGO1zRYvWaB6jzc/SoqWplErARkYVmjdbbNgFHEDXOsoImtmLhfD+udsYOVJm7OzHe8v1l279vkedZ+CPvy0TxBM4XuVHs0HDfc/46sY8PaUyPonaXRZSrqc3jDQdSCwe0/H6Xmgrp5iH0eG7ebAzh9wPtl5ltYf4tlKwwKU8e8PqcJnsqCaefAG1h/t+AWcs1rNMqkqQ2gg4xggDb9wdA355dSaJrmiNto7bHG/+E3ut95VbJ5XEWELgu9U5Vq66hm/QmvwcvOeVAAyYussJRhPoY8V6gWIzNS17kPSMbJ2gWVF8Qr8ya2uPWe0DF8t08JPanzeag==
+    properties :
+     x : 270
+     y : 150
+     width : 32
+     height : 32
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAAB5u2ynjyyF1pHqBwikr95fOYt+TLY39xPx2NP+yAUJQXvuoEC9Wh3hMol/tpQqcxyJfEj05qptkekYQ7SJVyN/Ft7vEoIvLyEzLR0rFxHFDbyG/8b7YqEQw+Owy8ggoEsaBtqg3y2IXBKkRR4=
+        code : |1+
+         nIndice est un entier = ZoneRépétéeCherche(ATT_MotClé,SAI_NouveauMotClé)
+         
+         si nIndice > 0 alors
+         	toastaffiche("Mot-Clé déjà associé à cette catégorie")
+         	SAI_NouveauMotClé = ""
+         	retour
+         sinon
+         	ZoneRépétéeAjouteLigne(zr_MotsClés, SAI_NouveauMotClé)
+         	SAI_NouveauMotClé = ""
+         FIN
+         
+         SI ZR_MotsClés..Occurrence > 0 ALORS
+         	ZR_MotsClés..Visible = vrai
+         FIN
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : SAI_NouveauMotClé
+    identifier : 0x264214aca4549896
+    internal_properties : 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
+    properties :
+     x : 9
+     y : 147
+     width : 256
+     height : 38
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : LIB_DESCRIPTION1
+    identifier : 0x2642026b87dc4a7f
+    internal_properties : CAAAAAgAAACELf3UTn0Ywci19SXm4U3aqSUAOwwiwFW98E8SkG7O09mbgm6pEhKIwshUS3o0jhJ8XtB671ZixpOvZ4zplQqeRV2oATBzTX92qq2s6T0CBhxYr8owrsNOZrV5aVtIepzWLrZr8xHywmJa49rHQfY/lJTN+/TrGlxQafS/pX9leHG4+tyRG5i8TaL19muJ/fgKDxHZKgCOKorYvPFO4VQDRpv6Z3fM+4sJkXZvGusqiU1zNwSEENTEqiinnp1wC7/tTw2GteuibN4qnY7cjtxLI3b8Fa+8Cx4Vdkw7F7DjNA7xVG8xl3nxlpVJGs47tnY8O4HzSg/a3hdl46B6zt6pIejR1OqLINsVjEafM0/+PQM9OrsDLrvV0YxE6OOlsMLviOPhg232oFs+YnIspG4y3bQdXByhaXPJH51gij6hg0XJiyEIs+l7EtphbsBpnJAvKDP0cKwA5s2eXl8wU1wXppgGlJL96mrn7335HOQ0BvHb+dcJFhKVKXnPBO974NgLL7BIn1jz5mEqPp37pP5GlJ00te5XBVZ10EVewGcWER9daXD8vxRB6gOCgaBRUGyZpKokTqqb6nicAUg1jScECKV4bi2oSJ4ptmixmSM3SyGrHftA7SfS0ChtycjtwVrWi7dWOK5CfnufSm/N/uh2yXNKRUjB/ntQeOsM95yhA+AfLiTjOpgbV5hUMlumlR0p6oZGYlM7EIcjic9iwBHTJWUGcTCXInbhVdXJOYARnz3TGsSH6smIBreCNABZjr5ZRM4VDATD2jaLNO0AvwU6qg/z7mc6Ca5mwODXSWPdZPmlg59ZlU4zmUg1K3Fvef5TlRnSpw/039Zz5iVPkShf27Q+EyzF7cht5VcFzqU+up0zhC2iP18oCuV9
+    properties :
+     x : 9
+     y : 81
+     width : 300
+     height : 65
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : ZR_MotsClés
+    identifier : 0x2644b5cfc6fa337e
+    internal_properties : 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
+    properties :
+     x : 9
+     y : 186
+     width : 300
+     height : 69
+    controls :
+     -
+       name : LIB_Mot_clé
+       identifier : 0x2644b633c771b81a
+       internal_properties : CAAAAAgAAADUHzBMSw2lV0nXlPhrFzc1hmsc/hgpyTAEu9OpQMjoKtyUs7SROxmfsTGgMNCyqoiYZZTv8chg9lfdsiUGOA6aV1DVNyYw+K6TzoFxJ1lMqr1gZo+Jz+9tdP+WDMBl4Soo6X+Ffhhsa2mM7coOVZ1hHfPO3rDRwJHsrGdK5s0LHOdMQKBfsaMkX1eHPPTa07hO2YMIFoXj1xjKfnU8mqZAhMZZrz3tiBc12CA2Sw916OG3M3f0mMBz7GZzSkCmZzodePiNO30gFK9FPFIOKC9Z3Vsvff0Xk/WDOuFE62oHjL+wtKUQtDQWzaC4UdaJ+mB1Fqg9Rjpor7ALdsf6VuqTKkNsRWhhi80heIiibwN7PwB+R/SxUdxI4pIi4cThXEk/MdhRplfl0aSqnvvBj3uHPMwZP9ubMpQOBopaFdYJ8JVNCOCl6DRGeBmA9z8WneCxLhgowjDzcfM+maoRRYhBvr9NcZ6hWHd2WSNz412DlH1pCAHFOtNrgyg18XGb6iXROg/xnQm2NNeCnqCeLuRXsEvq9MW7gpwsBWnO4V/6z8GdKrKiIMEmbmYYJb/B2QAtXuaJAOFYzeRcghM/djQpsNesVqw376LJxnjgVnujLeDJ6LvXpciP6Eowl4SB5UfFnxemFWyXACZQEgyi4OW0v0LqJfsTjNMdpb1Ps2uvN/XuxoHdOvcuxwrbuzegmhfS0Hhoy8revR2d8wp2sBz6sUTXASdeQepdE+ZKOPVAEMPdQVvkzsg+HybjAb/AWC76Lwl0nOLYM61rG4Hk9uWj7/CqljBJMCn9br6iBWT7OA==
+       properties :
+        x : 14
+        y : 9
+        width : 270
+        height : 22
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+    columns :
+     -
+       name : ATT_MotClé
+       identifier : 0x2644b616c7494617
+       internal_properties : CAAAAAgAAABPj4TlIxcqh8deIMckExIXKydWT0UoJN5Xpt8V1ZcM7R1SA7z6UIPL7zWYIoxNvxFCfQdxxfUCZul3nG6kWmlPpJwV6qNcssdg9JuibrLHwT5Q3uakde3kSFuvHa2wnvJ/vps+it7up+BIZvaRvxRLY1ATagCgiLlI0uxrXWiWTZG7Vtbyeu5f9RZ78rihf4MfHEBQ7/ChDJACozH2i9KwZT/SSzIVHEKFYFAk6FDL2jHK9/HsF+EBRJdvPRft+q6TcsfAR1OU
+       type : 3
+       content :
+        identifier : 0x2543da7b392eaf90
+        internal_properties : CAAAAAgAAADIEYpQfUimeLzzNy/mKFsGMq1zJgbJmcY9uDYGNsFzBLq50HOMD+W5y19k2FdI7yI/kbK5EIZc094bungP7I5n/r72TwLBp7PqcOBKvsQaQ7ZJzJtDbTI7Wd5J/RsS63Q049cp+nBSaB3dFjH9FRyyWWrZSdgLnRD7IkSRBa5jqk8lkGgn4Zha61aCuuHFv0+JagBWxC55PfSfRLRVHMRBHQfwI8I8BmOI+lCijhweNdWm8SSZTEJarbJMfUBYTo6vPI33QDN2XsUi43jB3gr/y3s1fV8QfDNKCLlKSpS6a8jdqhSz6ogQ2kYwDas1H0R7ukyg+RX2i37VNPcT
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        code : |1+
+         SI ZR_MotsClés..Occurrence = 0 ALORS
+         	ZR_MotsClés..Visible = Faux
+         FIN
+        type : 223
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x231de9902684ef55
+  internal_properties : CAAAAAgAAACbHiEnxVw8EF4jf6JwTQZe1IyZsnYbkkyfQEIDgUj8xXGRNhsiczB6Lw3nvlYVHsxu+oY6Y5KMFZ0lB6Gl15opmOGPa00Hrdu/G/5Yj3LuYTV3eQcQFGKrLzi5fzk2jnFdNqQnKBjkSKqpZQjKM9kXtUrZ3msKjMlrOEkjn7nsiT3gQyAqR1YRaxP52OceiBwU8PDTxKbMSPGhZE39tGfe3tTzYdjpouLKKrV0h+pX46RbHX66xNfXifhH7i9EO3NAqU3KUfTzqhR4AMdY1F8RcX136HbNvYQNEHWAnOVQIZlY3/EdC6m4UGU2mL7AvUIN9xrWovh/3w2R9cUBQPfg9Ub3+/eKr4Ln+UZaMUiz3NdkGp+JvszDIBrmxvdZWsxNcQ4t+g9K3bbFTbNdEVernniOMrvX9ofZ7sIM58CpMtWXHyyMwnboZvhkFFB8uw5ljTvfhevzMRBP/dmnsVfGbENX//OPBqR3Gt78OAdvrIrV3GCDqI6XeVKmtkM23MUgPVGDAFzE0JJHf3hGiOXNDxfAQrpFt08YipPwicYzO+QGG1AB/SvWJU+UlOv1olOu3lrMhA8dODHp
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      code : |1+
+       ferme()
+      type : 18
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2a2505a900438be8
+  internal_properties : CAAAAAgAAAAHht6W6CUWQzfdHq1OPyt5wYdyoqOtyQDvf1RaeJ/IoRYVgon6N/KdIWx6dZFgCHXUOVtEAR7H6XOZ0x+r2VqhiPONZ8NrMVYZYlm5z73xZfWM7RWyDB/iTZ4jcUyfoM4Ke3OJjgdGO3QVlGQ4OZtZ/AHKIhYZI+MUElL2H5Z4ZgTJKa8T720MsqPXrWyJIHh4Q2Q7pQFdoqvpZESeyK69RUJDl3Xg4w9HesPi8ippIgwbe7LzZsSiQV6zhNpMW8P+Ft8rdQ5FAsDH7O8jOppsBbaC0fJnGcUv353gV0TEhU07gurUw3Jp80yjbVqnzxmpU3MiYWF1ZX40ftg/4AsnAtCLu9fgxz1igVOE4qJeRWBxhSgjP9cj4OysLlYuMWj2911TLRL1ZnykvveTdbrh6+rptRB/u7a3hKcDRs1W6zlcDoKHJhWCTvBjzsyy6gdjWHPzpfhjR2Y5OpmoFh0fcXCrv6MI91L4LkaxTAJo
+  options :
+   -
+     name : OPT_OK
+     identifier : 0x231de99d268523ec
+     internal_properties : CAAAAAgAAAC9/FHDyAcnRfLQZu29EY4BtWjK3Am6w/nbFtWsarb1YRnurING244HiHoxDUIVTAKgEFnVoP4byjweFufK7zeC9SyS1e6LiTtxFGSghK2LCJwiG+tKOgV7ZACIC5/Scl5c9Xe7uPp/K6aPgZZM8V8qlpqBWUcv423K+4H50r7l7EswxTlu2nFfTtu50kh5OnmFurodMBkpHB1KdY+gsEqBdOmIJLHHYzf3nJaQbsHnGaqBRMmqj9BGJbrvyIPHbEUOLYR5L3qz0EEXCxPUyaLmuBxBtXFxJbNbbOqlXgkkXQ/LHXwVAsb3JVA8h5DD4dwF83sqLVyNBCN6JAyuk6ykIy2kM9vSm2OeFzXuDivS6Sdt6P+c/rmX8Ta1lhIcMa6hr2cGQYyRrvdcDQO7NAD3nrpLPsGfbXcE48sY1+/Ma5fikx+vJMSpJQpvcj8Fz175YRUTCIxmkam9Wxmjtg0K7LhxUgl0H9CtvNLcFzZBanSX2RT/KJBwnv6DO2N43p0MUDsuLUycrQ==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         internal_properties : CAAAAAgAAAArHkI0NynrkhWLUeOP+25nXXXczfEeNzyZ7PV1EslwUev7VRLmK5hShImq/LzO9QZ0NmZhiyo5MXb49hOuxRHrDb3zmVrCSAzDynHwJlMgbjqN3xUV0vZiZGdqHDYa4nF7ljd9nOufKQhjyg1OEPjgZCSokexWlgtjKYPOmn4O59CY8n5fX5ekb99NcOptzqPlnKrOr8lWfE+8D45EeQkzXAI3QgPhN1tKlEanKYGrin78aGYkTeUC0tkpHvCERknuABw=
+         code : |1+
+          
+          
+          // Saisie correcte ?
+          SI SAI_CATEGORIE_NOM ~= "" ALORS
+          	Erreur(<§$0000§>)
+          	RETOUR
+          FIN
+          
+          //on est dans le cas de l'ajout d'une nouvelle catégorie
+          si gnIDCatégorie = CS_AUCUNE_VALEUR alors
+          	
+          	// La catégorie n'existe-t-elle pas déjà ?
+          	SELON Nation()
+          		CAS nationFrançais:
+          			HLitRecherchePremier(Catégorie,Nom,SAI_CATEGORIE_NOM)
+          			SI HTrouve(Catégorie) ALORS
+          				Erreur(<§$0001§>)
+          				RETOUR
+          			FIN
+          			
+          		AUTRE CAS:
+          			HLitRecherchePremier(Catégorie,NomUS,SAI_CATEGORIE_NOM)
+          			SI HTrouve(Catégorie) ALORS
+          				Erreur(<§$0001§>)
+          				RETOUR
+          			FIN	
+          	FIN
+          	
+          fin
+          
+          SI gnIDCatégorie = CS_AUCUNE_VALEUR ALORS
+          	hraz(catégorie)
+          FIN
+          
+          // Ajoute la catégorie
+          Catégorie.Nom   = SAI_CATEGORIE_NOM
+          Catégorie.NomUS = SAI_CATEGORIE_NOM
+          
+          
+          bRéussi est un booleen 
+          // Ajout ou modif
+          SI gnIDCatégorie = CS_AUCUNE_VALEUR alors
+          	
+          	bRéussi = Hajoute(Catégorie)
+          	
+          sinon
+          	
+          	bRéussi = hmodifie(Catégorie)
+          	
+          fin
+          
+          si bRéussi = vrai alors 
+          	tabListeNouveauxMotsClés est un tableau de chaine
+          	pour TOUTE LIGNE DE ZR_MotsClés
+          		tableauajoute(tabListeNouveauxMotsClés, ZR_MotsClés.ATT_MotClé)
+          	FIN
+          	
+          	AssocierMotCléCatégorie(tabListeNouveauxMotsClés, categorie.IDCatégorie)
+          	
+          	// Sélectionne la nouvelle
+          	mafenêtre..ValeurRenvoyée = Catégorie.IDCatégorie
+          	
+          	// Ferme la fenêtre
+          	Ferme()
+          	
+          SINON
+          	Erreur(HErreurInfo())
+          FIN
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - fr-FR
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAVXzPCUmsZ+p2KvpbIvtz2sykjDLv7bfb2BPwiSPB7bLNsM1yv4/HHrCIIMq2Os4ryWVsY+odzkN/sa8BC8ytqzhC9oh4LaA7Us2p8WDwHLM161JiNdZsuNShJUg==
+ code_elements :
+  internal_properties : CAAAAAgAAAD6/c0tBl5Fzb2NpSCbxdnsVST5pc+rMXi+MT1lx+K4u+jvGiXm+lK52DkW3oh7HEervP0I3alSdNmFS6fAcz+9uCaFfg==
+  type_code : 1
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAABgbPKgXq35xmn+9ZyKmWqHuZwNfy6nUHRzT5Ghxe1cP2k4NBdfpzPpSH6J+zmcxUQJkG99jT4Eg66Pwy4YZbxiqepbRM83GjdEaKOhNoXixHe4wd4umvhC3szI3w28oySv/JhgkJ85GM050Q==
+     code : |1-
+      PROCEDURE FEN_CategorieEdition(gnIDCatégorie est un entier = CS_AUCUNE_VALEUR)
+      
+      
+      //Affichage de la catégorie, si on veut modifier
+      si gnIDCatégorie <> CS_AUCUNE_VALEUR ALORS
+      	
+      	HLitRecherchePremier(Catégorie,IDCatégorie,gnIDCatégorie)
+      	SELON Nation()
+      		CAS nationFrançais:
+      			SAI_CATEGORIE_NOM = Catégorie.Nom
+      			
+      		AUTRE CAS:
+      			SAI_CATEGORIE_NOM = Catégorie.NomUS
+      	FIN
+      	
+      	gsListeMotsClés est une chaine = pOutils.gtaCatégories[Catégorie.IDCatégorie]
+      	pour TOUTE CHAINE sMotClé DE gsListeMotsClés SEPAREE PAR rc
+      		ZoneRépétéeAjoute(ZR_MotsClés, smotclé)
+      	FIN
+      			
+      FIN
+      
+      SI ZR_MotsClés..Occurrence = 0 ALORS
+      	ZR_MotsClés..Visible = Faux
+      FIN
+      
+      MaFenêtre..ValeurRenvoyée = gnIDCatégorie
+      ClavierVisible(Vrai)
+   -
+     code : |1+
+      
+      DonneFocus(SAI_CATEGORIE_NOM)
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1f2be0a200122e17
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      fr-FR : Vous devez saisir un nom
+      en-GB : Enter a name
+     index : 0
+   -
+     text :
+      fr-FR : Cette catégorie existe déjà
+      en-GB : This category already exists
+     index : 1
+   -
+     text :
+      fr-FR : Dans quelle note de frais voulez-vous ajouter cette facture ?
+      en-GB : Into which expense account do you want to add this invoice?
+     index : 2
+   -
+     text :
+      fr-FR : Sélectionnez la
+      en-GB : Select the
+     index : 3
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

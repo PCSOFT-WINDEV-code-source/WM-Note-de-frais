@@ -1,0 +1,280 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_FactureJustificatifs
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_FactureJustificatifs
+ identifier : 0x2331a8e150e19d5f
+ internal_properties : CAAAAAgAAAC0kiOJxuKX179/9w5bC92iWgnjDBzrMlisdhPZZr6tCCszWkhaeqnRMyFdvYahi8uiKhDHV8axT+oZRNHGfSEJz2oiZZm9P5bbkKVEYkimN5auqgtpuanTl95JC/ah0RnVq733utHM+ESgw0qIZw8/KnQI4skN6ulZXjuUmTM3lB0MViAfc9/unhmgeoGq8LwA3rqiplJGwf2GSsv773tALNv54jM2vWOrzwnhLTXGAzaZEk7gtmV14FNSDwclW5v6twJn0XXJrIRqhksoGh2LMavtVUaDe+GTlV8Dvhz3OOxCoIziH4c39IPM0nnIJbWfKfKJ0wuRbaTb2FDjhQauTJWQV0MiZNvwFLHqVSjsE2dqVM9CSbGZVdXuPqb7VgYDZZn8wBK2jLvUNOH34J/wGw3C61G3AOhYWDRQSHVYQ8E+B4Kb50+WmD9LYwjm7LQ0YyM1qA5ldZ9VaOwSWdWh5FS1cU/ieqg28niwV19m3+DK6BKXi9i0jOjM9LfV3xKSSJ1qJU8mVFVMLrzyyhoTGQkyk8sxvn+SuymDVcsHcmVVPfSO7KcZpqZ4ZMBS2in2Q3f3arfrlmhrzXyk7ffffCE/9lNEKnbpUtAGkanj9aeGmyAJQZjmOuSd/bkdz28xRBFpTotXTeQNZHgatlrewsEJym8/Zz8skjHnnAG9bdh3ZeFDQuGpFD6N1GBbfVMjDtyCbwiXX9yZdVt5hV9LqiotE0+SNsjn5mP/dMgKjnbJhl9hLUSEGdfbNY7MSrEfn7j2v8oqw1We6H0cp269fXD1O+54xTiuMZ2Sj+yAo9dFIrvslL7AD4UHLnDqObkluzFSz2PLC+bkTtRcqwHOeVoBqRcUKdd8dpjmXWZ53CUnuseAFv2DmYAy8El3THqvyzSl6mBDL0zY84p3knEEl8zIVCIxvr5STQMnCgNprTWz0SlxTcNlMdpNavLZECnPlLm4ZE5CLLk5uplGBxFUj7Ls5ZSonb/uuSHwbkhhTAqCn9KqJnJ52jOZDG9DH3fken0NPJ09T0A3JjurVJn+QyPrvcLmPw59pZZiJBf+WepvRItRTg==
+ properties :
+  width : 320
+  height : 372
+  heightMin : 445
+ controls :
+  -
+    name : CFI_AffichePhoto
+    identifier : 0x2331a8e150e49d5f
+    internal_properties : CAAAAAgAAABHYlkaoYJfXZTPlvLp5Kt9HHo0BqWbMxjmaE+693wwJyXHOAMCnZ0QaAanPJrTXQuNQRtlVaa8EAh1J9r3q9z5ndqHM3TTyW9+D4fxoX6MBPUSpNHg6ZvRk7WoJqTaCoV+1hsNexofEPg9mmWMO+nv1OyMNZ0rpmsUm1a3655X18JaPPKEVDYQ9iNBP435lMWTH2dL2vWTUCZGe97wRUguw4IfdiRfORfrwAYBnJGaMTyLvB8nIMXoEQQF4/f+DoODvhnH83umuagKFM1BzBAqRGt5POPwFqw+WB2keWvixp9p9OZ251CClu8LfjY41utPsWfqcTA6vP1SfnBZQdfInTRzsTf+t4nIP/SYktQ8hVCyoTTU+wiSfD939hHMyQKATxpqot/n924F/u/PK7n1PbXTsQWTvHHf8RY2aQB3ES+zm/sWBGQcIsS6Z0BRv5jUHden3Ds1zrU+QBVqVzWh4WUYbdy9xcfCGBWvPFOQekn69WK/y93qXn3tqxy4DMycfxEIfOT/LcBoCz6HjiJUCeGKsvWCN5JmijepirK/ZytzsKkuPaQ4y0znwtFLuGRrTbdP9loblexWs3IV1D5qaVWOwZgiBrd0DMuOBvMiICNfqo4FPPgB13fM+zECKXFaqkmmV0ozdEVMLVbDFRtzuqp6UaCwFUpeyW2dohnDXwYPj+ANQkYPtSooawXDZyKll+QK9AM1DPo/M3d3vVliTzQmaxi4qnGW23lD9s+K6it07dSevRhhc7ftFDyNtTt/IthJjCZQYuIR0tqEWguiiYNRqyL95pSJLfW0qpqp/3p3WujJWMH5QkHhzzYBRP64hGx5bOglz+YlkD+KLCTNOXfaXbFiCrrNSMQ=
+    properties :
+     y : 2
+     width : 320
+     height : 368
+    controls : []
+    type : 31
+    code_elements :
+     type_code : 73
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2331a8e150ef9d5f
+  internal_properties : CAAAAAgAAABGIDuELL/V4APovJKhGaS/RNMaDn8eUY2/sBtpkPnGVPwnTMzJo8rmY3HvcZ/fVVn4Ow4qN6nNALaVvQs4r1Auo8ov+QOXbSM7oYFrR9enUBckM2plrS6YlSsrfXIMdDKWv07dqmyS3dLv82REdqD5S/h6sIuNJV8KGEkS2HD9WOcoz80VsQFid3hDMBWEzpLqSv1kxpF3btnMb/54XMqbQsFIklmPj4O0PSBoKc7og1YsDGY3iOnp6/0mnqlDVgg2D//+XSarwnevyXWlY3JDJB+4JTikucg+0+jlmuZpWxaZ1dEu5H+vh8uxzuZTO+vJSoBnM5WIvMX7Rie5Yl44WisJ7w08IwLxHXmTdRfcOhSoPmg7PnXIIk/L1GkM+PpVcd0U5skPTS/vwhSld9An/qEX2drON8Y=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2331a8e150ed9d5f
+  internal_properties : CAAAAAgAAAAHht6W6CUWQzfdHq1OPyt5wYdyoqOtyQDvf1RaeJ/IoRYVgon6N/KdIWx6dZFgCHXUOVtEAR7H6XOZ0x+r2VqhiPONZ8NrMVYZYlm5z73xZfWM7RWyDB/iTZ4jcUyfoM4Ke3OJjgdGO3QVlGQ4OZtZ/AHKIhYZI+MUElL2H5Z4ZgTJKa8T720MsqPXrWyJIHh4Q2Q7pQFdoqvpZESeyK69RUJDl3Xg4w9HesPi8ippIgwbe7LzZsSiQV6zhNpMW8P+Ft8rdQ5FAsDH7O8jOppsBbaC0fJnGcUv353gV0TEhU07gurUw3Jp80yjbVqnzxmpU3MiYWF1ZX40ftg/4AsnAtCLu9fgxz1igVOE4qJeRWBxhSgjP9cj4OysLlYuMWj2911TLRL1ZnykvveTdbrh6+rptRB/u7a3hKcDRs1W6zlcDoKHJhWCTvBjzsyy6gdjWHPzpfhjR2Y5OpmoFh0fcXCrv6MI91L4LkaxTAJo
+  options :
+   -
+     name : OPT_Supprimer
+     identifier : 0x2331a8e150ee9d5f
+     internal_properties : CAAAAAgAAAAY4oi3QtL+x0LthoLsrBbX+5YajLiFCAzF6xC3FbbYbNycGMTal6xP8HGXmv7urT+KqX1XfNH0IpJQ+Na2k7CcfCuP2V/OmkdSkXsnwlo5MvHT8qqbGkAgujlGJEFiZB7fJE/SiAVjjm3k9Ne3P5Fed2uHoWW+zPW/Ax9QA0B9wF592yTzytA7lfuMkwme0J9pF0PV9di5B93EyZu3QteV2tEqw1jxIjPGmIx4/z0T3ll1KMLkWYW7yPErQSLi2DPNEP2CVFRfBJl4C0d6LH3QojJOxE6wA1/m3V9eFZ7vrAOnmjlf/RDtJmEx90PX3mmt5NHOlVwZrm7Ha9RlxxSu9k7A3T0HzoxMJQu9yDX05fBTuxX3YWUFGYhOdPcjhqrzsXllGUxvSen0qKRqodvxebNdbiAyVT1ieXQTDYYyLwabMx2+EnkaS6JxOzax6S0PzOH5rgsIJYrLN/+RJBnGanA5586v1YSif3JxZlqkxP0/5wNmO6gEUU8V4MNZntN71A6vPkKB
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         internal_properties : CAAAAAgAAAAfzMK3Xq4KgoYobV24EtaB+LYtiW4qgps38VQs/FPDrW61rBLK4n1Op0Y/IFu+Cn80nXljtw9bbDjh9QlpuZfM/ha251TmIhv9BUk654iIaO3XGdwhsJn0ZUVwf+3tu91go6sQOfAtTo+Pm+hZ9sHn2UTJ6xgqCyHbp3LweuVyGMZvZMFM2byVc9XfsEPXk8b28/2+1ck/McEAJbxWFlw=
+         code : |1+
+          
+          <COMPILE SI TypeConfiguration=iOS>
+          	
+          	OuvreMenuContextuel(MENU_ConfirmationSuppression)
+          	
+          <sinon>
+          	
+          	//1 : Supprimer
+          	//2 : &Ne pas supprimer
+          	SELON Dialogue(<§?1588375B01304246§>)
+          		// Supprimer
+          		CAS 1
+          			SupprimerPièceJustificative()
+          		// &Ne pas supprimer
+          		CAS 2
+          			
+          			
+          	FIN
+          	
+          <FIN>
+          
+          
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ popup_menus :
+  -
+    name : MENU_ConfirmationSuppression
+    identifier : 0x258c3a0c5f1f0798
+    internal_properties : CAAAAAgAAAB7eigsekRFKtLjI9shn2WeJg56OS7JZ20kP4hXVx0gA+NjURqGVcoQEUTmbgv8Z3QZOPDlvXB1F/8lbLyeX8QDqTr2uej/8gFfTcMaf3RZUsNyacp/E19f6vRzgQxnu6mIjoSOgYvuSgn4F6CSyNeNFfAMgSkamX9tkwjIy86N3DNROd0ufQYZwklYVCWoG0f0zc45U97XTohM3D1A4aZbJoD0MWVKR9Wa37EtLR+/KwuiIEvB6MMZ00pp7qkFWJXcGO4BZkXFKVrVAYaBNEn2jIVmsSL/RnHt5rCP9WpFMwtRWzmR+HnMO+4hVTJedynDbj6YW3/T3vPyr4czueblgeldn8TEPLCBr4gVRy6lOVm6ExkRCl6X2xAzINIXOkRcGKN6jQP4AkTTHPY+ZaaLYygmGNdLaJMfxLoI1CKXd3wzZ5eZeeFHxU9r5ymULIaItt3rS9j13j40vy5PM64WwsXZAj1EzCJ2uwk6CWo6R3J0h0lsmvH52UmQIDdozeXv1lveAl7d7je75eZ0yVAe+vLXLEbmYzBR4WvD0B9Zuh2FQZzHD3dUWAKRGA2/SrBF5f9FLVBOnGcB85+tzsD9Mq87Q4nLSUsFSNPIcKkZzOc60m2k88lGEP8gVMPjQmPhdisHeJPBP8vY7qKO5cEjDso=
+    options :
+     -
+       name : OPT_Supprimer_la_photo
+       identifier : 0x258c3a0c5f2007c7
+       internal_properties : CAAAAAgAAACRfKa6E++760gAaPW7Qq3xmFP/+b9r8ju20mBM5FaBX0LGwCg5NinPMoUFXYR0KQJj6X6XgjMLkD3kEOSm7JHrXH6qPGLIB9JlEvJGuUxKGsyLkgfrZ/oUBCyRCv9tpkE3yA7EZ4eB3pHiF1+S1O8CVHIrlQtOW8BhHiiQdfTEsS6MV3j54fiTpQEzlklknyObJj2nkzj66mrW5o8G6Y3gSu5cw/PQrTOKlsiyHWWNzwL7E246ZkPINJmRjdq8GlZd4qEw58aIKQwyqRKn1A7OMsbs6TYI7jaGt8Utox6vUETAs8kp90QaE/8NhhpPxGp4fjcIWBwxhDB5xIDIDFSG1aQu6YXX606X8+hKeApxFVJGIFexg6RFzFk6FfKafrHbVppH41wrQQoXs9PbdSvWv8Mj5s09SFEPLo88cWTr9E6j8NQmNSVwNtVyG8YCMDVGWCFXwlbCwK6SgDOr1oaoobT0Xsxb78yW53s+eQH5vEk+hC+pbsJR9hyYToGggWnsp6+jWBbjUCGQkgK9sRbzB2Yq2r6VzkcrkxQTFCJYIr9cqGxvIZicsz+vic3vN31UjdGZ0XayeBj25x/5j9BWdUpcMsSIYuvA3ibgP9L/IuBbWEMtBd0f4pGaeIS/dQPdCdMWc1HdpA8aSaWaCB1wgbRl9C+KyK3cyEToc3yOT8bdlGho6XPxyvDf0DFNTKqQHUPYIzqSlw==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            
+            SupprimerPièceJustificative()
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - fr-FR
+  - en-GB
+ message_bar :
+  internal_properties : CAAAAAgAAAALbR3wTEEHCONUlOyW7LoMWf9Fkn05I7RMbvoYO/Z2JJdgY0CHD1G7yMasviFy8UTcl5lezL2ZtonWgT4sbKJgxA6jTGDJKlBqGcAmAmJZgqNQIspfW4UYI0ZXTA==
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE FEN_FactureJustificatifs(LOCAL gtabPhotos est un tableau de stPhoto)
+      
+      GLOBAL
+      	gnIndiceCourant est un entier = 1
+      	
+      	
+      pour i = 1 _à_ gtabPhotos..Occurrence
+      	UnePhoto est un stPhoto = gtabPhotos[i]
+      	FIListeAjoute(CFI_AffichePhoto, FI_VisuJustificatif, UnePhoto.schemin)
+      fin
+      
+      FIListeAffiche(CFI_AffichePhoto,fiDébut)
+      
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+      MaFenêtre..ValeurRenvoyée = gtabPhotos
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : PhotoSupprime
+     internal_properties : CAAAAAgAAADcnNP6g3YzNR/LR2pEyE22VDMEJzBZK9lQEyTHNC3QxdZAcA5lnmjRI2RJ8nEYLpMXg6N/J6dZVL+zWtd0OB1JTq+5M1G4eDlkGcasEJanNd9E17er7GPxyV5vUKdnqjwEmtnU3XlQUSlLaCps/xZMEA9i5ZMjxqfvlYTJ4eAZa6+Ku7VqjawDnHfAriYH55GlbGrmc7zOLJR91rh8v0KC3l0wXbX3+vheGcd2T02krrgNwX1U5RWpAFj/Twe9gC+8leIXrrbe01+L205XDmkTs3LASfpQtw==
+     procedure_id : 1383072244993793375
+     type_code : 14
+     code : |1+
+      // Résumé : Supprime la photo
+      // Syntaxe :
+      //PhotoSupprime (<nIndice>)
+      //
+      // Paramètres :
+      //	nIndice : Chemin vers la photo
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      PROCEDURE PhotoSupprime(LOCAL nIndice)
+      
+      Si nIndice <> -1 ALORS
+      	
+      	stUnePhoto est une stPhoto
+      	stUnePhoto = gtabPhotos[nIndice]
+      	
+      	//S'il s'agit d'une photo déjà stockée dans la base de données => Suppression dans la base de données
+      	si stUnePhoto.nID <> CS_AUCUNE_VALEUR alors
+      		HLitRecherchePremier(Photos,IDPhotos,stUnePhoto.nID)
+      		si HTrouve(Photos) ALORS
+      			//Suppression de la photo sur le disque
+      			fsupprime(Photos.Chemin)
+      			//Puis dans la base de donnée
+      			HSupprime(Photos)
+      		FIN
+      	fin
+      	
+      	//Suppression du tableau 
+      	TableauSupprime(gtabPhotos,nIndice)
+      	
+      	Si gnIndiceCourant = nIndice ALORS
+      		Si gtabPhotos..Occurrence = 0 ALORS
+      			gnIndiceCourant = 0
+      		SINON
+      			Si gnIndiceCourant > gtabPhotos..Occurrence ALORS
+      				gnIndiceCourant = gtabPhotos..Occurrence
+      			FIN
+      			
+      			
+      		FIN	
+      	SINON
+      		SI gnIndiceCourant > 1 ALORS
+      			gnIndiceCourant--
+      			
+      		FIN
+      	FIN
+      	
+      	
+      	
+      FIN
+     type : 458752
+   -
+     name : SupprimerPièceJustificative
+     internal_properties : CAAAAAgAAAC/+a7lkY1/ojCbAJxBtWJJkkdvnC/YTJk3VUZ03OHJoefKCDz95kUddoXj+gg26wTtGOjoBh5rj2vawfKDTSnJAAQdSCSFHW/N1wOZ4TcDb+BzQTr5TSu/PreGcnEpBWdmkX5rSD56HtDiA1g=
+     procedure_id : 1552679855015739133
+     type_code : 14
+     code : |1-
+      // Résumé : Suppression de la pièce justificative en cours d'affichage
+      PROCEDURE SupprimerPièceJustificative()
+      
+      
+      nIndice est un entier = FIListePosition(CFI_AffichePhoto)
+      PhotoSupprime(nIndice)
+      
+      SI gtabPhotos..Occurrence = 0 ALORS
+      	Ferme()
+      SINON
+      	FIListeSupprime(CFI_AffichePhoto, nIndice)
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1f3bcf0803cfefb8
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+ dialogs :
+  -
+    identifier : 0x1588375b01304246
+    internal_properties : CAAAAAgAAACKrdjtzSgEBJKSl7SImtBKolugZV8fR0h1HA/mtnF5xw90oTSrbxiZeqvzjQ5l37D8TxTv43G0HWmPMkl0mxUR9Y5si/zAVRz1R+LnDw==
+    label :
+     fr-FR : "Confirmez-vous la suppression de ce justificatif ? "
+    image : {}
+    cancel_button : 1
+    buttons :
+     -
+       label :
+        fr-FR : Supprimer
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : "&Ne pas supprimer"
+       image : {}
+       value : 2
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

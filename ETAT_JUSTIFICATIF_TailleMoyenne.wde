@@ -1,0 +1,114 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : ETAT_JUSTIFICATIF_TailleMoyenne
+ major_version : 28
+ minor_version : 0
+ type : 3
+ description : ""
+ subtype : 0
+report :
+ identifier : 0x534555d2013c747e
+ internal_properties : CAAAAAgAAACa18XF8TwVDs7PvpuhCfDU/JlAx0/2x03AG5VtJYuImzd4+VT84oXieykAhCOXi5SxU9d8Tn1S90DVckMKkszTM0KKwBUGxwlexoUqoMIUJa0Z9ydDOUjScU67DnHD3N+35LzDBz+Og1jnzinhEuc9kXvKNCBQYSfw4jqiAKh9o+pD14mWS7B16z2W///yHy7cZpzBKPRnk8ogbnBpuLlrKeCs0DMW0rQCJQHSkdVJoCz37ECY+KZJEfoY/N7gCImxVwXrxrqVcgI6lsWHfHnV+J2xaUyZq+mwOFAgOhRFqyfCudsVnoygRPtpgShzBZQGTogi697iET3jyofTYI3nZ4oBK5x0r5GptCe7FCSAw/tGdy0U8BBdsOhbU0cxyxZ4NEMwoqoxjn/UxDA/HKhqjhfu3oQkcHStvJ3Fg2flemT2WKm6ixFveGO/KxBuq5ubbLQHVEfRsHzTJcDYKA19u8I4BIzXCzMpeyla1t2yegFLfDTmbd/HJ4EntYkLBnlKfiyNE6BjSrXgdeuGCPLG1Fucj1sDrFt9vCd2rMuPssZWXTqDPiPu2/5qxHRnjKuBBz13NhDGstTHFMxWy62FEFL2ow1lX8/Wk1lPbKLI9UnUVH24yZweg5V0fEmGvvhm81Quia+Mx4SrL2HCpMeExk2FtQ8znLwnip3XUF+xO4eueBrMAor8Ai6PyuYpCn8Z2DbwKSLvoVm8Ph0M/8yka0CuMp4cP6g1JfDnby1FqFfG4Mqpx195FVsbVWSVOhf6MCd7lZAplYuMTT6YFQokSD3HvjL4gDbhNki3+PBRYMmWXxkLQyD+kaQOXyT4fzAn4Wf40jAlwbKgLRv7mpDJe4g4MsxamK1G2aUMULowrDQ27EbvCzQLYCbMPe9fFgxeVzjCKVTxwf+b8ktbXOn5Cm2T3m2Pw7gmb/jAA2pDJ5rcYEvvhifbKitfkkSDOkOi/wqgV7JHORqJJlyv+NYZqaaZdiGNNKbNgoO73ewo9nV2S/pZZkYX8ohgHP3PHDgY/X6HP5tOhqrRIjEzrC3UiLqi8+v/quJIyhQHseslwaxfEfHfrTIIeUYqz9vRQF8cyFmOpBGgVt8wF9ggp2mePTUkRXsWMlPgehF6MJ0FrxfSPzAhM9ZIKMo8CXGL8WDwf0n0EjiyjgoflL10aNqI60rBB02Gh9/IpCdXRXWYC0wa3RVcXlgQll97adTZmPxuwt+SdKM73K59QTJTyTp7B8v8ocztweyNEkdtkYZhNIFpEErJeT3Lf1gB1lNFmCDET0HJxpmowokeYtV6qeqoOGCBwH966upoCz9f8RGfjUWoBMsJgsdMZQhqr+i1BU/G+8veZLj8/16fQQ66KSNhQbKXYA==
+ languages :
+  - fr-FR
+  - en-GB
+ blocks :
+  -
+    name : DEBUT_DOCUMENT
+    identifier : 0x534555d2013d747e
+    internal_properties : CAAAAAgAAAAc0WEqM6UyEmQ7B2ucYWGw6r/lwde9y0qOPSwvYydZP3sWKbaiU/S75f3l8ImecNCjOCkbWkOKfs9Ao1iFczwghmc1xFq0QV+aZMb4xywL3oA0oeJcc24FKujfohAETc4ZkS3opXUOGZJqJ8S6kTVI4fFgFbENcaCB+LxNE0rvgLQKprZ/Bk1Al3BcJCUecm7NRjXoDbRJf6uGIZvUou/TPWs/P5Xgd+f5+bdpZyDI1EL7Xu4apFbFaSvkbJtN97VV3e7CmItnV+1UXzuOXCji3Ew7wMyzEnEwkZlqPisyi3hbflXE27TdGmvliv+devBSD3kQMo3CDIgML+3954HUmXs9GPmSuwrOvlY/k6rViqS5aj7C4Sbsz0/DHSMMXwcP+qFydR8dD562
+    properties :
+     width : 200.
+     height : 1.007
+     width : 200.
+     height : 1.007
+    code_elements :
+     type_code : 30
+     p_codes :
+      -
+        type : 327697
+        enabled : false
+  -
+    name : CORPS
+    identifier : 0x534555d2013f747e
+    internal_properties : CAAAAAgAAAAqge39zgQQI/+URbNOzx9cd+JCSYRrK5NQ6z3bIitLeYpihXRbobPgul8/JcsZNcg5bf1HxUd8/Ws4otVYLq2jJYcVmwlkHQdRZuisJyjS8hKpEvD/jM5JEoCW2jX/A5LwswtCVa3Ww8xDesS7T3P33421fQWHz9Z4wUZeNqMgd/kAhDy4gYSmAFHbRMm+2BWWi2JfP3JW+N2k7yB5mCU3yqei00e1gfLT+s7lltQc1cnNpBfbTv8rNY4L5fqL5SHg7ggzDTalNuDMOnfWHaniQBU/bX3YwZUxWv8x71QU0Ia7nijEdRtvQGge4WOOn9PAVxwcURmm1XbuKyfvLZTKnqe4kgBdiJ5NDjYikvd89FRwhaGF
+    controls :
+     -
+       name : IMG_Justif
+       identifier : 0x534555d20140747e
+       internal_properties : CAAAAAgAAACAEH3PSgASA+dL5xtbOtgMxoD5JsODsqSHDaGkVn7u6Gf2lCKzUkzZlnLYTCfvI1b9k9r60XMJCqonbfS4Q/fvfYZCmj2q+2GCOaRxCj6vLY9NmmKhEyEiteenPtsHbmMC4lcwu9eg/fBcG7ar4z1IhW0ZAzC3AnXzQXMi2rmTQ5EtdEt6MywJ4N3VWN1HGocBID2R/QfXYEPR3DLi+RwRc/1imoeWZ4/OprucUEeEUdyD/hC7FqK7eQp3hTb2qpLvtfBlMweuXCuBxUP8nBPm2hMdu91RHFaym5eLuBo9uCBY136rzsqXzeOa2L9VuZpw8GKHULT1Gkxn7aPi7ISuaJe0Vs93Xcl94i+kEbEoK5+82dSQZBmid7Fv6pOFbMFNPnLw3bDHQhO/O1O0nR6pJa2qdKulCtmkml3D7zYlvj4NzwJcgrzyiYmaekQRRs41874HcOpR0mmQZGCCJINJGqMYx5CcwK94YK2kTtKKHvGaAoIcy5cg5GnstA5drllUG0PS4/xiISq+kz1apfbmEWu6x0sSbGLd/YhQqIkKkzwV+1ybAhiWw5UnF1H3cSisrGP8o8iYaJkKUugAoTGxk81CMYT20tpakfsf01j8z00QSl/IR4GVKUVOqLmedH0MHYKT/ol5o4mjmd3r9ZeTc7JCxqsY7mLpAGCIjE2YCVUpXzqIopySi6+quf1fDrQoud23MbuGVMnhIIgkclu4ovmat3ou4pPzS6HnEw==
+       properties :
+        y : 10.
+        width : 200.025
+        height : 114.114
+        y : 10.
+        width : 200.025
+        height : 114.114
+       code_elements :
+        type_code : 29
+        p_codes : []
+     -
+       name : RUB_Libellé
+       identifier : 0x534564a901e26b4c
+       internal_properties : CAAAAAgAAAByuHa5Ch2FBM4HaDTp9DFezg3lm4CMPJ+eo5qFBSefp+oLeXhWEqmBNcx+ExflXqe/hxo2rx4loc6zjT8CrOUC3Q7YKnRcbsCw8M7lGPqPGFLZ2NihIvc21zxbQqszn2KypQ0gQxrPhdzLBrgoOyWol8SG6pZVySdE1Xgc5OzxJemP0aRpUy4EO7A37AgnVCTE5ML3kAAis46ub0Me886UMV6loK6SGiPuApQylXVLWDRnmvSShXj80olEb534FXbDUAaO5bLLPHGAmThn0EHCIAcpGyxbK2MlhS97YPYW37Pu6JJDDo31D6sYUnC2s+2kQmOOwHQLS1/zmejysyW0abo3GSodxoAdX+KRNG9t2GmURdjlR3XHXcmTcZHwZjU+gvNsRvqPLAM4DBe+Lw3j8StPD8hWkvt3Emfz1+yYb5Ip1o2DHqddxNQJOudLfaWhvJyuX2fAAXI7vZdwuj7BmnwJogrdx7AaLclqcTTnP/YQE1fHdb7l9Y1UsxpO3btLG3lNLcygX/69PJV+//EoJIA0Em3GJcn7MfBRqdfh7MvOQDjdmEroOW9t+LJOiGyI33xHBaFq5X4btLtbKeur8mBkOR5Hb2pWj7uSXbElkT83yFAIp+Y74pQPwy+qPUNTjVZkPYoo0m3h3c/ev4tNtajUfQd0/Yb3So3QkxeRWXGnNECdxyI2E1BOydIwb+xQwAI3UFx5aOjFBevY32U=
+       properties :
+        width : 200.052
+        height : 8.731
+        width : 200.052
+        height : 8.731
+       code_elements :
+        type_code : 29
+        p_codes :
+         -
+           code : |1+
+            MoiMême = ChaîneConstruit(<§$0000§>, REQ_JustificatifsNotes.Libellé)
+            
+           type : 327692
+    properties :
+     y : 1.007
+     width : 200.
+     height : 127.686
+     y : 1.007
+     width : 200.
+     height : 127.686
+    code_elements :
+     type_code : 30
+     p_codes :
+      -
+        type : 327697
+        enabled : false
+ controls : []
+ code_elements :
+  type_code : 13
+  p_codes :
+   -
+     code : |1+
+      procedure ETAT_JUSTIFICATIF_TailleMoyenne(nIDEnveloppe)
+      
+      
+      
+      REQ_JustificatifsNotes.pIDEnveloppe = nIDEnveloppe
+      
+      HExécuteRequête(REQ_JustificatifsNotes)
+      
+     type : 327680
+   -
+     code : |1-
+      
+     type : 327695
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : ETAT_SansNom1
+resources :
+ string_res :
+  identifier : 0x134555d2024c7568
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : JUSTIFICATIF FACTURE "%1"
+      en-GB : PROOF OF INVOICE "%1"
+     index : 0
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=

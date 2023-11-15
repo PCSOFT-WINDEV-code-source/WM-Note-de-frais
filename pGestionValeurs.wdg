@@ -1,0 +1,1031 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : pGestionValeurs
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1f2beaee004c6686
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAAAvYi+SzGgKrinrSxFdQBPAMw6PgWVELV08sY8p75RiynQOrVTd2WeBs7dyVhKyoBN8BC9lKp++jVqJIfDD7aR7n3SALyPWGT/RT3/IuTfwpV5J9TJBOZ7WoGiDZ+4oCBVQHIWKPhWu/zn1uQiX+yN4R9+ii94oNWaIuS70z+YKGx5P3bzuqYOOJClD4XprheUpcEXc/kBDee2XhjOCcqkpQj32kS2GNJsirHcvG9aQhNg0tOKBb6j5bJ/Ka0nYebxij2J4VxZrasvfRhJI7If0W5xrlk6tHYkfnfV7ArxkY6LtvzkyLWQHNWjdCqHikFzoRp1a+OW1h6Tr3L7Tk/4EKg+0349vEBRKu4krNdaCVSdbrWyYBThHGRTGhlCbhkiiPFJXmvEw5CeUnihPws/K/jY2Sn2Hn4ESXL4J7XgAXe1tWla+HibuhROO+me5QC6zoQse0V/1aDBUfF1BVJa93zKWW+OAy1v7m3QJrxHJ4bnE2Ya5ipAut8q2HlBUGq3oUuXyG5daPjiO3euu16wFs+HfWT3yt0cEbmpdwzZDdGDYJ1nfToz8EHLYcrmGv3VE3moqCkUXvA/BXpo3xUz7jgyn5wwtrPFupM6I2VQCeRR6YHMyitWwYwG51E/reqFg79H+vfgv3qGXJaGHyhQDgXvqN28kq6oT7cpexXqjnznQMfj9OK2oZtlvQP9sCXFWN3U045ve0oB67D7A0Xw1LnVa+gDOY9nGoBsk68GWZc6/GGbNTgLDimNcKoc0NTc0fG3Vcy+S2eU8lOePUirIARTJwIZo0YKY7HFDR3qQTzhq1LxeC7we2cpp7OrKNCQAU+RFzgBBw4BQFbfYsX8pCGNd5edThebmvAIeHCU3wo/JtMzagamKVLFAyKjCYYYrIifE/6SBMTd5yjYg+qL5TvxbA6xtMOj0HETqBM6e6mKCNnjV95qozXdS/ZQEvk5V0YSGPIKLt+womHykzr1VCaHnT2yW32I4VKHi6nZVvewiL8qZIeJuQIo5zkrPxiuVE+OP/SLt2UjITdtl/u7c8mOKmLV/Otam11LNpEWzpYXzYGcX2SAZdISfU9XFnk9TQtdtuiMt3bNTB9INzrrGNY+YrmGO3w038TfGQsfs9drwQAM5LAPik/BySyKdrZqBKg92uCznRIopIt4jE1CeDQ4CoBMCpgtVk2hW7AL+sCKaEHY6/qCzbciqkcwDq8eoQD4p5LlDBv68/Y2BZpomDjTu0VLv/goK3ArPTYdAxxLSuGUYRO2JYTBH5huSuHz1Ia2DRewCdGddmhb45LtMRNZEUyY/kV3x0qI+Xf6nDi14NsiJlhYGTngbDEYaGzLe7/cL9OxkKZeZjvz4lvj7aOm9Bp3bQbxaIWVeGbEaUfUlKw==
+  type_code : 31
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAADicTtDO6Q83FAx9oJEJ0CH+oTbQRNg/EDfymISZRSp6SdFnen75kU7NSbunqrl6bf5f1P1w06LpkEHK4rhDSUNCj1SM4iGW2UaN8Ju5QKLP1RYfCZENxL9opuj0eSC0euHsns71LfrbigHDm1U6KOT35afWUzk687TCwmRBweuMj4fIJbT3vqXD9GqxYPI76IHsFe3fOXYan7jERRE8QUsHSdgaGLp00PF/qTQIx+DqvFWduGNxejaTxwz/uH+jPYAGTb1TI5sEUTDj1cnLvgqNJ9pscudw5/lNq2ozFVxTk+ed4Hn851niSdfd3xdo79e
+     code : |1+
+      
+      CONSTANTE
+      	// Différents statuts
+      	STATUT_A_ENVOYER  = 1
+      	STATUT_EN_ATTENTE = 2
+      	STATUT_REMBOURSEE = 3
+      	STATUT_REFUSEE    = 4
+      	
+      	// Aucune valeur
+      	CS_AUCUNE_VALEUR = 0
+      	
+      	// Tri des notes de frais
+      	TRI_MONTANT = 1
+      	TRI_DATE    = 2
+      	
+      	TRI_CROISSANT   = 3
+      	TRI_DECROISSANT = 4
+      	
+      	// Affichage date
+      	MODE_MOIS = 1
+      	MODE_JOUR = 2
+      
+      	// Mode d'édition
+      	MODE_TVA_UNIQUE     = 1
+      	MODE_TVA_SECONDAIRE = 2
+      	MODE_TROIS_TVA = 3
+      		
+      	// TVA par défaut
+      	TVA_DEFAUT = 20
+      	
+      FIN
+      
+      // Globale
+      gnIDDeviseReference est un entier = CS_AUCUNE_VALEUR
+      gsSymboleDeviseReference  est une chaine
+      gsNomDeviseReference      est une chaine
+      
+      _DetermineDeviseReference()
+      
+      
+      gnIDMonProfil est un entier = CS_AUCUNE_VALEUR
+      gsNomMonProfil est une chaine
+      
+      
+      gsHTMLUneFacture est une chaine = [
+      	<table style="margin-left:10px;">
+      	<tr>
+      	<td width="105px" class="l-11" style="padding:5px;">$$DATE$$ </td>
+      	<td width="270px" class="l-13" style="padding:5px;">$$DESCRIPTION$$</td>
+      	<td width="145px" class="l-9" style="padding:5px;">$$COLLABORATEURS$$</td>
+      	<td width="115px" class="l-11" style="padding:5px;">$$TTC$$</td>
+      	<td width="115px" class="l-11" style="padding:5px;">$$TVA$$</td>
+      	<td width="155px" class="l-13" style="padding:5px;">$$CLIENT$$ </td>
+      	<td width="155px" class="l-11" style="padding:5px;">$$PROJET$$</td>
+      	</tr>
+      	</table>
+      ]
+      
+     type : 720896
+  procedures :
+   -
+     name : EmailConstruit
+     internal_properties : CAAAAAgAAACkibfZkf5H30hZv2KQb7b46MgCgw50pbs4B0WuVDmAKong2sfM10apJqG6OPBbJLIxlag4nsqUzAW6cOn1Lr2SekHO+9rtRy9lHRI6Vdtfghmgny3yBdLMK7J5cLjoa8KD43lTeLCYPmKzvEeMsME/3PqhzsiDv86GwDd0IQpPpA2gR+XL11EVXeUSkfAW2woI+r0ruR5qk+0hMi79Y+gYuJZjtpYOMVvx9UTquRfse6cPP9PrrNF14yVo+QeoC3ncx1Fr5MT3UaxvoFSHacoU6/KcJ9JaktdIanOJzWPmgwzbkw54XF33lVcHr4hZcE0Z1rV+VLgGXagGTQG5giwtN7WA+HTxmf7HoTLoDRb1hS0IB10qpNY3zPAquen4WWhp8lUGjJSZxRsz1+yJCbM=
+     procedure_id : 2247245894296064017
+     type_code : 15
+     code : |1-
+      // Résumé : Transforme une note de frais au format CSV
+      // Syntaxe :
+      //[ <Résultat> = ] EmailConstruit (<tabNoteDeFrais> est tableau)
+      //
+      // Paramètres :
+      //	tabNoteDeFrais (tableau) : Liste des notes de frais à transformer en CSV
+      // Valeur de retour :
+      // 	chaîne UNICODE : // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE EmailConstruit(LOCAL tabNoteDeFrais est un tableau d'entiers)
+      
+      // Variables
+      sContenu   			est une chaîne
+      sLigne     			est une chaîne
+      sDevise    			est une chaîne
+      sCategorie 			est une chaîne
+      sClient    			est une chaîne
+      sProjet    			est une chaîne
+      sCollaborateurs 	est une chaîne
+      sTypePaiement       est une chaine
+      
+      // Ajoute l'entête
+      sContenu += [RC] + <§@1f2beaee004b6686001b§>
+      
+      // Parcours des notes de frais
+      POUR TOUT ELEMENT nIDNoteDeFrais DE tabNoteDeFrais
+      	sCollaborateurs = ""
+      	
+      	// Recherche la note de frais
+      	HLitRecherchePremier(Facture,IDFacture,nIDNoteDeFrais)
+      	SI HTrouve(Facture) ALORS
+      		
+      		// Se positionne sur les informations annexes
+      		HLitRecherchePremier(Devise,IDDevise,Facture.IDDevise)
+      		SI HTrouve(Devise) ALORS sDevise = Devise.Symbole SINON sDevise = <§@1f2beaee004b6686001c§>
+      		
+      		// Catégorie
+      		HLitRecherchePremier(Catégorie,IDCatégorie,Facture.IDCatégorie)
+      		SI HTrouve(Catégorie) ALORS 
+      			SELON Nation()
+      				CAS nationFrançais:	
+      					sCategorie = Catégorie.Nom
+      				CAS nationAnglais:					
+      					sCategorie = Catégorie.NomUS
+      				AUTRE CAS:
+      					sCategorie = Catégorie.NomUS				
+      			FIN
+      		FIN
+      		
+      		// Type de paiement
+      		HLitRecherchePremier(TypePaiement,IDTypePaiement,Facture.IDTypePaiement)
+      		SI HTrouve(TypePaiement) ALORS 
+      			SELON Nation()
+      				CAS nationFrançais:	
+      					sTypePaiement = TypePaiement.Libellé
+      				CAS nationAnglais:					
+      					sTypePaiement = TypePaiement.LibelléUS
+      				AUTRE CAS:
+      					sTypePaiement = TypePaiement.LibelléUS
+      			FIN
+      		FIN
+      		
+      		// Collaborateurs
+      		HLitRecherchePremier(Facture_Collaborateurs,IDFacture,nIDNoteDeFrais)
+      		TANTQUE HTrouve(Facture_Collaborateurs)
+      			HLitRecherche(Collaborateurs,IDCollaborateurs,Facture_Collaborateurs.IDCollaborateurs)
+      			SI HTrouve(Collaborateurs) ALORS
+      				sCollaborateurs += [" - "] + Collaborateurs.Nom
+      			FIN
+      			HLitSuivant(Facture_Collaborateurs)
+      		FIN
+      		
+      		HLitRecherchePremier(Client,IDClient,Facture.IDClient)
+      		SI HTrouve(Client) ALORS sClient = Client.Nom
+      		
+      		HLitRecherchePremier(Projet,IDProjet,Facture.IDProjet)
+      		SI HTrouve(Projet) ALORS sProjet = Projet.Nom
+      		
+      		// Informations
+      		sLigne = Facture.IDFacture
+      		sLigne += ";" + Facture.Libellé
+      		sLigne += ";" + Facture.Montant
+      		sLigne += ";" + sDevise
+      		sLigne += ";" + Facture.MontantTVA1
+      		sLigne += ";" + Facture.MontantTVA2
+      		sLigne += ";" + Facture.MontantTVA3
+      		sLigne += ";" + Facture.TauxTVA1
+      		sLigne += ";" + Facture.TauxTVA2
+      		sLigne += ";" + Facture.TauxTVA3
+      		sLigne += ";" + Facture.Date
+      		sLigne += ";" + sCategorie
+      		sLigne += ";" + sCollaborateurs
+      		sLigne += ";" + sClient
+      		sLigne += ";" + sProjet
+      		sLigne += ";" + RécupèreStatut(Facture.Statut)
+      		sLigne += ";" + sTypePaiement
+      		
+      		sLibelléSpécial est une chaîne
+      		nTypeSpécial est un entier
+      		 GetSpecialSelonCategorie(Facture.IDCatégorie,sLibelléSpécial, nTypeSpécial)
+      		
+      		sLigne += ";" + Sansespace(sLibelléSpécial + " " + Facture.ValeurSpéciale)
+      		
+      		// Ajoute la ligne
+      		sContenu += [RC] + sLigne
+      	SINON
+      		// Erreur
+      		Erreur(ChaîneConstruit(<§@1f2beaee004b6686000c§>, nIDNoteDeFrais))	
+      	FIN
+      	
+      FIN
+      
+      RENVOYER sContenu
+     type : 458752
+   -
+     name : RécupèreStatut
+     internal_properties : CAAAAAgAAADl8Aa72ugFLz+izOkvfJ7uWhKcO3+8Uez2Dh8CqwnEy7lx6w6ubqM5VMOgG5o6opyTdZKbf5CWLacw71GiFIC2yH1W2IwhRvz9ZNaozgzw2QyK31QZ4/JEFUYyvuA6vKfOOmCu27yfPJmm1lO2fSH5myzrNzYdq5y84f5sG9hQEuBLUMeFRdXCo2Xr2m1myWevCFJTebtQZ+ge5eS/GCSA4PEgNlO9JdQhieUV9R8rJmwYEH5N2Ldb8fovU6SIhFx/2NlMJsix3zCMZknObJtE5LJecrY=
+     procedure_id : 2247274034852776350
+     type_code : 15
+     code : |1-
+      // Résumé : Récupère le libellé du statut
+      // Syntaxe :
+      //[ <Résultat> = ] RécupèreStatut (<nValeurStatut>)
+      //
+      // Paramètres :
+      //	nValeurStatut : Valeur du statut
+      // Valeur de retour :
+      // 	chaîne UNICODE : // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE RécupèreStatut(LOCAL nValeurStatut)
+      
+      SELON nValeurStatut
+      	CAS STATUT_A_ENVOYER:
+      		RENVOYER <§@1f2beaee004b66860004§>
+      	CAS STATUT_EN_ATTENTE:
+      		RENVOYER <§@1f2beaee004b66860005§>
+      	CAS STATUT_REMBOURSEE:
+      		RENVOYEr <§@1f2beaee004b66860002§>
+      	CAS STATUT_REFUSEE:
+      		RENVOYER <§@1f2beaee004b66860003§>
+      	AUTRE CAS:
+      		RENVOYER <§@1f2beaee004b66860006§>
+      FIN
+     type : 458752
+   -
+     name : EnveloppeActualisePeriode
+     internal_properties : CAAAAAgAAADvOsSDZ5Js/8183o80RUC4pJqXpEm25AILBCayEj5h4AnwixkCPCq3bewu6Q9BIMq0LDAw68/1RmJxC4+f4me7aZTg7tmeYV2UneGOkoSnPrgJSmxY3dAhntti2aC1uO4qD9CDNJnyk336U7cwoWjPJKf/wpNQ2VlmzsSlejw/CRqz5TCm3N89WGi2JIdtO2MLdKRzqwkqDvg9S/45M9o2RbhQ0+/ANIchOgoWgpPwGUoQkcHcWXd9YwQkpG7BPnb2dr3/PSlOQC1Ns1ohTffKGqMzx+8db+PfNiPEWxHo/A+4Ur9SzZOulfTE3MsSTlKJTclBbqu8z2MJXdjqnwAARt8WTCPNgFmMbI/CZBqrFuZYlxUEaqan
+     procedure_id : 2250285051778547533
+     type_code : 15
+     code : |1-
+      // Résumé : Actualise la période d'une enveloppe
+      // Syntaxe :
+      //EnveloppeActualisePeriode (<nIDEnveloppe>)
+      //
+      // Paramètres :
+      // 	nIDEnveloppe : ID Enveloppe
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE EnveloppeActualisePeriode(LOCAL nIDEnveloppe)
+      
+      //Pour la prochaine facture, quelle date devra t-on proposer par défaut 
+      //Règle établie >> On propose la date du jour
+      //Mais si l'utilisateur a changé la date du jour pour mettre une autre date (plus ancienne en théorie)
+      //c'est qu'il saisit peut être ses notes toutes d'un coup et pas au fur et à mesure
+      //Donc s'il change la date, et que parmi les factures de cette note de frais, il n'y a pas de facture avec une date après
+      //On lui reproposera la même date que cette facture-ci
+      //Il faut donc la mémoriser
+      dDateFacture est une date = Facture.Date
+      bChercherDateParDéfaut est un booleen = faux
+      si dDateFacture = DateDuJour() ALORS
+      	SetDateDéfaut()	
+      sinon
+      	bChercherDateParDéfaut = vrai 
+      FIN
+      
+      // Variable
+      dDateDebut est une Date = "00000000"
+      dDateFin   est une Date = "00000000"
+      
+      // Se positionne sur l'enveloppe
+      HLitRecherchePremier(NoteFrais,IDNoteDeFrais,nIDEnveloppe)
+      SI HTrouve(NoteFrais) ALORS
+      	
+      	// Parcours toutes les notes de frais associées à cette enveloppe
+      	HFiltre(Facture,IDNoteDeFrais,NoteFrais.IDNoteDeFrais)
+      	HLitPremier(Facture,IDNoteDeFrais)
+      	TANTQUE PAS HEnDehors(Facture)
+      		
+      		SI dDateDebut = "00000000" _ET_ dDateFin = "00000000" ALORS 
+      			dDateDebut = Facture.Date
+      			dDateFin   = Facture.Date
+      		SINON
+      			dDateDebut = Min(dDateDebut,Facture.Date)
+      			dDateFin   = Max(dDateFin,Facture.Date)
+      		FIN
+      		
+      		si bChercherDateParDéfaut = vrai alors
+      			si Facture.Date > dDateFacture alors
+      				SetDateDéfaut()
+      				bChercherDateParDéfaut = faux 
+      			FIN
+      		FIN
+      		
+      		HLitSuivant(Facture,IDNoteDeFrais)
+      	FIN
+      	HDésactiveFiltre(Facture)
+      	
+      	// Sauvegarde les nouvelles dates
+      	NoteFrais.DateDebut  = dDateDebut
+      	NoteFrais.DateFin    = dDateFin
+      	NoteFrais.AnnéeDebut = dDateDebut..Année
+      	NoteFrais.MoisDebut  = dDateDebut..Mois
+      	NoteFrais.AnnéeFin   = dDateFin..Année
+      	NoteFrais.MoisFin    = dDateFin..Mois
+      	HModifie(NoteFrais)
+      	
+      FIN
+      
+      SI bChercherDateParDéfaut = Vrai ALORS
+      	SetDateDéfaut(dDateFacture)
+      FIN
+     type : 458752
+   -
+     name : _DetermineDeviseReference
+     internal_properties : CAAAAAgAAAA1shCPZDv2H19ICWf7R6GY7ApJ641U0r6jWiQqAq6qwHPSiS9+wNZwYlQR8Yk8pNvCKOOa6fordHUrN1atzGoFJfrYjgUaEIpPiFHf2eEwuq8jnA44+sB5BT+MJHoQQr9h9hswZq5RWmJLmmRNpuw1YrDOUsMCDD474IMBM4dkn9vrM85BagktoRvvB2hgRD/cIUR9ODRySfTe1i6DZFd8DAKolNpKI2S1c7UTPrFUcjeaLXVKUQ==
+     procedure_id : 2250291520029506235
+     type_code : 15
+     code : |1-
+      // Résumé : Détermine la devise de référence
+      // Syntaxe :
+      // _DetermineDeviseReference ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE restreint _DetermineDeviseReference()
+      
+      HLitRecherchePremier(Devise,Reference,Vrai)
+      SI HTrouve(Devise) ALORS
+      	gnIDDeviseReference = Devise.IDDevise
+      	gsSymboleDeviseReference  = Devise.Symbole
+      	gsNomDeviseReference      = Devise.Nom
+      FIN
+     type : 458752
+   -
+     name : MontantSelonReference
+     internal_properties : CAAAAAgAAADGyJX/9kE9uB0hoYODWtHMXNwzVG2pK9aTZHjTRz2/Qykw1qCkfH2PnVrm3eRR81SiIQbPfQzE9Y76SpASzitGdBIQ8MU//41KwVIkqLSNdqWzHTJkFQVC1f7lXTvwf+qH8o0yNaTQDWfVSX/OxACRmcoColj8jYdWZBhiICEwW/p1vz7OpmQUsGvqGL6dq/g+vkOa/IniyrYvUxW26O3eH2xsrJ/C5Mk7XG0q6oZtqYzNp9qDK8ILwMliT2DptE3NVQ==
+     procedure_id : 2250291794907477265
+     type_code : 15
+     code : |1-
+      // Résumé : Détermine le montant selon la devise
+      // Syntaxe :
+      //[ <Résultat> = ] MontantSelonReference (<moMontant>, <nIDDevise>, <mTauxChange>)
+      //
+      // Paramètres :
+      //	moMontant : Montant
+      //	nIDDevise : devise
+      //	mTauxChange : taux de change
+      // Valeur de retour :
+      // 	monétaire : 
+      //
+      PROCEDURE MontantSelonReference(LOCAL moMontant, LOCAL nIDDevise, LOCAL mTauxChange)
+      
+      // Variable
+      moMontantCalcule est un monétaire = moMontant
+      
+      Si nIDDevise <> gnIDDeviseReference _et_ mTauxChange <> 0 ALORS
+      	moMontantCalcule = moMontantCalcule / mTauxChange
+      FIN
+      
+      RENVOYER moMontantCalcule
+     type : 458752
+   -
+     name : ClientSupprime
+     internal_properties : CAAAAAgAAABUIeW5bxg9tNhr4D/liyqtHDHUmdD2MCC/vuEBV5jVbw/sCGp5LIbciZo89b4d7WRt89MQ5CsWo4B17O/UHvSP5+MAqz+bNOsz5O+wNaqZ9Cj33Dp6iKU2WF1u0wv/bAK7HgDpfAb0y8ZVZ4CQQP60gUz0EOCLc9m+2+NX7OL/rZ+D39Yae61wSkWiaL+CzZrhUuKR8dS2vSFkZAVXJWhhysXRAiBl//UdpqS0AF2kJ1byLNTNR0GFGLlLjqFuy+JyOvd59hXdXA==
+     procedure_id : 2250965662319661040
+     type_code : 15
+     code : |1-
+      // Résumé : Supprime un client
+      // Syntaxe :
+      //ClientSupprime (<nIDClient>)
+      //
+      // Paramètres :
+      // 	nIDClient : ID du client en cours de suppression
+      // Valeur de retour :
+      // 	Aucune
+      
+      PROCEDURE ClientSupprime(LOCAL nIDClient)
+      
+      HLitRecherchePremier(Client,IDClient,nIDClient)
+      SI HTrouve(Client) ALORS
+      	
+      	// Des-associe des notes de frais
+      	HFiltre(Facture,IDClient,nIDClient)
+      	HLitPremier(Facture,IDClient)
+      	TANTQUE PAS HEnDehors(Facture)
+      		Facture.IDClient = CS_AUCUNE_VALEUR
+      		HModifie(Facture)
+      		HLitSuivant(Facture,IDClient)
+      	FIN
+      	HDésactiveFiltre(Facture)
+      	
+      	// Supprime le client
+      	//HSupprime(Client) >> Inutile car la ZR est directement liée au fichier  =>  il y a suppression automatique
+      FIN
+     type : 458752
+   -
+     name : EnveloppeSupprime
+     internal_properties : CAAAAAgAAACtqAckvMhffS57A+WMg+bJKmKEV1sEPaxa3mMulz2IB0VJMyKSXh+x6BOMJ06WDjhHpcJfkwA6pROQK60eELSy5N1ujBjBCrTpHCqs0mgEHVjKPzAVK240kcY22uS2GOsCeiBqd+zzTJ2eWNk4778nucrJFRCHIRbil+hiHXp2WEYxtn3PFyOEoVOd8BcAd3VdPniJ4zXW8SZ8V2oBOroWFq9WHBW3E87X738T9zFZvPKmTgz3Uq1FV0DJee6yEpo9pg/SzG0ooesJmEzSTIOSjvEmOv4=
+     procedure_id : 2256545920123887788
+     type_code : 15
+     code : |1-
+      // Résumé : Supprime une enveloppe
+      // Syntaxe :
+      //[ <Résultat> = ] EnveloppeSupprime (<nIDEnveloppe>)
+      //
+      // Paramètres :
+      // 	nIDEnveloppe : ID de l'enveloppe que l'on veut supprimer
+      // Valeur de retour :
+      // 	booléen :  Vrai si on peut supprimer, Faux sinon
+      
+      PROCEDURE EnveloppeSupprime(LOCAL nIDEnveloppe)
+      
+      HLitRecherchePremier(NoteFrais,IDNoteDeFrais,nIDEnveloppe)
+      SI HTrouve(NoteFrais)  ALORS
+      	
+      	// Supprime Note de frais collaborateurs
+      	HLitRechercheDernier(Facture,IDNoteDeFrais,NoteFrais.IDNoteDeFrais)
+      	TANTQUE HTrouve(Facture)
+      		
+      		HLitRechercheDernier(Facture_Collaborateurs,IDFacture,Facture.IDFacture)
+      		TANTQUE HTrouve(Facture_Collaborateurs)
+      			HSupprime(Facture_Collaborateurs)
+      			HLitPrécédent(Facture_Collaborateurs)	
+      		FIN
+      		
+      		//Suppression des fichiers photos sur le disque, avant la suppression dans la base
+      		SupprimeFichiersPhotos(Facture.IDFacture)
+      		
+      		Hsupprime(Facture)
+      		HLitPrécédent(Facture)
+      	FIN
+      	
+      	HSupprime(NoteFrais)
+      	RENVOYER Vrai
+      
+      FIN
+      
+      renvoyer faux
+     type : 458752
+   -
+     name : ProjetSupprime
+     internal_properties : CAAAAAgAAACnsSE16GvIrU6Shfns1ut6lJnvsFjERZU/CIKuz5cM1cRsg1t6pwQ+c66VW8+uxv5PDXvVx55qYFRlNR1HSwjVEmOudjysU1FsS5NX5my9nnB3KuRFFW7NG3phiT8mFNLUUOfGhRDN0TzLj0JDf7R/Sox9qsfVpHQYaznvNATBRpM1XPJSf8xYkbV3xAux1cIvmekhPQRELwv3uS6HC1RzsHpLQrnRrqV7F5zy8IOeMZRKRG5usceqsaAwxeWHSuE99fR4EalXJhYyJxS9jyy1I36oWw==
+     procedure_id : 1380017200331929110
+     type_code : 15
+     code : |1-
+      // Résumé : Supprime un client
+      // Syntaxe :
+      //ProjetSupprime (<nIDProjet>)
+      //
+      // Paramètres :
+      //	nIDProjet : ID du projet en cours de suppression
+      // Valeur de retour :
+      // 	Aucune
+      
+      PROCEDURE ProjetSupprime(LOCAL nIDProjet)
+      
+      HLitRecherchePremier(projet,IDProjet,nIDProjet)
+      SI HTrouve(Projet) ALORS
+      	
+      	// Dés-associe des notes de frais
+      	HFiltre(Facture,IDProjet,nIDProjet)
+      	HLitPremier(Facture,IDProjet)
+      	
+      	TANTQUE PAS HEnDehors(Facture)
+      		Facture.IDProjet = CS_AUCUNE_VALEUR
+      		HModifie(Facture)
+      		HLitSuivant(Facture,IDProjet)
+      	FIN
+      	HDésactiveFiltre(Facture)
+      	
+      	// Supprime le projet
+      	//HSupprime(Projet) >> Inutile car la ZR est directement liée au fichier  =>  il y a suppression automatique
+      FIN
+     type : 458752
+   -
+     name : CatégorieEstSupprimable
+     internal_properties : CAAAAAgAAAC2h5EfXZp/ynnzn1bD9hC9/h/jXhBQThHBdkV9G+zfVnCMIOfdqlCWC6S2bwh/ti7BffcU8l0A72wxfiXSziY96cFkv1WNXlfPgEVq5xzpQjqtUJ58hlvCRGFcyfm9tNCRWIjhkfENFPmYNPMTzWknFN9xk/kayP79GqSWw+fS4HKeRBFXZt55OYZn4wJ7KFXcFU/EtsfbUHq6yudhI+I3GIPnkl28Eo84AQ0LT24p3L46cI4AF/d9TBuyjxH33u46Jr8x9nM/Pg==
+     procedure_id : 1380372329682267158
+     type_code : 15
+     code : |1-
+      // Résumé : La catégorie peut elle être Supprimée
+      // Syntaxe :
+      //[ <Résultat> = ] CatégorieEstSupprimable (<nIDCatégorie>)
+      //
+      // Paramètres :
+      //	nIDCatégorie : ID de la catégorie en cours de demande de suppression
+      // Valeur de retour :
+      // 	booléen : Vrai si on peut supprimer la catégorie, Faux sinon
+      
+      PROCEDURE CatégorieEstSupprimable(LOCAL nIDCatégorie)
+      
+      HLitRecherchePremier(Catégorie,IDCatégorie,nIDCatégorie)
+      SI HTrouve(Catégorie) ALORS
+      	
+      	// Recherche des notes de frais associées
+      	HFiltre(Facture,IDCatégorie,nIDCatégorie)
+      	HLitPremier(Facture,IDCatégorie)
+      	
+      	si PAS HEnDehors(Facture) alors 
+      		renvoyer faux
+      	sinon
+      		renvoyer vrai
+      	FIN
+      FIN
+      
+      renvoyer faux
+     type : 458752
+   -
+     name : PaiementEstSupprimable
+     internal_properties : CAAAAAgAAABSI+w7L1h9ivEjcQxpxDDvTN0HmrqmpKV9WqdbGVIj/AL2uMd/GL5G3+CQYUrBPmhHf6e8SO/Sn5QBAKMYHJLbE4O4448DXBODvD8ANboZxCifXLpSKHW2IN0m6wNXlPoDvthxSAooPwrpm4wEJKronRg4XCzPx50SH6eToFbr8UsvU3L2vyE4njuqqP9q3ZKBukrJseRGSwcHrYSG3q8cJdC6Txy1SQJt9hg4nF2iTRdbh9fPaD7I+fiN/Baeu9MnUzJuSRfbWg==
+     procedure_id : 1380806160045097489
+     type_code : 15
+     code : |1-
+      // Résumé : Le type de paiement peut il être Supprimé
+      // Syntaxe :
+      //[ <Résultat> = ] PaiementEstSupprimable (<nIDPaiement>)
+      //
+      // Paramètres :
+      //	nIDPaiement : ID du type de paiement en cours de demande de suppression
+      // Valeur de retour :
+      // 	booléen : Vrai si on peut supprimer le type de paiement, Faux sinon
+      
+      PROCEDURE PaiementEstSupprimable(LOCAL nIDPaiement)
+      
+      HLitRecherchePremier(TypePaiement, IDTypePaiement,nIDPaiement)
+      SI HTrouve(TypePaiement) ALORS
+      	
+      	//Si on trouve des notes de frais associées
+      	HFiltre(Facture,IDTypePaiement,nIDPaiement)
+      	HLitPremier(Facture,IDTypePaiement)
+      	
+      	si PAS HEnDehors(Facture) alors 
+      		renvoyer faux
+      	sinon
+      		renvoyer vrai
+      	FIN
+      FIN
+      
+      renvoyer faux
+     type : 458752
+   -
+     name : DeviseEstSupprimable
+     internal_properties : CAAAAAgAAABEPkciBOjF8vELgbx5VBC//LUnGkKGpGWFiq+jkeoLtGq2QC8PAPau/6gg4ZrxXrgHJ5cMYB9iT0wxOFvwpHrzmxOwG49LRFtzNF8A1Vo5NPjX3Nq6SOU2CD2Ok5vf/HI77jCZFD4cg049b/j4OKbciRQ8SDgj27Gm4+sPdFqHFQcrB86Sk9Vswo9+VNNuWSYt5n5lnTg6HwubMXDqstvQoRwu6wi5TRZxSux0ULHOAUNHW6OLnHJMfczhWPryx+fT/w7rZwzNTA==
+     procedure_id : 1382702607245792646
+     type_code : 15
+     code : |1-
+      // Résumé : La devise peut elle être supprimée ?
+      // Syntaxe :
+      //[ <Résultat> = ] DeviseEstSupprimable (<nIDDevise>)
+      //
+      // Paramètres :
+      //	nIDDevise : ID de la devise que l'on souhaite modifier
+      // Valeur de retour :
+      // 	booléen : Vrai si on peut supprimer la devise, Faux sinon
+      
+      
+      PROCEDURE DeviseEstSupprimable(LOCAL nIDDevise)
+      
+      HLitRecherchePremier(devise,IDDevise,nIDDevise)
+      SI HTrouve(Devise) ALORS
+      	
+      	
+      	// Recherche des notes de frais associées
+      	HFiltre(Facture,IDDevise,nIDDevise)
+      	HLitPremier(Facture,IDDevise)
+      	
+      	si PAS HEnDehors(Facture) alors 
+      		renvoyer faux
+      	sinon
+      		renvoyer vrai
+      	FIN
+      FIN
+      
+      RENVOYER Faux
+     type : 458752
+   -
+     name : _DetermineProfil
+     internal_properties : CAAAAAgAAAA1shCPZDv2H19ICWf7R6GY7ApJ641U0r6jWiQqAq6qwHPSiS9+wNZwYlQR8Yk8pNvCKOOa6fordHUrN1atzGoFJfrYjgUaEIpPiFHf2eEwuq8jnA44+sB5BT+MJHoQQr9h9hswZq5RWmJLmmRNpuw1YrDOUsMCDD474IMBM4dkn9vrM85BagktoRvvB2hgRD/cIUR9ODRySfTe1i6DZFd8DAKolNpKI2S1c7UTPrFUcjeaLXVKUQ==
+     procedure_id : 1384180367973454828
+     type_code : 15
+     code : |1-
+      // Résumé : Détermine le profil du collaborateur
+      // Syntaxe :
+      //_DetermineProfil ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE RESTREINT _DetermineProfil()
+      
+      HLitRecherchePremier(Collaborateurs,MonProfil,Vrai)
+      SI HTrouve(Collaborateurs) ALORS
+      	gnIDMonProfil = Collaborateurs.IDCollaborateurs
+      	gsNomMonProfil     = Collaborateurs.Nom
+      FIN
+     type : 458752
+   -
+     name : SupprimeFichiersPhotos
+     internal_properties : CAAAAAgAAADPq3eNaCx4HBQ9E0dBfsHbAItVwVy2wDNPnSaPe2p9oHkV7A0dur0Hn/aSsk4qUzHONp9JC7RZBxJ/bPfpDID1Xy07QbChklFV7rtn3cA55rXus2FVs3NR0LjchEUA/rxg+YzT7A2ls1OY2qYaEjpy5R83Xe3fjLFCS1/TwPtEaJruNmddpxUooLZ53w3sanBzTOlE9Bk4ms/o/HSQrDOJV4m5Z5x3ddUW/h+w1QPkg3OSYNZIGsVG
+     procedure_id : 1401603731748179091
+     type_code : 15
+     code : |1+
+      // Résumé : Suppression sur disque des photos d'une facture 
+      // Syntaxe :
+      //SupprimeFichiersPhotos (<nIDFacture>)
+      //
+      // Paramètres :
+      //	nIDFacture : ID de la facture que l'on supprime et dont on veut supprimer les photos sur disque
+      // Valeur de retour :
+      // 	Aucune
+      
+      PROCEDURE SupprimeFichiersPhotos(nIDFacture)
+      
+      pour TOUT Photos AVEC IDFacture = nIDFacture
+      	fSupprime(Photos.Chemin)
+      FIN
+      
+     type : 458752
+   -
+     name : HTMLConstruit
+     internal_properties : CAAAAAgAAADIcpl7Z3LlgellBYjmz8zXEuFtFkAXZq06mcQI/H92t0D55f31yOZtxH1rx17OxvTdfBemQ79n6N8BjUyl7aJtr5MfqDM7MyixSte/nx4xYjT4lm+5YsQYceHTXM46ssBm6pQDyMmTdtBTlo6elgBouUXS3zuhoMQWuABNAu2OpdWnofC4xjlcI9IfOkV2e15zMSWHfel7dHa8cIEmWrPa+qfkUUBW77Vx/DVaoZnia5mVU0hz/HtUaNxSFFt0vQDlwLVumrpzU38PXNVRaFF0pKb0pNm7g9rBhZ2cIciJ8IfLxUExYNpFg7N65P8mIOeln0HIG6EXqfSLUtiwt0i3/n2/g2yj+7OqgPSlyv6wwSFPh7BY2n4vftCBpDQdAo4T5H5Wcty1/PmPn8baVBgrzz3pQo+AZ1F82DJz2gAaZZSKEN8MxzQ9E8ySm0MZdTZYBIZ3EBTWt6RU0Tht/l7SmsdL
+     procedure_id : 1552681581599744098
+     type_code : 15
+     code : |1-
+      // Résumé : Imprime une liste de notes de frais
+      // Syntaxe :
+      //[ <Résultat> = ] HTMLConstruit (<tabEnveloppes> est tableau [, <sListePhotos> est chaîne])
+      //
+      // Paramètres :
+      //	tabEnveloppes (tableau) :Liste des notes de frais
+      //	sListePhotos (chaîne UNICODE - valeur par défaut="") :<indiquez ici le rôle de sListePhotos>
+      // Valeur de retour :
+      // 	chaîne UNICODE : L'HTML
+      
+      PROCEDURE HTMLConstruit(tabEnveloppes est un tableau d'entiers, sListePhotos est une chaine = "")
+      
+      sCodeHTMLToutesEnveloppes est une chaine
+      
+      // Parcours des notes de frais
+      POUR TOUT ELEMENT nIDEnveloppe de tabEnveloppes
+      	
+      	sHTML 		est une chaine 		 = fChargeTexte(<§@1f2beaee004b6686001d§>)
+      	moTotal est un monétaire = 0
+      	
+      	REQ_NoteDeFraisListe.pDateDebut   = Null
+      	REQ_NoteDeFraisListe.pDateFin     = Null
+      	REQ_NoteDeFraisListe.pIDEnveloppe = nIDEnveloppe
+      	
+      	HExécuteRequête(REQ_NoteDeFraisListe)
+      	
+      	//Récupère les infos de l'enveloppe
+      	HLitPremier(REQ_NoteDeFraisListe)
+      	SI PAS HEnDehors(REQ_NoteDeFraisListe) ALORS
+      		// Enveloppe
+      		sHTML = Remplace(sHTML,"$$1$$",REQ_NoteDeFraisListe.Nom_Enveloppe)
+      		
+      		// Réf interne
+      		sHTML = Remplace(sHTML,"$$2$$", REQ_NoteDeFraisListe.RefInterne)
+      		
+      		// Collaborateur
+      		HLitRecherchePremier(Collaborateurs,IDCollaborateurs,GetIDMonProfil)
+      		SI HTrouve(Collaborateurs) ALORS
+      			sHTML = Remplace(sHTML,"$$3$$", Collaborateurs.Nom)
+      		SINON
+      			sHTML = Remplace(sHTML,"$$3$$", "Anonyme")
+      		FIN
+      		
+      		// Période
+      		sHTML = Remplace(sHTML,"$$4$$", DateVersChaîne(REQ_NoteDeFraisListe.DateDebut, maskDateSystème))
+      		sHTML = Remplace(sHTML,"$$5$$", DateVersChaîne(REQ_NoteDeFraisListe.DateFin, maskDateSystème))
+      		
+      		//Date d'impression
+      		sHTML = Remplace(sHTML,"$$6$$", DateVersChaîne(DateDuJour, maskDateSystème))
+      		
+      		//Nombre de factures
+      		REQ_ComptageNotes.pListeID = nIDEnveloppe
+      		HExécuteRequête(REQ_ComptageNotes)
+      		sHTML = Remplace(sHTML,"$$7$$", REQ_ComptageNotes.NbreNotes)
+      		
+      		
+      		//récupère les infos de chaque facture
+      		pour TOUT REQ_NoteDeFraisListe 
+      			
+      			sCodeHTMLFacture  est une chaine = gsHTMLUneFacture
+      			
+      			// Variable
+      			sDescription est une chaine
+      			
+      			// Augmente le total
+      			moTotal += MontantSelonReference(REQ_NoteDeFraisListe.Montant, REQ_NoteDeFraisListe.IDDevise, REQ_NoteDeFraisListe.TauxChange) + REQ_NoteDeFraisListe.FraisBancaire
+      			
+      			// Détermine la description
+      			SI REQ_NoteDeFraisListe.Libellé ~= "" ALORS
+      				SELON Nation()
+      					CAS nationFrançais:
+      						sDescription = Majuscule(REQ_NoteDeFraisListe.Nom)
+      						
+      					AUTRE CAS:
+      						sDescription = Majuscule(REQ_NoteDeFraisListe.NomUS)
+      				FIN
+      				
+      			SINON
+      				SELON Nation()
+      					CAS nationFrançais:
+      						sDescription = Majuscule(REQ_NoteDeFraisListe.Nom) + " - " + REQ_NoteDeFraisListe.Libellé
+      						
+      					AUTRE CAS:
+      						sDescription = Majuscule(REQ_NoteDeFraisListe.NomUS) + " - " + REQ_NoteDeFraisListe.Libellé
+      						
+      				FIN
+      				
+      			FIN
+      			
+      			
+      			
+      			sLibelléSpécial est une chaîne
+      			nTypeSpécial est un entier
+      			GetSpecialSelonCategorie(REQ_NoteDeFraisListe.IDCatégorie,sLibelléSpécial, nTypeSpécial)
+      			// Rubrique spéciale ?
+      			SI sLibelléSpécial <> "" ALORS
+      				sDescription += "<BR>"  +sLibelléSpécial + " : " + REQ_NoteDeFraisListe.ValeurSpéciale
+      			FIN
+      			
+      			SI REQ_NoteDeFraisListe.Commentaire <> "" ALORS
+      				sDescription += "<BR>"  + REQ_NoteDeFraisListe.Commentaire
+      			FIN
+      			
+      			
+      			
+      			// Affiche les valeurs
+      			sCodeHTMLFacture = Remplace(sCodeHTMLFacture,"$$DESCRIPTION$$", sDescription)
+      			
+      			sCodeHTMLFacture  =  Remplace(sCodeHTMLFacture,"$$DATE$$", DateVersChaîne(REQ_NoteDeFraisListe.DATE, maskDateSystème)) 
+      			
+      			gtabCollabo      est un tableau de entiers
+      			
+      			// Collaborateurs ?
+      			HFiltre(Facture_Collaborateurs,IDFacture,REQ_NoteDeFraisListe.IDFrais)
+      			HLitPremier(Facture_Collaborateurs,IDFacture)
+      			TANTQUE PAS HEnDehors(Facture_Collaborateurs)
+      				Ajoute(gtabCollabo,Facture_Collaborateurs.IDCollaborateurs)
+      				HLitSuivant(facture_Collaborateurs)
+      			FIN
+      			HDésactiveFiltre(Facture_Collaborateurs)
+      			
+      			
+      			// Variable
+      			sNom est une chaine =""
+      			
+      			// Affiche les collaborateurs
+      			POUR TOUT ELEMENT nIDCollaborateur DE gtabCollabo
+      				HLitRecherchePremier(Collaborateurs,IDCollaborateurs,nIDCollaborateur)
+      				SI HTrouve(Collaborateurs) ALORS
+      					sNom += [", "] + Collaborateurs.Nom	
+      				FIN
+      			FIN
+      			
+      			sCodeHTMLFacture  =  Remplace(sCodeHTMLFacture,"$$COLLABORATEURS$$", sNom)
+      			
+      			//TTC
+      			sTTC est une chaine = NumériqueVersChaîne(REQ_NoteDeFraisListe.Montant, ",2fS")  + " " + REQ_NoteDeFraisListe.Symbole
+      			
+      			SI REQ_NoteDeFraisListe.IDDevise <> pGestionValeurs.gnIDDeviseReference ALORS
+      				
+      				sTTC += "<BR>" +  "(1" + pGestionValeurs.gsSymboleDeviseReference  + " = " + NumériqueVersChaîne(REQ_NoteDeFraisListe.TauxChange, ",2fS") + " " + REQ_NoteDeFraisListe.Symbole + ")" +  
+      				"<BR>"   + " = " +  NumériqueVersChaîne(MontantSelonReference(REQ_NoteDeFraisListe.Montant, REQ_NoteDeFraisListe.IDDevise, REQ_NoteDeFraisListe.TauxChange), ",2fS") + " " + pGestionValeurs.gsSymboleDeviseReference + 
+      				"<BR>"  + <§@1f2beaee004b6686001e§> + numériqueVersChaîne(REQ_NoteDeFraisListe.FraisBancaire, ",2fS")  + " " + pGestionValeurs.gsSymboleDeviseReference
+      				
+      			FIN
+      			sCodeHTMLFacture  =  Remplace(sCodeHTMLFacture,"$$TTC$$", sTTC)
+      			
+      			
+      			//TVA
+      			sTVA est une chaine
+      			sTVA  = REQ_NoteDeFraisListe.TauxTVA1+ "% : " +  NumériqueVersChaîne(REQ_NoteDeFraisListe.MontantTVA1, ",2fS")  + " " + REQ_NoteDeFraisListe.Symbole 
+      			SI REQ_NoteDeFraisListe.MontantTVA2 <> 0 ALORS
+      				sTVA  += [RC] + REQ_NoteDeFraisListe.TauxTVA2 + "% : "+ NumériqueVersChaîne(REQ_NoteDeFraisListe.MontantTVA2, ",2fS")  + " " + REQ_NoteDeFraisListe.Symbole
+      			FIN
+      			sCodeHTMLFacture  =  Remplace(sCodeHTMLFacture,"$$TVA$$", sTVA)
+      			
+      			//CLIENT
+      			sCodeHTMLFacture  =  Remplace(sCodeHTMLFacture,"$$CLIENT$$", REQ_NoteDeFraisListe.Nom_Client)
+      			
+      			//PROJET
+      			sCodeHTMLFacture  =  Remplace(sCodeHTMLFacture,"$$PROJET$$", REQ_NoteDeFraisListe.Nom_Projet)
+      			
+      			
+      			HLitRecherchePremier(Photos,IDFacture,REQ_NoteDeFraisListe.IDFrais)
+      			
+      			TANTQUE HTrouve(Photos)
+      				
+      				<COMPILE SI TypeConfiguration=Android> 
+      					// pour toutes les photos
+      					sPhotoTemp est une chaine
+      					sPhotoTemp = gsRepTempPhotos + ["/"] + fExtraitChemin(Photos.Chemin,fFichier+fExtension)
+      					fCopieFichier(Photos.Chemin,sPhotoTemp)
+      					sListePhotos += [RC] + sPhotoTemp				
+      				<SINON>
+      					sListePhotos += [RC] + Photos.Chemin
+      				<FIN>
+      				
+      				HLitSuivant(Photos)
+      			FIN
+      			
+      			
+      			sHTML = Remplace(sHTML,"<$$CODEHTMLFACTURES$$>", sCodeHTMLFacture + "<$$CODEHTMLFACTURES$$>")
+      			
+      		FIN
+      		
+      		sHTML = Remplace(sHTML,"<$$CODEHTMLFACTURES$$>", "")
+      		
+      		//Montant total de l'enveloppe
+      		sHTML = Remplace(sHTML,"$$8$$", NumériqueVersChaîne(moTotal,",2fS")+" "+pGestionValeurs.gsSymboleDeviseReference)
+      		
+      		sCodeHTMLToutesEnveloppes += sHTML + [ "<div style=""page-break-before: always;""> </div>"]
+      	fin
+      FIN
+      
+      REnvoyer sCodeHTMLToutesEnveloppes
+     type : 458752
+   -
+     name : ImprimeHTML
+     internal_properties : CAAAAAgAAABPmML4/8xfDzTrSqkNSIieHVXo/WjJNyRwMxqK7mQ/TVvyFqSPhSMQ0kEvY4yga2toH8lOm6A6MvLCEseC+tJ9fnGRFaWcTY6BcmRQhhcI/TqME5gczefq+6NzIfyImXRXH4BguCJCQAUlAotZumLZbRCCi7F/uWmpEKzbGJAjBqr7EU5z44fIaLQFkoF4BXzLBlAIKe+hCS3GTg==
+     procedure_id : 1552681598779683482
+     type_code : 15
+     code : |1+
+      
+      // Résumé : Imprime du code HTML
+      // Syntaxe :
+      //ImprimeHTML (<sHTML> est chaîne)
+      //
+      // Paramètres :
+      //	sHTML (chaîne UNICODE) : Le code HTML à imprimer
+      
+      PROCEDURE ImprimeHTML(sHTML est une chaine)
+      
+      sFichier est une chaine = fRepDonnées() + ["/"] + <§@1f2beaee004b6686001f§>
+      
+      SI fSauveTexte(sFichier,sHTML) ALORS
+      	
+      	<compile si TypeConfiguration=Android>
+      		GglImprimeDocument(sFichier)	
+      	<FIN>
+      	
+      	
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1f2beaee004b6686
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : La note de frais %1 est introuvable
+      en-GB : The expense account %1 is not found
+     index : 0
+   -
+     text :
+      fr-FR : €
+      en-GB : €
+     index : 1
+   -
+     text :
+      fr-FR : Remboursée
+      en-GB : Reimbursed
+     index : 2
+   -
+     text :
+      fr-FR : Refusée
+      en-GB : Refused
+     index : 3
+   -
+     text :
+      fr-FR : En attente d'envoi
+      en-GB : Waiting to be sent
+     index : 4
+   -
+     text :
+      fr-FR : En attente de remboursement
+      en-GB : Waiting to be reimbursed
+     index : 5
+   -
+     text :
+      fr-FR : Inconnu
+      en-GB : Unknown
+     index : 6
+   -
+     text :
+      fr-FR : Virement bancaire
+      en-GB : Bank transfer
+     index : 7
+   -
+     text :
+      fr-FR : Chèque
+      en-GB : Check
+     index : 8
+   -
+     text :
+      fr-FR : Monnaie
+      en-GB : Currency
+     index : 9
+   -
+     text :
+      fr-FR : Carte bleue
+      en-GB : Credit card
+     index : 10
+   -
+     text :
+      fr-FR : Inconnu
+      en-GB : Unknown
+     index : 11
+   -
+     text :
+      fr-FR : La note de frais %1 est introuvable
+      en-GB : The expense account %1 is not found
+     index : 12
+   -
+     text :
+      fr-FR : template.html
+      en-GB : template.html
+     index : 13
+   -
+     text :
+      fr-FR : JJ/MM/AAAA
+      en-GB : MM/DD/YYYY
+     index : 14
+   -
+     text :
+      fr-FR : "<table width=\"562\" border=\"0\" cellpadding=\"5\" cellspacing=\"0\" class=\"contenu-moyen\"><tr valign=\"bottom\"><td width=\"42\">&nbsp;</td><td width=\"140\"><b> CAT&Eacute;GORIE&nbsp;:</b></td><td width=\"370\">%1</td></tr></table>"
+      en-GB : "<table width=\"562\" border=\"0\" cellpadding=\"5\" cellspacing=\"0\" class=\"content-medium\"><tr valign=\"bottom\"><td width=\"42\">&nbsp;</td><td width=\"140\"><b> CATEGORY&nbsp;:</b></td><td width=\"370\">%1</td></tr></table>"
+     index : 15
+   -
+     text :
+      fr-FR : "<table width=\"562\" border=\"0\" cellpadding=\"5\" cellspacing=\"0\" class=\"contenu-moyen\"><tr valign=\"bottom\"><td width=\"42\">&nbsp;</td><td width=\"140\"><b>SP&Eacute;CIAL&nbsp;:</b></td><td width=\"370\">%1</td></tr></table>"
+      en-GB : "<table width=\"562\" border=\"0\" cellpadding=\"5\" cellspacing=\"0\" class=\"content-medium\"><tr valign=\"bottom\"><td width=\"42\">&nbsp;</td><td width=\"140\"><b>SPECIAL&nbsp;:</b></td><td width=\"370\">%1</td></tr></table>"
+     index : 16
+   -
+     text :
+      fr-FR : "<table width=\"562\" border=\"0\" cellpadding=\"5\" cellspacing=\"0\" class=\"contenu-moyen\"><tr valign=\"bottom\"><td width=\"42\">&nbsp;</td><td width=\"140\"><b>PRIX&nbsp;HT&nbsp;:</b></div></td><td><span class=\"contenu-gros\">%1&nbsp;%2</span></td></tr></table>"
+      en-GB : "<table width=\"562\" border=\"0\" cellpadding=\"5\" cellspacing=\"0\" class=\"content-medium\"><tr valign=\"bottom\"><td width=\"42\">&nbsp;</td><td width=\"140\"><b>PRICE&nbsp;BT&nbsp;:</b></div></td><td><span class=\"content-large\">%1&nbsp;%2</span></td></tr></table>"
+     index : 17
+   -
+     text :
+      fr-FR : "<table width=\"562\" border=\"0\" cellpadding=\"5\" cellspacing=\"0\" class=\"contenu-moyen\"><tr valign=\"bottom\"><td width=\"42\">&nbsp;</td><td width=\"140\"><b>TVA&nbsp;(1)&nbsp;:</b></td><td>%1&nbsp;%2&nbsp;<span class=\"contenu-petit\">(%3%)</span></td></tr></table>"
+      en-GB : "<table width=\"562\" border=\"0\" cellpadding=\"5\" cellspacing=\"0\" class=\"content-medium\"><tr valign=\"bottom\"><td width=\"42\">&nbsp;</td><td width=\"140\"><b>VAT&nbsp;(1)&nbsp;:</b></td><td>%1&nbsp;%2&nbsp;<span class=\"content-small\">(%3%)</span></td></tr></table>"
+     index : 18
+   -
+     text :
+      fr-FR : "<table width=\"562\" border=\"0\" cellpadding=\"5\" cellspacing=\"0\" class=\"contenu-moyen\"><tr valign=\"bottom\"><td width=\"42\">&nbsp;</td><td width=\"140\"><b>TVA&nbsp;(2)&nbsp;:</b></td><td>%1&nbsp;%2&nbsp;<span class=\"contenu-petit\">(%3%)</span></td></tr></table>"
+      en-GB : "<table width=\"562\" border=\"0\" cellpadding=\"5\" cellspacing=\"0\" class=\"content-medium\"><tr valign=\"bottom\"><td width=\"42\">&nbsp;</td><td width=\"140\"><b>VAT&nbsp;(2)&nbsp;:</b></td><td>%1&nbsp;%2&nbsp;<span class=\"content-small\">(%3%)</span></td></tr></table>"
+     index : 19
+   -
+     text :
+      fr-FR : "<table width=\"562\" border=\"0\" cellpadding=\"5\" cellspacing=\"0\" class=\"contenu-moyen\"><tr valign=\"bottom\"><td width=\"42\">&nbsp;</td><td width=\"140\"><b>PRIX&nbsp;TTC&nbsp;:</b></td><td>%1&nbsp;%2</td></tr></table>"
+      en-GB : "<table width=\"562\" border=\"0\" cellpadding=\"5\" cellspacing=\"0\" class=\"content-medium\"><tr valign=\"bottom\"><td width=\"42\">&nbsp;</td><td width=\"140\"><b>PRICE&nbsp;IOT&nbsp;:</b></td><td>%1&nbsp;%2</td></tr></table>"
+     index : 20
+   -
+     text :
+      fr-FR : "<b>CLIENT :</b>&nbsp;%1<br><br>"
+      en-GB : "<b>CUSTOMER:</b>&nbsp;%1<br><br>"
+     index : 21
+   -
+     text :
+      fr-FR : "<b>COLLABORATEURS :</b>&nbsp;%1<br><br>"
+      en-GB : "<b>CONTRIBUTORS:</b>&nbsp;%1<br><br>"
+     index : 22
+   -
+     text :
+      fr-FR : "<b>PROJET :</b>&nbsp;%1<br><br>"
+      en-GB : "<b>PROJECT:</b>&nbsp;%1<br><br>"
+     index : 23
+   -
+     text :
+      fr-FR : "<b>ENVELOPPE :</b>&nbsp;%1<br><br>"
+      en-GB : "<b>ENVELOPE:</b>&nbsp;%1<br><br>"
+     index : 24
+   -
+     text :
+      fr-FR : "<b>PAIEMENT :</b>&nbsp;%1<br><br>"
+      en-GB : "<b>PAYMENT:</b>&nbsp;%1<br><br>"
+     index : 25
+   -
+     text :
+      fr-FR : "<b>COMMENTAIRE :</b>&nbsp;%1<br><br>"
+      en-GB : "<b>COMMENT:</b>&nbsp;%1<br><br>"
+     index : 26
+   -
+     text :
+      fr-FR : numero;titre;montant;devise;tva1;tva2;tva3;tauxtva1;tauxtva2;tauxtva3;date;categorie;collaborateurs;client;projet;statut;typepaiement;special
+      en-GB : number;title;amount;currency;vat1;vat2;vatrate1;vatrate2;date;category;contributors;customer;project;status;paymenttype;special
+     index : 27
+   -
+     text :
+      fr-FR : €
+      en-GB : €
+     index : 28
+   -
+     text :
+      fr-FR : template.html
+      en-GB : template_us.html
+     index : 29
+   -
+     text :
+      fr-FR : " + Frais : "
+      en-GB : " + Expenses: "
+     index : 30
+   -
+     text :
+      fr-FR : notes de frais.html
+      en-GB : expense accounts.html
+     index : 31
+   -
+     text :
+      fr-FR : Enveloppe_%1.html
+      en-GB : Enveloppe_%1.html
+     index : 32
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
